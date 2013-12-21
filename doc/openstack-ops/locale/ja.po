@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
 "POT-Creation-Date: 2013-12-22 03:53+0900\n"
-"PO-Revision-Date: 2013-07-29 15:01+0900\n"
+"PO-Revision-Date: 2013-12-22 05:20+0900\n"
 "Last-Translator: Tsutomu Takekawa <takekawa@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack/"
 "language/ja/)\n"
@@ -31,16 +31,6 @@ msgid "Acknowledgments"
 msgstr "謝辞"
 
 #: doc/openstack-ops/acknowledgements.xml:20(para)
-#, fuzzy
-#| msgid ""
-#| "The OpenStack Foundation supported the creation of this book with plane "
-#| "tickets to Austin, lodging (including one adventurous evening without "
-#| "power after a windstorm), and delicious food. For about USD $10,000, we "
-#| "could collaborate intensively for a week in the same room at the "
-#| "Rackspace Austin office. The authors are all members of the OpenStack "
-#| "Foundation, which you can join. Go to the <link href=\"https://www."
-#| "openstack.org/join\">Foundation web site</link> at http://openstack.org/"
-#| "join."
 msgid ""
 "The OpenStack Foundation supported the creation of this book with plane "
 "tickets to Austin, lodging (including one adventurous evening without power "
@@ -55,19 +45,13 @@ msgstr ""
 "ルで、Rackspaceのオースチンオフィスの同じ部屋の中で、私たちは1週間で集中的に"
 "共同作業をすることができました。著者たちはすべてOpenStack Foundationのメン"
 "バーであり、それにはあなたも参加することができます。<link href=\"https://www."
-"openstack.org/join\">FoundationのWebサイト</link> (http://openstack.org/"
-"join) に行ってみてください。"
+"openstack.org/join\">FoundationのWebサイト</link> (<uri>http://openstack.org/"
+"join</uri>) に行ってみてください。"
 
 #: doc/openstack-ops/acknowledgements.xml:28(para)
-#, fuzzy
-#| msgid ""
-#| "We want to acknowledge our excellent host Rackers at Rackspace in Austin: "
-#| "<placeholder-1/>"
 msgid ""
 "We want to acknowledge our excellent host Rackers at Rackspace in Austin:"
-msgstr ""
-"私たちは、オースチンの Rackspace での素晴らしいホスト Rackersに感謝したい: "
-"<placeholder-1/>"
+msgstr "私たちは、オースチンの Rackspace での素晴らしいホスト Rackersに感謝したい:"
 
 #: doc/openstack-ops/acknowledgements.xml:32(para)
 msgid ""
@@ -114,21 +98,13 @@ msgstr ""
 
 #: doc/openstack-ops/acknowledgements.xml:54(para)
 msgid "We also had some excellent input from outside of the room:"
-msgstr ""
+msgstr "私たちは部屋の外から、いくつかの素晴らしいインプットを得ました。"
 
 #: doc/openstack-ops/acknowledgements.xml:57(para)
-#, fuzzy
-#| msgid ""
-#| "We also had some excellent input from outside of the room. Tim Bell from "
-#| "CERN gave us feedback on the outline before we started and reviewed it "
-#| "mid-week."
 msgid ""
 "Tim Bell from CERN gave us feedback on the outline before we started and "
 "reviewed it mid-week."
-msgstr ""
-"私たちは部屋の外から、いくつかの素晴らしいインプットを得ました。CERNの Tim "
-"Bell は、私たちが作業を開始する前に、その概要についてフィードバックを与えてく"
-"れて、週の半ばにはレビューをしてくれました。"
+msgstr "CERNの Tim Bell は、私たちが作業を開始する前に、その概要についてフィードバックを与えてくれて、週の半ばにはレビューをしてくれました。"
 
 #: doc/openstack-ops/acknowledgements.xml:61(para)
 msgid ""
@@ -183,16 +159,12 @@ msgid "That made no sense."
 msgstr "これでは意味が無かった。"
 
 #: doc/openstack-ops/app_crypt.xml:109(para)
-#, fuzzy
-#| msgid ""
-#| "While bouncing this idea around in our heads, I was randomly typing "
-#| "commands on the compute node:"
 msgid ""
 "While bouncing this idea around in our heads, I was randomly typing commands "
 "on the compute node: <placeholder-1/>"
 msgstr ""
 "このアイデアが我々の頭を駆け巡る間、私はコンピュートノード上でコマンドをラン"
-"ダムに叩いていた。"
+"ダムに叩いていた。 <placeholder-1/>"
 
 #: doc/openstack-ops/app_crypt.xml:116(para)
 msgid "\"Hey Alvaro, can you run a VLAN on top of a VLAN?\""
@@ -1525,33 +1497,17 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/app_usecases.xml:202(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"OpenStack Website\" href=\"http://cern.ch/go/N8wp\">Review "
-#| "of CERN Data Centre Infrastructure</link> (http://cern.ch/go/N8wp)"
 msgid ""
 "<link href=\"http://cern.ch/go/N8wp\">Review of CERN Data Centre "
 "Infrastructure</link> (http://cern.ch/go/N8wp)"
-msgstr ""
-"<link title=\"OpenStack Website\" href=\"http://cern.ch/go/N8wp\">Review of "
-"CERN Data Centre Infrastructure</link> (http://cern.ch/go/N8wp)"
+msgstr "<link href=\"http://cern.ch/go/N8wp\">Review of CERN Data Centre Infrastructure</link> (http://cern.ch/go/N8wp)"
 
 #: doc/openstack-ops/app_usecases.xml:209(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"OpenStack Website\" href=\"http://information-technology."
-#| "web.cern.ch/book/cern-private-cloud-user-guide\">CERN Cloud "
-#| "Infrastructure User Guide</link> (http://information-technology.web.cern."
-#| "ch/book/cern-private-cloud-user-guide)"
 msgid ""
 "<link href=\"http://information-technology.web.cern.ch/book/cern-private-"
 "cloud-user-guide\">CERN Cloud Infrastructure User Guide</link> (http://"
 "information-technology.web.cern.ch/book/cern-private-cloud-user-guide)"
-msgstr ""
-"<link title=\"OpenStack Website\" href=\"http://information-technology.web."
-"cern.ch/book/cern-private-cloud-user-guide\">CERN Cloud Infrastructure User "
-"Guide</link> (http://information-technology.web.cern.ch/book/cern-private-"
-"cloud-user-guide)"
+msgstr "<link href=\"http://information-technology.web.cern.ch/book/cern-private-cloud-user-guide\">CERN Cloud Infrastructure User Guide</link> (http://information-technology.web.cern.ch/book/cern-private-cloud-user-guide)"
 
 #: doc/openstack-ops/app_usecases.xml:23(title)
 msgid "NeCTAR"
@@ -1616,42 +1572,22 @@ msgstr ""
 "5～10%のコードが開発コードからバックポートされたか、修正されています。"
 
 #: doc/openstack-ops/app_usecases.xml:58(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"OpenStack Website\" href=\"https://www.openstack.org/user-"
-#| "stories/nectar/\">OpenStack.org Case Study</link> (https://www.openstack."
-#| "org/user-stories/nectar/)"
 msgid ""
 "<link href=\"https://www.openstack.org/user-stories/nectar/\">OpenStack.org "
 "Case Study</link> (https://www.openstack.org/user-stories/nectar/)"
-msgstr ""
-"<link title=\"OpenStack Website\" href=\"https://www.openstack.org/user-"
-"stories/nectar/\">OpenStack.org Case Study</link> (https://www.openstack.org/"
-"user-stories/nectar/)"
+msgstr "<link href=\"https://www.openstack.org/user-stories/nectar/\">OpenStack.org Case Study</link> (https://www.openstack.org/user-stories/nectar/)"
 
 #: doc/openstack-ops/app_usecases.xml:65(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"OpenStack Website\" href=\"https://github.com/NeCTAR-RC/"
-#| "\">NeCTAR-RC GitHub</link> (https://github.com/NeCTAR-RC/)"
 msgid ""
 "<link href=\"https://github.com/NeCTAR-RC/\">NeCTAR-RC GitHub</link> "
 "(https://github.com/NeCTAR-RC/)"
-msgstr ""
-"<link title=\"OpenStack Website\" href=\"https://github.com/NeCTAR-RC/"
-"\">NeCTAR-RC GitHub</link> (https://github.com/NeCTAR-RC/)"
+msgstr "<link href=\"https://github.com/NeCTAR-RC/\">NeCTAR-RC GitHub</link> (https://github.com/NeCTAR-RC/)"
 
 #: doc/openstack-ops/app_usecases.xml:71(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"OpenStack Website\" href=\"https://www.nectar.org.au/"
-#| "\">NeCTAR Website</link> (https://www.nectar.org.au/)"
 msgid ""
 "<link href=\"https://www.nectar.org.au/\">NeCTAR Website</link> (https://www."
 "nectar.org.au/)"
-msgstr ""
-"<link title=\"OpenStack Website\" href=\"https://www.nectar.org.au/\">NeCTAR "
-"Web サイト</link> (https://www.nectar.org.au/)"
+msgstr "<link href=\"https://www.nectar.org.au/\">NeCTAR Web サイト</link> (https://www.nectar.org.au/)"
 
 #: doc/openstack-ops/app_usecases.xml:80(title)
 msgid "MIT CSAIL"
@@ -1679,17 +1615,6 @@ msgstr ""
 "ジェクトがあり、拡張が期待される約 90% 近くの利用率があります。"
 
 #: doc/openstack-ops/app_usecases.xml:93(para)
-#, fuzzy
-#| msgid ""
-#| "The software stack is Ubuntu 12.04 LTS with OpenStack Folsom from the "
-#| "Ubuntu Cloud Archive. KVM is the hypervisor, deployed using FAI (http://"
-#| "fai-project.org/) and Puppet for configuration management. The FAI and "
-#| "Puppet combination is used lab wide, not only for OpenStack. There is a "
-#| "single cloud controller node, with the remainder of the server hardware "
-#| "dedicated to compute nodes. Due to the compute intensive nature of the "
-#| "use case, the ratio of physical CPU and RAM to virtual is 1:1 in nova."
-#| "conf. Although hyper-threading is enabled so, given the way Linux counts "
-#| "CPUs, this is actually 2:1 in practice."
 msgid ""
 "The software stack is Ubuntu 12.04 LTS with OpenStack Folsom from the Ubuntu "
 "Cloud Archive. KVM is the hypervisor, deployed using <link href=\"http://fai-"
@@ -1700,16 +1625,7 @@ msgid ""
 "compute intensive nature of the use case, the ratio of physical CPU and RAM "
 "to virtual is 1:1 in nova.conf. Although hyper-threading is enabled so, "
 "given the way Linux counts CPUs, this is actually 2:1 in practice."
-msgstr ""
-"ソフトウェアスタックは Ubuntu 12.04 LTS と Ubuntu Cloud Archive からの "
-"OpenStack Folsom です。KVM がハイパーバイザで、FAI(http://fai-project.org/)"
-"と Puppet を設定管理に使用してデプロイされています。FAI と Puppet の組み合わ"
-"せはOpenStack のみならず研究所全体で使用されています。単一のクラウドコント"
-"ローラーノードがあり、他のコンピュータ・ハードウェアはコンピュートノードに使"
-"用されています。用途が計算集約型の為、nova.conf 中の物理 CPU・RAM と仮想 "
-"CPU・RAM の比は 1:1 です。しかしながら、ハイパースレッディングが有効であり"
-"（Linux がその方式を複数 CPU でカウントする為）実際には通常 2:1 になっていま"
-"す。"
+msgstr "ソフトウェアスタックは Ubuntu 12.04 LTS と Ubuntu Cloud Archive からの OpenStack Folsom です。KVM がハイパーバイザで、<link href=\"http://fai-project.org\">FAI</link>(http://fai-project.org/)と Puppet を設定管理に使用してデプロイされています。FAI と Puppet の組み合わせはOpenStack のみならず研究所全体で使用されています。単一のクラウドコントローラーノードがあり、他のコンピュータ・ハードウェアはコンピュートノードに使用されています。用途が計算集約型の為、nova.conf 中の物理 CPU・RAM と仮想 CPU・RAM の比は 1:1 です。しかしながら、ハイパースレッディングが有効であり（Linux がその方式を複数 CPU でカウントする為）実際には通常 2:1 になっています。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1005(glossterm)
 #: doc/openstack-ops/ch_ops_upstream.xml:522(para)
@@ -1788,16 +1704,10 @@ msgid "Dynamic Host Configuration Protocol (DHCP)"
 msgstr "動的ホスト設定プロトコル（DHCP）"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1058(para)
-#, fuzzy
-#| msgid ""
-#| "A method to automatically configure networking for a host at boot time. "
-#| "Provided by both quantum and nova."
 msgid ""
 "A method to automatically configure networking for a host at boot time. "
 "Provided by both neutron and nova."
-msgstr ""
-"ホスト起動時に自動的にネットワークを設定する方式。Quantum と Nova の両方が提"
-"供する。"
+msgstr "ホスト起動時に自動的にネットワークを設定する方式。Neutron と Nova の両方が提供する。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:106(para)
 msgid "Cleaned up formatting in code examples."
@@ -1914,19 +1824,11 @@ msgid "entity"
 msgstr "エンティティ"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1144(para)
-#, fuzzy
-#| msgid ""
-#| "Any piece of hardware or software that wants to connect to the network "
-#| "services provided by quantum, the Network Connectivity service. An entity "
-#| "can make use of quantum by implementing a VIF."
 msgid ""
 "Any piece of hardware or software that wants to connect to the network "
 "services provided by neutron, the Network Connectivity service. An entity "
 "can make use of neutron by implementing a VIF."
-msgstr ""
-"Quantum（ネットワーク接続サービス）により提供されるネットワークサービスへの通"
-"信必要なハードウェア又はソフトウェア部品。エンティティは VIF を実装する為に "
-"Quantum に使用される。"
+msgstr "Neutron（ネットワーク接続サービス）により提供されるネットワークサービスへの通信必要なハードウェア又はソフトウェア部品。エンティティは VIF を実装する為に Neutron に使用される。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1152(glossterm)
 msgid "ephemeral storage"
@@ -2199,21 +2101,12 @@ msgid "Folsom"
 msgstr "Folsom"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1341(para)
-#, fuzzy
-#| msgid ""
-#| "A grouped release of projects related to OpenStack that came out in the "
-#| "fall of 2012, the sixth release of OpenStack. It includes Compute (nova), "
-#| "Object Storage (swift), Identity (keystone), Networking (quantum), Image "
-#| "service (glance) and Volumes or Block Storage (cinder)."
 msgid ""
 "A grouped release of projects related to OpenStack that came out in the fall "
 "of 2012, the sixth release of OpenStack. It includes Compute (nova), Object "
 "Storage (swift), Identity (keystone), Networking (neutron), Image service "
 "(glance) and Volumes or Block Storage (cinder)."
-msgstr ""
-"2012年秋に登場した OpenStack 関連プロジェクトのリリース。Compute (nova), "
-"Object Storage (swift), Identity (keystone), Networking (quantum), Image "
-"service (glance)、Volumes 又は Block Storage (cinder) が含まれる。"
+msgstr "2012年秋に登場した OpenStack 関連プロジェクトのリリース。Compute (nova), Object Storage (swift), Identity (keystone), Networking (neutron), Image service (glance)、Volumes 又は Block Storage (cinder) が含まれる。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1351(glossterm)
 msgid "FormPost"
@@ -2665,10 +2558,8 @@ msgid "interface ID"
 msgstr "インターフェース ID"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1673(para)
-#, fuzzy
-#| msgid "Unique ID for a quantum VIF or vNIC in the form of a UUID."
 msgid "Unique ID for a neutron VIF or vNIC in the form of a UUID."
-msgstr "UUID 形式の、Quantum VIF 又は仮想 NIC 用の一意な ID。"
+msgstr "UUID 形式の、Neutron VIF 又は仮想 NIC 用の一意な ID。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1678(glossterm)
 msgid "ip6tables"
@@ -2823,22 +2714,14 @@ msgstr ""
 "ソフトウェア。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1785(glossterm)
-#, fuzzy
-#| msgid "Linux bridge quantum plug-in"
 msgid "Linux bridge neutron plug-in"
-msgstr "Linux ブリッジ Quantum プラグイン"
+msgstr "Linux ブリッジ Neutron プラグイン"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1787(para)
-#, fuzzy
-#| msgid ""
-#| "Plugin that allows a Linux bridge to understand a quantum port, interface "
-#| "attachment, and other abstractions."
 msgid ""
 "Plugin that allows a Linux bridge to understand a neutron port, interface "
 "attachment, and other abstractions."
-msgstr ""
-"Quantum のポート、インターフェース接続、その他抽象概念を認識する、Linux ブ"
-"リッジ用のプラグイン"
+msgstr "Neutron のポート、インターフェース接続、その他抽象概念を認識する、Linux ブリッジ用のプラグイン"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1793(glossterm)
 msgid "Linux containers (LXC)"
@@ -3024,10 +2907,8 @@ msgid "account auditor"
 msgstr "account auditor"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1920(para)
-#, fuzzy
-#| msgid "Unique ID assigned to each network segment within quantum."
 msgid "Unique ID assigned to each network segment within neutron."
-msgstr "Quantum 中で各ネットワークセグメントに割り当てられた一意な ID。"
+msgstr "Neutron 中で各ネットワークセグメントに割り当てられた一意な ID。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1925(glossterm)
 msgid "network manager"
@@ -3062,20 +2943,16 @@ msgid "network segment"
 msgstr "ネットワークセグメント"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1942(para)
-#, fuzzy
-#| msgid "Represents a virtual, isolated OSI layer 2 subnet in quantum."
 msgid "Represents a virtual, isolated OSI layer 2 subnet in neutron."
-msgstr "Quantum 中の仮想の独立した OSI レイヤ２サブネットを表現する。"
+msgstr "Neutron 中の仮想の独立した OSI レイヤ２サブネットを表現する。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1947(glossterm)
 msgid "network UUID"
 msgstr "ネットワーク UUID"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1949(para)
-#, fuzzy
-#| msgid "Unique ID for a quantum network segment."
 msgid "Unique ID for a neutron network segment."
-msgstr "Quantum ネットワークセグメントの一意な ID。"
+msgstr "Neutron ネットワークセグメントの一意な ID。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:1954(glossterm)
 msgid "network worker"
@@ -3350,16 +3227,10 @@ msgid "plugin"
 msgstr "プラグイン"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2137(para)
-#, fuzzy
-#| msgid ""
-#| "Software component providing the actual implementation for quantum APIs, "
-#| "or for Compute APIs, depending on the context."
 msgid ""
 "Software component providing the actual implementation for neutron APIs, or "
 "for Compute APIs, depending on the context."
-msgstr ""
-"Quantum API 用、又は Compute API 用の実際の実装を提供するソフトウェアコンポー"
-"ネント。文脈に依存する。"
+msgstr "Neutron API 用、又は Compute API 用の実際の実装を提供するソフトウェアコンポーネント。文脈に依存する。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2143(glossterm)
 msgid "policy service"
@@ -3378,25 +3249,17 @@ msgid "port"
 msgstr "ポート"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2153(para)
-#, fuzzy
-#| msgid ""
-#| "A virtual network port within quantum, VIFs / vNICs are connected to a "
-#| "port."
 msgid ""
 "A virtual network port within neutron, VIFs / vNICs are connected to a port."
-msgstr ""
-"quantum で定義される仮想ネットワークポート。仮想インターフェース / 仮想 NIC "
-"がポートに接続される。"
+msgstr "neutron で定義される仮想ネットワークポート。仮想インターフェース / 仮想 NIC がポートに接続される。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2158(glossterm)
 msgid "port UUID"
 msgstr "ポート UUID"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2160(para)
-#, fuzzy
-#| msgid "Unique ID for a quantum port."
 msgid "Unique ID for a neutron port."
-msgstr "quantum ポートの一意な ID。"
+msgstr "neutron ポートの一意な ID。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2164(glossterm)
 msgid "preseed"
@@ -3546,7 +3409,7 @@ msgstr "Q"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2268(glossterm)
 msgid "neutron"
-msgstr ""
+msgstr "neutron"
 
 #: doc/openstack-ops/bk_ops_guide.xml:227(glossterm)
 msgid "account service"
@@ -3561,40 +3424,24 @@ msgstr ""
 "抽象化レイヤーを提供する。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2276(glossterm)
-#, fuzzy
-#| msgid "nova API"
 msgid "neutron API"
-msgstr "nova API"
+msgstr "neutron API"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2278(para)
-#, fuzzy
-#| msgid ""
-#| "API used to access quantum, provides and extensible architecture to allow "
-#| "custom plugin creation."
 msgid ""
 "API used to access neutron, provides and extensible architecture to allow "
 "custom plugin creation."
-msgstr ""
-"quantum へのアクセスに使用する API で、独自のプラグインが作成できる拡張性を"
-"持ったアーキテクチャになっている。"
+msgstr "neutron へのアクセスに使用する API で、独自のプラグインが作成できる拡張性を持ったアーキテクチャになっている。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2284(glossterm)
-#, fuzzy
-#| msgid "network manager"
 msgid "neutron manager"
-msgstr "ネットワークマネージャー"
+msgstr "neutron マネージャー"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2286(para)
-#, fuzzy
-#| msgid ""
-#| "Allows nova and quantum integration thus allowing quantum to perform "
-#| "network management for nova VMs."
 msgid ""
 "Allows nova and neutron integration thus allowing neutron to perform network "
 "management for nova VMs."
-msgstr ""
-"nova と quantum を統合し、quantum が nova VM のネットワークを管理できるように"
-"する。"
+msgstr "nova と neutron を統合し、neutron が nova VM のネットワークを管理できるようにする。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:229(para)
 msgid ""
@@ -3606,22 +3453,14 @@ msgstr ""
 "ト。Keystone、OpenLDAP、又は同様のユーザアカウントサービスと混同しないこと。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2292(glossterm)
-#, fuzzy
-#| msgid "quantum plugin"
 msgid "neutron plugin"
-msgstr "quantum プラグイン"
+msgstr "neutron プラグイン"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2294(para)
-#, fuzzy
-#| msgid ""
-#| "Interface within quantum that allows organizations to create custom "
-#| "plugins for advanced features such as QoS, ACLs, or IDS."
 msgid ""
 "Interface within neutron that allows organizations to create custom plugins "
 "for advanced features such as QoS, ACLs, or IDS."
-msgstr ""
-"quantum 内部のインタフェースで、QoS、ACL、IDS といった先進的な機能を持った独"
-"自のプラグインを作成できるようになっている。"
+msgstr "neutron 内部のインタフェースで、QoS、ACL、IDS といった先進的な機能を持った独自のプラグインを作成できるようになっている。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2301(glossterm)
 msgid "quarantine"
@@ -4459,10 +4298,8 @@ msgid "VIF UUID"
 msgstr "VIF UUID"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2868(para)
-#, fuzzy
-#| msgid "Unique ID assigned to each quantum VIF."
 msgid "Unique ID assigned to each neutron VIF."
-msgstr "quantum VIF に割り当てられる一意な ID。"
+msgstr "neutron VIF に割り当てられる一意な ID。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:287(para)
 msgid ""
@@ -4501,26 +4338,18 @@ msgid "virtual network"
 msgstr "仮想ネットワーク"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2893(para)
-#, fuzzy
-#| msgid "An L2 network segment within quantum."
 msgid "An L2 network segment within neutron."
-msgstr "quantum の レイヤ2 ネットワークセグメント。"
+msgstr "neutron の レイヤ2 ネットワークセグメント。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2897(glossterm)
 msgid "Virtual Network InterFace (VIF)"
 msgstr "仮想ネットワークインタフェース (VIF)"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2899(para)
-#, fuzzy
-#| msgid ""
-#| "An interface that is plugged into a port in a quantum network. Typically "
-#| "a virtual network interface belonging to a VM."
 msgid ""
 "An interface that is plugged into a port in a neutron network. Typically a "
 "virtual network interface belonging to a VM."
-msgstr ""
-"quantum ネットワークのポートに接続されるインタフェース。通常は仮想ネットワー"
-"クインタフェースは VM に所属する。"
+msgstr "neutron ネットワークのポートに接続されるインタフェース。通常は仮想ネットワークインタフェースは VM に所属する。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:2905(glossterm)
 msgid "virtual port"
@@ -4835,25 +4664,18 @@ msgid "API extension"
 msgstr "API 拡張"
 
 #: doc/openstack-ops/bk_ops_guide.xml:314(para)
-#, fuzzy
-#| msgid ""
-#| "A feature of nova and quantum that allows custom modules to extend the "
-#| "core APIs."
 msgid ""
 "A feature of nova and neutron that allows custom modules to extend the core "
 "APIs."
-msgstr ""
-"独自モジュールがコア API を拡張できるようにする Nova と Quantum の機能。"
+msgstr "独自モジュールがコア API を拡張できるようにする Nova と Neutron の機能。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:319(glossterm)
 msgid "API extension plug-in"
 msgstr "API 拡張プラグイン"
 
 #: doc/openstack-ops/bk_ops_guide.xml:321(para)
-#, fuzzy
-#| msgid "Alternative term for a quantum plug-in or quantum API extension."
 msgid "Alternative term for a neutron plug-in or neutron API extension."
-msgstr "quantum プラグインまたは quantum API 拡張の別名。"
+msgstr "neutron プラグインまたは neutron API 拡張の別名。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:326(glossterm)
 msgid "API server"
@@ -5116,10 +4938,8 @@ msgstr ""
 "報を作成するのに使用される。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:51(date)
-#, fuzzy
-#| msgid "2013-03-11"
 msgid "2013-12-12"
-msgstr "2013-03-11"
+msgstr "2013-12-12"
 
 #: doc/openstack-ops/bk_ops_guide.xml:513(title)
 msgid "C"
@@ -5612,36 +5432,21 @@ msgid "core API"
 msgstr "コアAPI"
 
 #: doc/openstack-ops/bk_ops_guide.xml:857(para)
-#, fuzzy
-#| msgid ""
-#| "Depending on context, the core API is either the OpenStack API or the "
-#| "main API of a specific core project, such as nova, quantum, glance, and "
-#| "so on."
 msgid ""
 "Depending on context, the core API is either the OpenStack API or the main "
 "API of a specific core project, such as nova, neutron, glance, and so on."
-msgstr ""
-"文脈に依存する。コアAPI は OpenStack API またはNova, Quantum, Glance 等の特定"
-"のコアプロジェクトのメイン API のいずれかである。"
+msgstr "文脈に依存する。コアAPI は OpenStack API またはNova, Neutron, Glance 等の特定のコアプロジェクトのメイン API のいずれかである。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:864(glossterm)
 msgid "core project"
 msgstr "コアプロジェクト"
 
 #: doc/openstack-ops/bk_ops_guide.xml:866(para)
-#, fuzzy
-#| msgid ""
-#| "An official OpenStack project. Currently consists of Compute (nova), "
-#| "Object Storage (swift), Image Service (glance), Identity (keystone), "
-#| "Dashboard (horizon), Networking (quantum), and Volume (cinder)."
 msgid ""
 "An official OpenStack project. Currently consists of Compute (nova), Object "
 "Storage (swift), Image Service (glance), Identity (keystone), Dashboard "
 "(horizon), Networking (neutron), and Volume (cinder)."
-msgstr ""
-"OpenStack の公式プロジェクト。現在、Compute (nova), Object Storage (swift), "
-"Image Service (glance), Identity (keystone), Dashboard (horizon), Networking "
-"(quantum), Volume (cinder) が含まれる。"
+msgstr "OpenStack の公式プロジェクト。現在、Compute (nova), Object Storage (swift), Image Service (glance), Identity (keystone), Dashboard (horizon), Networking (neutron), Volume (cinder) が含まれる。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:874(glossterm)
 msgid "credentials"
@@ -5848,10 +5653,6 @@ msgid "How many users will access the API?"
 msgstr "どのくらいの数のユーザがAPIにアクセスしますか？"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:115(para)
-#, fuzzy
-#| msgid ""
-#| "If many users will make multiple requests, make sure that the CPU load "
-#| "for the cloud controller can handle. it."
 msgid ""
 "If many users will make multiple requests, make sure that the CPU load for "
 "the cloud controller can handle it."
@@ -7358,28 +7159,16 @@ msgstr ""
 "ワークとなっています。"
 
 #: doc/openstack-ops/ch_arch_example.xml:228(title)
-#, fuzzy
-#| msgid "Why Not Use the OpenStack Network Service (quantum)?"
 msgid "Why Not Use the OpenStack Network Service (neutron)?"
-msgstr "なぜ OpenStack Networking Service (quantum) を使わないか？"
+msgstr "なぜ OpenStack Networking Service (neutron) を使わないか？"
 
 #: doc/openstack-ops/ch_arch_example.xml:230(para)
-#, fuzzy
-#| msgid ""
-#| "We do not discuss the OpenStack Network Service (quantum) in this guide, "
-#| "because the authors of this guide only have production deployment "
-#| "experience using <code>nova-network</code>. Additionally, it does not yet "
-#| "support multi-host networking."
 msgid ""
 "We do not discuss the OpenStack Network Service (neutron) in this guide, "
 "because the authors of this guide only have production deployment experience "
 "using <code>nova-network</code>. Additionally, it does not yet support multi-"
 "host networking."
-msgstr ""
-"我々はこのガイドで OpenStack Networking Service (quantum) について触れていま"
-"せん。それは、このガイドの著者達が <code>nova-network</code> を使った本番環境"
-"の経験しかないからです。それに加えて、quantum はまだマルチホストネットワーク"
-"をサポートしていないことも理由の一つです。"
+msgstr "我々はこのガイドで OpenStack Networking Service (neutron) について触れていません。それは、このガイドの著者達が <code>nova-network</code> を使った本番環境の経験しかないからです。それに加えて、neutron はまだマルチホストネットワークをサポートしていないことも理由の一つです。"
 
 #: doc/openstack-ops/ch_arch_example.xml:237(title)
 msgid "Why Use Multi-host Networking?"
@@ -7509,16 +7298,10 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: doc/openstack-ops/ch_arch_example.xml:314(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'figures/os_physical_network_1.png'; "
-#| "md5=9f2bb38fdeb722bb06baca74fc91d03e"
 msgid ""
 "@@image: 'figures/os_physical_network.png'; "
 "md5=1dea1a64bd3be35646459de1b33f3c48"
-msgstr ""
-"@@image: 'figures/os_physical_network_1.png'; "
-"md5=9f2bb38fdeb722bb06baca74fc91d03e"
+msgstr "@@image: 'figures/os_physical_network.png'; md5=1dea1a64bd3be35646459de1b33f3c48"
 
 #: doc/openstack-ops/ch_arch_example.xml:32(para)
 msgid "OpenStack release"
@@ -10761,19 +10544,19 @@ msgstr "プロンプトに対して新しいパスワードを入力します。
 
 #: doc/openstack-ops/ch_ops_customize.xml:108(code)
 msgid "adduser stack sudo"
-msgstr ""
+msgstr "adduser stack sudo"
 
 #: doc/openstack-ops/ch_ops_customize.xml:113(code)
 msgid ""
 "grep -q \"^#includedir.*/etc/sudoers.d\" /etc/sudoers || echo \"#includedir /"
 "etc/sudoers.d\" &gt;&gt; /etc/sudoers"
-msgstr ""
+msgstr "grep -q \"^#includedir.*/etc/sudoers.d\" /etc/sudoers || echo \"#includedir /etc/sudoers.d\" &gt;&gt; /etc/sudoers"
 
 #: doc/openstack-ops/ch_ops_customize.xml:122(code)
 msgid ""
 "( umask 226 &amp;&amp; echo \"stack ALL=(ALL) NOPASSWD:ALL\" &gt; /etc/"
 "sudoers.d/50_stack_sh )"
-msgstr ""
+msgstr "( umask 226 &amp;&amp; echo \"stack ALL=(ALL) NOPASSWD:ALL\" &gt; /etc/sudoers.d/50_stack_sh )"
 
 #: doc/openstack-ops/ch_ops_customize.xml:129(code)
 msgid "exit"
@@ -10788,10 +10571,8 @@ msgid "Customize"
 msgstr "カスタマイズ"
 
 #: doc/openstack-ops/ch_ops_customize.xml:141(code)
-#, fuzzy
-#| msgid "static IP address"
 msgid "ssh stack@&lt;IP address&gt;"
-msgstr "静的 IP アドレス"
+msgstr "ssh stack@&lt;IP address&gt;"
 
 #: doc/openstack-ops/ch_ops_customize.xml:145(para)
 msgid "At the prompt, enter the password that you created for the stack user. "
@@ -10824,27 +10605,25 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_customize.xml:150(code)
 msgid "sudo apt-get -y update"
-msgstr ""
+msgstr "sudo apt-get -y update"
 
 #: doc/openstack-ops/ch_ops_customize.xml:155(code)
 msgid "sudo apt-get -y install git"
-msgstr ""
+msgstr "sudo apt-get -y install git"
 
 #: doc/openstack-ops/ch_ops_customize.xml:160(code)
 msgid ""
 "git clone https://github.com/openstack-dev/devstack.git -b stable/folsom "
 "devstack/"
-msgstr ""
+msgstr "git clone https://github.com/openstack-dev/devstack.git -b stable/folsom devstack/"
 
 #: doc/openstack-ops/ch_ops_customize.xml:165(code)
-#, fuzzy
-#| msgid "cd ~/devstack"
 msgid "cd devstack"
-msgstr "cd ~/devstack"
+msgstr "cd devstack"
 
 #: doc/openstack-ops/ch_ops_customize.xml:170(code)
 msgid "vim localrc"
-msgstr ""
+msgstr "vim localrc"
 
 #: doc/openstack-ops/ch_ops_customize.xml:173(para)
 msgid ""
@@ -10868,13 +10647,11 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_customize.xml:192(code)
 msgid "./stack.sh"
-msgstr ""
+msgstr "./stack.sh"
 
 #: doc/openstack-ops/ch_ops_customize.xml:196(para)
-#, fuzzy
-#| msgid "* <code>schedule_run_instance</code>"
 msgid "<code>screen -r stack</code> "
-msgstr "* <code>schedule_run_instance</code>"
+msgstr "<code>screen -r stack</code> "
 
 #: doc/openstack-ops/ch_ops_customize.xml:203(para)
 msgid ""
@@ -11584,7 +11361,7 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_customize.xml:94(code)
 msgid "ssh root@&lt;IP Address&gt;"
-msgstr ""
+msgstr "ssh root@&lt;IP Address&gt;"
 
 #: doc/openstack-ops/ch_ops_customize.xml:950(code)
 msgid ""
@@ -11640,7 +11417,7 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_customize.xml:99(code)
 msgid "adduser --gecos \"\" stack"
-msgstr ""
+msgstr "adduser --gecos \"\" stack"
 
 #: doc/openstack-ops/ch_ops_dochistory.xml:15(title)
 msgid "Document Change History"
@@ -12241,10 +12018,8 @@ msgid "For example: <placeholder-1/><placeholder-2/>"
 msgstr "例えば、<placeholder-1/><placeholder-2/>"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:63(para)
-#, fuzzy
-#| msgid "python-keystoneclient (<glossterm>keystone</glossterm> CLI)"
 msgid "python-neutronclient (<glossterm>neutron</glossterm> CLI)"
-msgstr "python-keystoneclient (<glossterm>keystone</glossterm> CLI)"
+msgstr "python-neutronclient (<glossterm>neutron</glossterm> CLI)"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:68(title)
 msgid "Installing the Tools"
@@ -12683,13 +12458,6 @@ msgstr ""
 "します。"
 
 #: doc/openstack-ops/ch_ops_log_monitor.xml:344(para)
-#, fuzzy
-#| msgid ""
-#| "The above example configuration handles the nova service only. It first "
-#| "configures rsyslog to act as a server that runs on port 512. Next, it "
-#| "creates a series of logging templates. Logging templates control where "
-#| "received logs are stored. Using the example above, a nova log from c01."
-#| "example.com goes to the following locations:"
 msgid ""
 "The above example configuration handles the nova service only. It first "
 "configures rsyslog to act as a server that runs on port 514. Next, it "
@@ -13348,8 +13116,6 @@ msgid "Remove all packages"
 msgstr "すべてのパッケージを削除する"
 
 #: doc/openstack-ops/ch_ops_maintenance.xml:1088(para)
-#, fuzzy
-#| msgid "Remove reamining files"
 msgid "Remove remaining files"
 msgstr "残っているファイルを削除する"
 
@@ -13366,14 +13132,6 @@ msgstr ""
 "必要になったりすることがときどきあります。"
 
 #: doc/openstack-ops/ch_ops_maintenance.xml:1091(para)
-#, fuzzy
-#| msgid ""
-#| "These steps depend on your underlying distribution, but in general you "
-#| "should be looking for 'purge' commands in your package manager, like "
-#| "<literal> aptitude purge ~c $package</literal>. Following this, you can "
-#| "look for orphaned files in the directories referenced throughout this "
-#| "guide. For uninstalling the database properly, refer to the manual "
-#| "appropriate for the product in use."
 msgid ""
 "These steps depend on your underlying distribution, but in general you "
 "should be looking for 'purge' commands in your package manager, like "
@@ -13383,7 +13141,7 @@ msgid ""
 "product in use."
 msgstr ""
 "これらの手順はお使いのディストリビューションにより異なりますが、一般には "
-"<literal> aptitude purge ~c $package</literal> のようなパッケージマネージャー"
+"<literal>aptitude purge ~c $package</literal> のようなパッケージマネージャー"
 "の「purge（完全削除）」コマンドを探すとよいでしょう。その後で、このガイドの中"
 "に出てきたディレクトリにある不要なファイルを探します。データベースを適切にア"
 "ンインストールする方法については、使用しているソフトウェアの適切なマニュアル"
