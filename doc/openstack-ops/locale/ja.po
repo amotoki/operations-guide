@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
 "POT-Creation-Date: 2013-12-22 03:53+0900\n"
-"PO-Revision-Date: 2013-12-22 05:20+0900\n"
+"PO-Revision-Date: 2013-12-22 06:40+0900\n"
 "Last-Translator: Tsutomu Takekawa <takekawa@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack/"
 "language/ja/)\n"
@@ -15235,14 +15235,10 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:125(caption)
-#, fuzzy
-#| msgid "Detailed Description"
 msgid "Compute Quota Descriptions"
-msgstr "詳細な説明"
+msgstr "コンピュートのクォータの説明"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:131(td)
-#, fuzzy
-#| msgid "Quotas"
 msgid "Quota"
 msgstr "クォータ"
 
@@ -15255,17 +15251,15 @@ msgstr "説明"
 #: doc/openstack-ops/ch_ops_projects_users.xml:137(td)
 #: doc/openstack-ops/ch_ops_projects_users.xml:468(td)
 msgid "Property Name"
-msgstr ""
+msgstr "属性名"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:14(title)
 msgid "Managing Projects and Users"
 msgstr "プロジェクトとユーザーの管理"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:145(para)
-#, fuzzy
-#| msgid "Fixed IP address"
 msgid "Fixed Ips"
-msgstr "固定 IP アドレス"
+msgstr "固定 IP"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:15(para)
 msgid ""
@@ -15283,51 +15277,39 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:158(systemitem)
 msgid "fixed-ips"
-msgstr ""
+msgstr "fixed-ips"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:164(para)
-#, fuzzy
-#| msgid "Floating IPs"
 msgid "Floating Ips"
 msgstr "Floating IP"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:169(para)
-#, fuzzy
-#| msgid "(IntOpt) number of floating ips allowed per project (tenant)"
 msgid "Number of floating IP addresses allowed per tenant."
-msgstr "(整数型) プロジェクト (テナント) ごとの最大 Floating IP 数"
+msgstr "テナントごとの最大 Floating IP 数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:175(systemitem)
-#, fuzzy
-#| msgid "quota_floating_ips=10"
 msgid "floating-ips"
-msgstr "quota_floating_ips=10"
+msgstr "floating-ips"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:181(para)
-#, fuzzy
-#| msgid "quota_injected_file_content_bytes=10240"
 msgid "Injected File Content Bytes"
-msgstr "quota_injected_file_content_bytes=10240"
+msgstr "injected file のバイト数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:186(para)
-#, fuzzy
-#| msgid "(IntOpt) number of bytes allowed per injected file"
 msgid "Number of content bytes allowed per injected file."
-msgstr "(整数型) injected file あたりの最大バイト数"
+msgstr "injected file あたりの最大バイト数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:19(title)
 msgid "Projects or Tenants?"
 msgstr "プロジェクトかテナントか?"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:192(systemitem)
-#, fuzzy
-#| msgid "quota_injected_file_content_bytes=10240"
 msgid "injected-file-content-bytes"
-msgstr "quota_injected_file_content_bytes=10240"
+msgstr "injected-file-content-bytes"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:198(para)
 msgid "Injected File Path Bytes"
-msgstr ""
+msgstr "injected file のパス長"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:20(para)
 msgid ""
@@ -15340,50 +15322,36 @@ msgstr ""
 "glossterm>と呼ばれます。これらの語は同じ意味で用いられます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:203(para)
-#, fuzzy
-#| msgid "(IntOpt) number of bytes allowed per injected file path"
 msgid "Number of bytes allowed per injected file path."
-msgstr "(整数型) injected file のパス長の最大バイト数"
+msgstr "injected file のパス長の最大バイト数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:209(systemitem)
-#, fuzzy
-#| msgid "quota_injected_file_path_bytes=255"
 msgid "injected-file-path-bytes"
-msgstr "quota_injected_file_path_bytes=255"
+msgstr "injected-file-path-bytes"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:215(para)
-#, fuzzy
-#| msgid "quota_injected_files=5"
 msgid "Injected Files"
-msgstr "quota_injected_files=5"
+msgstr "injected file"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:220(para)
-#, fuzzy
-#| msgid "(IntOpt) number of injected files allowed"
 msgid "Number of injected files allowed per tenant."
-msgstr "(整数型) injected file の最大数"
+msgstr "injected file の最大数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:226(systemitem)
-#, fuzzy
-#| msgid "quota_injected_files=5"
 msgid "injected-files"
-msgstr "quota_injected_files=5"
+msgstr "injected-files"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:237(para)
-#, fuzzy
-#| msgid "(IntOpt) number of instances allowed per project (tenant)"
 msgid "Number of instances allowed per tenant."
-msgstr "(整数型) プロジェクト (テナント) ごとの最大インスタンス数"
+msgstr "テナントごとの最大インスタンス数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:243(systemitem)
-#, fuzzy
-#| msgid "instance"
 msgid "instances"
-msgstr "インスタンス"
+msgstr "instances"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:249(para)
 msgid "Key Pairs"
-msgstr ""
+msgstr "キーペア"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:25(para)
 msgid ""
@@ -15402,82 +15370,60 @@ msgstr ""
 "し、いくつかはテナントを使用します。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:254(para)
-#, fuzzy
-#| msgid "(IntOpt) number of key pairs allowed per user"
 msgid "Number of key pairs allowed per user."
-msgstr "(整数型) ユーザーごとの最大キーペア数"
+msgstr "ユーザーごとの最大キーペア数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:260(systemitem)
 msgid "key-pairs"
-msgstr ""
+msgstr "key-pairs"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:266(para)
 msgid "Metadata Items"
-msgstr ""
+msgstr "メタデータ項目数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:271(para)
-#, fuzzy
-#| msgid "(IntOpt) number of metadata items allowed per instance"
 msgid "Number of metadata items allowed per instance."
-msgstr "(整数型) インスタンスごとのメタデータ項目数"
+msgstr "インスタンスごとのメタデータ項目数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:277(systemitem)
-#, fuzzy
-#| msgid "quota_metadata_items=128"
 msgid "metadata-items"
-msgstr "quota_metadata_items=128"
+msgstr "metadata-items"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:283(para)
 msgid "Ram"
-msgstr ""
+msgstr "メモリー"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:288(para)
-#, fuzzy
-#| msgid "(IntOpt) megabytes of instance ram allowed per project (tenant)"
 msgid "Megabytes of instance ram allowed per tenant."
-msgstr ""
-"(整数型) プロジェクト (テナント) ごとのインスタンスの最大 RAM 容量（メガバイ"
-"ト単位）"
+msgstr "テナントごとのインスタンスの RAM 容量（メガバイト単位）"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:294(systemitem)
 msgid "ram"
-msgstr ""
+msgstr "ram"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:300(para)
-#, fuzzy
-#| msgid "Security groups"
 msgid "Security Group Rules"
-msgstr "セキュリティグループ"
+msgstr "セキュリティグループルール"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:305(para)
-#, fuzzy
-#| msgid "(IntOpt) number of security rules per security group"
 msgid "Number of rules per security group."
-msgstr "(整数型) セキュリティグループごとのセキュリティルール数"
+msgstr "セキュリティグループごとのセキュリティルール数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:311(systemitem)
-#, fuzzy
-#| msgid "security group"
 msgid "security-group-rules"
-msgstr "セキュリティグループ"
+msgstr "security-group-rules"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:317(para)
-#, fuzzy
-#| msgid "Security groups"
 msgid "Security Groups"
 msgstr "セキュリティグループ"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:322(para)
-#, fuzzy
-#| msgid "(IntOpt) number of security groups per project (tenant)"
 msgid "Number of security groups per tenant."
-msgstr "(整数型) プロジェクト (テナント) ごとのセキュリティグループ数"
+msgstr "テナントごとのセキュリティグループ数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:328(systemitem)
-#, fuzzy
-#| msgid "security group"
 msgid "security-groups"
-msgstr "セキュリティグループ"
+msgstr "security-groups"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:33(para)
 msgid ""
@@ -15493,16 +15439,12 @@ msgid "VCPUs"
 msgstr "仮想 CPU"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:339(para)
-#, fuzzy
-#| msgid "(IntOpt) number of instance cores allowed per project (tenant)"
 msgid "Number of instance cores allowed per tenant."
-msgstr "(整数型) プロジェクト (テナント) ごとのインスタンスのコア数の最大値"
+msgstr "テナントごとのインスタンスのコア数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:345(systemitem)
-#, fuzzy
-#| msgid "core API"
 msgid "cores"
-msgstr "コアAPI"
+msgstr "cores"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:352(title)
 msgid "View and update Compute quotas for a tenant (project)"
@@ -15820,21 +15762,15 @@ msgstr ""
 "が定義されています。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:628(para)
-#, fuzzy
-#| msgid "\"member\":  a typical user."
 msgid "\"member\": a typical user."
-msgstr "「member」:  一般的なユーザー。"
+msgstr "「member」: 一般的なユーザー。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:631(para)
-#, fuzzy
-#| msgid ""
-#| "\"admin\":  an administrative super user which has full permissions "
-#| "across all projects and should be used with great care."
 msgid ""
 "\"admin\": an administrative super user which has full permissions across "
 "all projects and should be used with great care."
 msgstr ""
-"「admin」:  すべてのプロジェクトにわたり全権限を持つ管理ユーザー。非常に注意"
+"「admin」: すべてのプロジェクトにわたり全権限を持つ管理ユーザー。非常に注意"
 "して使用する必要があります。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:636(para)
@@ -16115,10 +16051,6 @@ msgstr ""
 "ます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:78(para)
-#, fuzzy
-#| msgid ""
-#| "To add a project through the command line, you must use the keystone "
-#| "utility, which uses \"tenant\" in place of \"project\": "
 msgid ""
 "To add a project through the command line, you must use the keystone "
 "utility, which uses \"tenant\" in place of \"project\":"
@@ -16168,25 +16100,13 @@ msgid "[2]"
 msgstr "[2]"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:82(para)
-#, fuzzy
-#| msgid ""
-#| "This command creates a project named \"demo\". Optionally, you can add a "
-#| "description string by appending <code>--description &lt;tenant-"
-#| "description&gt;,</code> which can be very useful. You can also create a "
-#| "group in a disabled state by appending <code>--enabled false</code> to "
-#| "the command. By default, projects are created in an enabled state."
 msgid ""
 "This command creates a project named \"demo\". Optionally, you can add a "
 "description string by appending <code>--description <replaceable>tenant-"
 "description</replaceable></code> which can be very useful. You can also "
 "create a group in a disabled state by appending <code>--enabled false</code> "
 "to the command. By default, projects are created in an enabled state."
-msgstr ""
-"このコマンドは「demo」という名前のプロジェクトを作成します。<code>--"
-"description &lt;tenant-description&gt;,</code> を追加で指定することで、説明の"
-"文字列を付与できます。これは非常に便利です。また、コマンドに <code>--enabled "
-"false</code> を追加することにより、無効状態のグループを作成することもできま"
-"す。標準で、プロジェクトは有効状態で作成されます。"
+msgstr "このコマンドは「demo」という名前のプロジェクトを作成します。<code>--description <replaceable>tenant-description</replaceable></code> を追加で指定することで、説明の文字列を付与できます。これは非常に便利です。また、コマンドに <code>--enabled false</code> を追加することにより、無効状態のグループを作成することもできます。標準で、プロジェクトは有効状態で作成されます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:831(emphasis)
 msgid "[3]"
@@ -16322,79 +16242,41 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_resources.xml:18(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://docs.openstack.org/folsom/openstack-compute/admin/"
-#| "content/\">OpenStack Compute Administration Manual</link> (http://docs."
-#| "openstack.org/folsom/openstack-compute/admin/content/)"
 msgid ""
 "<link href=\"http://docs.openstack.org/trunk/config-reference/content/"
 "\">OpenStack Configuration Reference</link> (http://docs.openstack.org/trunk/"
 "config-reference/content/section_compute-hypervisors.html)"
-msgstr ""
-"<link href=\"http://docs.openstack.org/folsom/openstack-compute/admin/"
-"content/\">OpenStack Compute Administration Manual</link> (http://docs."
-"openstack.org/folsom/openstack-compute/admin/content/)"
+msgstr "<link href=\"http://docs.openstack.org/trunk/config-reference/content/\">OpenStack 設定レファレンス</link> (http://docs.openstack.org/trunk/config-reference/content/section_compute-hypervisors.html)"
 
 #: doc/openstack-ops/ch_ops_resources.xml:23(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://docs.openstack.org/folsom/openstack-compute/install/"
-#| "apt/content/\">OpenStack Compute Install and Deploy Manual - Ubuntu</"
-#| "link> (http://docs.openstack.org/folsom/openstack-compute/install/apt/"
-#| "content/)"
 msgid ""
 "<link href=\"http://docs.openstack.org/havana/install-guide/install/apt/"
 "content/\">OpenStack Install Guide - Ubuntu</link> (http://docs.openstack."
 "org/havana/install-guide/install/apt/content/)"
-msgstr ""
-"<link href=\"http://docs.openstack.org/folsom/openstack-compute/install/apt/"
-"content/\">OpenStack Compute Install and Deploy Manual - Ubuntu</link> "
-"(http://docs.openstack.org/folsom/openstack-compute/install/apt/content/)"
+msgstr "<link href=\"http://docs.openstack.org/havana/install-guide/install/apt/content/\">OpenStack インストールガイド - Ubuntu</link> (http://docs.openstack.org/havana/install-guide/install/apt/content/)"
 
 #: doc/openstack-ops/ch_ops_resources.xml:28(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://docs.openstack.org/folsom/openstack-compute/admin/"
-#| "content/\">OpenStack Compute Administration Manual</link> (http://docs."
-#| "openstack.org/folsom/openstack-compute/admin/content/)"
 msgid ""
 "<link href=\"http://docs.openstack.org/admin-guide-cloud/content/"
 "\">OpenStack Cloud Administrator Guide</link> (http://docs.openstack.org/"
 "admin-guide-cloud/content/)"
-msgstr ""
-"<link href=\"http://docs.openstack.org/folsom/openstack-compute/admin/"
-"content/\">OpenStack Compute Administration Manual</link> (http://docs."
-"openstack.org/folsom/openstack-compute/admin/content/)"
+msgstr "<link href=\"http://docs.openstack.org/admin-guide-cloud/content/\">OpenStack クラウド管理ガイド</link> (http://docs.openstack.org/admin-guide-cloud/content/)"
 
 #: doc/openstack-ops/ch_ops_resources.xml:33(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://docs.openstack.org/folsom/openstack-compute/admin/"
-#| "content/\">OpenStack Compute Administration Manual</link> (http://docs."
-#| "openstack.org/folsom/openstack-compute/admin/content/)"
 msgid ""
 "<link href=\"http://docs.openstack.org/security-guide/content/\">OpenStack "
 "Security Guide</link> (http://docs.openstack.org/security-guide/content/)"
-msgstr ""
-"<link href=\"http://docs.openstack.org/folsom/openstack-compute/admin/"
-"content/\">OpenStack Compute Administration Manual</link> (http://docs."
-"openstack.org/folsom/openstack-compute/admin/content/)"
+msgstr "<link href=\"http://docs.openstack.org/security-guide/content/\">OpenStack セキュリティガイド</link> (http://docs.openstack.org/security-guide/content/)"
 
 #: doc/openstack-ops/ch_ops_resources.xml:38(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://www.packtpub.com/openstack-cloud-computing-cookbook/"
-#| "book\">OpenStack Cloud Computing Cookbook</link> (http://www.packtpub.com/"
-#| "openstack-cloud-computing-cookbook/book)"
 msgid ""
 "<link href=\"http://www.packtpub.com/openstack-cloud-computing-cookbook-"
 "second-edition/book\">OpenStack Cloud Computing Cookbook</link> (http://www."
 "packtpub.com/openstack-cloud-computing-cookbook-second-edition/book)"
 msgstr ""
-"<link href=\"http://www.packtpub.com/openstack-cloud-computing-cookbook/book"
+"<link href=\"http://www.packtpub.com/openstack-cloud-computing-cookbook-second-edition/book"
 "\">OpenStack Cloud Computing Cookbook</link> (http://www.packtpub.com/"
-"openstack-cloud-computing-cookbook/book)"
+"openstack-cloud-computing-cookbook-second-edition/book)"
 
 #: doc/openstack-ops/ch_ops_resources.xml:44(emphasis)
 msgid "Cloud (general)"
@@ -16589,31 +16471,17 @@ msgstr ""
 "く説明します。"
 
 #: doc/openstack-ops/ch_ops_upstream.xml:152(para)
-#, fuzzy
-#| msgid ""
-#| "Report a bug in <link href=\"https://bugs.launchpad.net/quantum/+filebug"
-#| "\">Quantum</link> (https://bugs.launchpad.net/quantum/+filebug)"
 msgid ""
 "Report a bug in <link href=\"https://bugs.launchpad.net/neutron/+filebug"
 "\">Quantum</link> (https://bugs.launchpad.net/neutron/+filebug)"
-msgstr ""
-"<link href=\"https://bugs.launchpad.net/quantum/+filebug\">Quantum</link> の"
-"バグ報告 (https://bugs.launchpad.net/quantum/+filebug)"
+msgstr "<link href=\"https://bugs.launchpad.net/neutron/+filebug\">Neutron</link> のバグ報告 (https://bugs.launchpad.net/neutron/+filebug)"
 
 #: doc/openstack-ops/ch_ops_upstream.xml:157(para)
-#, fuzzy
-#| msgid ""
-#| "Report a bug in <link href=\"https://bugs.launchpad.net/python-"
-#| "keystoneclient/+filebug\">python-keystoneclient</link> (https://bugs."
-#| "launchpad.net/python-keystoneclient/+filebug)"
 msgid ""
 "Report a bug in <link href=\"https://bugs.launchpad.net/python-neutronclient/"
 "+filebug\">python-neutronclient</link> (https://bugs.launchpad.net/python-"
 "neutronclient/+filebug)"
-msgstr ""
-"<link href=\"https://bugs.launchpad.net/python-keystoneclient/+filebug"
-"\">python-keystoneclient</link> のバグ報告(https://bugs.launchpad.net/python-"
-"keystoneclient/+filebug)"
+msgstr "<link href=\"https://bugs.launchpad.net/python-neutronclient/+filebug\">python-neutronclient</link> のバグ報告(https://bugs.launchpad.net/python-neutronclient/+filebug)"
 
 #: doc/openstack-ops/ch_ops_upstream.xml:163(para)
 msgid ""
@@ -17556,15 +17424,6 @@ msgid "Flavors"
 msgstr "フレーバー"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:109(para)
-#, fuzzy
-#| msgid ""
-#| "Virtual hardware templates are called \"flavors\" in OpenStack, defining "
-#| "sizes for RAM, disk, number of cores and so on. The default install "
-#| "provides a range of five flavors. These are configurable by admin users "
-#| "(this too is configurable and may be delegated by redefining the access "
-#| "controls for <code>compute_extension:flavormanage</code> in <code>/etc/"
-#| "nova/policy.json</code> on the <code>nova-api</code> server). To get a "
-#| "list of available flavors on your system run:"
 msgid ""
 "Virtual hardware templates are called \"flavors\" in OpenStack, defining "
 "sizes for RAM, disk, number of cores, and so on. The default install "
@@ -17605,15 +17464,6 @@ msgid "User-facing Operations"
 msgstr "ユーザーによる運用"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:15(para)
-#, fuzzy
-#| msgid ""
-#| "This guide is for OpenStack operators and does not seek to be an "
-#| "exhaustive reference for users, but as an operator it is important that "
-#| "you have a basic understanding of how to use the cloud facilities. This "
-#| "chapter looks at OpenStack from a basic user perspective, which helps you "
-#| "understand your users' needs and determine when you get a trouble ticket "
-#| "whether it is a user issue or a service issue. The main concepts covered "
-#| "are images, flavors, security groups, blocks storage and instances."
 msgid ""
 "This guide is for OpenStack operators and does not seek to be an exhaustive "
 "reference for users, but as an operator it is important that you have a "
@@ -17641,34 +17491,20 @@ msgid "A unique numeric id."
 msgstr "一意な数値 ID。"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:161(para)
-#, fuzzy
-#| msgid ""
-#| "a descriptive name. xx.size_name is conventional not required, though "
-#| "some third party tools may rely on it."
 msgid ""
 "A descriptive name, such as xx.size_name is conventional but not required, "
 "though some third-party tools may rely on it."
-msgstr ""
-"補足的な名前。xx.size_name が慣習的ですが、必須ではありません。いくつかのサー"
-"ドパーティツールはその名称に依存しているかもしれません。"
+msgstr "慣習として xx.size_name などの内容を表す名前を使用しますが、必須ではありません。いくつかのサードパーティツールはその名称に依存しているかもしれません。"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:167(para)
 msgid "Memory_MB"
-msgstr "MB メモリー"
+msgstr "Memory_MB"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:170(para)
-#, fuzzy
-#| msgid "Memory_MB: virtual machine memory in megabytes."
 msgid "Virtual machine memory in megabytes."
-msgstr "Memory_MB: メガバイト単位の仮想マシンメモリー。"
+msgstr "メガバイト単位の仮想マシンメモリー。"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:178(para)
-#, fuzzy
-#| msgid ""
-#| "Virtual root disk size in gigabytes. This is an ephemeral disk the base "
-#| "image is copied into. When booting from a persistent volume it is not "
-#| "used. The \"0\" size is a special case which uses the native base image "
-#| "size as the size of the ephemeral root volume."
 msgid ""
 "Virtual root disk size in gigabytes. This is an ephemeral disk the base "
 "image is copied into. You don't use it when you boot from a persistent "
@@ -17705,12 +17541,6 @@ msgid "RXTX_Factor"
 msgstr "RXTX_Factor"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:215(para)
-#, fuzzy
-#| msgid ""
-#| "Optional property allows created servers to have a different bandwidth "
-#| "cap than that defined in the network they are attached to. This factor is "
-#| "multiplied by the rxtx_base property of the network. Default value is 1.0 "
-#| "(that is, the same as attached network)."
 msgid ""
 "Optional property allows created servers to have a different bandwidth cap "
 "than that defined in the network they are attached to. This factor is "
@@ -17753,12 +17583,6 @@ msgstr ""
 "バーのように) 特別なリソースのようなものを実装するために使用できます。"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:24(para)
-#, fuzzy
-#| msgid ""
-#| "OpenStack images can often be thought of as \"virtual machine templates"
-#| "\". Images can also be standard installation mediums like ISO images. "
-#| "Essentially, they contain bootable file systems which are used to launch "
-#| "instances."
 msgid ""
 "OpenStack images can often be thought of as \"virtual machine templates.\" "
 "Images can also be standard installation media like ISO images. Essentially, "
@@ -17871,11 +17695,6 @@ msgstr ""
 "用語について説明します。"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:29(para)
-#, fuzzy
-#| msgid ""
-#| "Several pre-made images exist and can easily be imported into the Image "
-#| "Service. A common image to add is the CirrOS image which is very small "
-#| "and used for testing purposes. To add this image, simply do:"
 msgid ""
 "Several pre-made images exist and can easily be imported into the Image "
 "Service. A common image to add is the CirrOS image, which is very small and "
@@ -18783,10 +18602,8 @@ msgid "image_location"
 msgstr "image_location"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:872(title)
-#, fuzzy
-#| msgid "Volume snapshots"
 msgid "Live snapshots"
-msgstr "ボリュームのスナップショット"
+msgstr "ライブスナップショット"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:873(para)
 msgid ""
@@ -18997,11 +18814,6 @@ msgstr ""
 "ンドを用いて、ファイルシステムをフリーズ解除できます。"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:975(para)
-#, fuzzy
-#| msgid ""
-#| "If you want to backup the root files ystem, you can't simply do the "
-#| "command above because it will freeze the prompt. Instead, run the "
-#| "following one-liner, as root, inside of the instance:"
 msgid ""
 "If you want to backup the root file system, you can't simply do the command "
 "above because it will freeze the prompt. Instead, run the following one-"
@@ -19059,25 +18871,23 @@ msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:101(link)
 msgid "Installation Guide for Debian 7.0"
-msgstr ""
+msgstr "Debian 7.0 向けインストールガイド"
 
 #: doc/openstack-ops/preface_ops.xml:107(link)
 msgid "Installation Guide for openSUSE and SUSE Linux Enterprise Server"
-msgstr ""
+msgstr "openSUSE および SUSE Linux Enterprise Server 向けインストールガイド"
 
 #: doc/openstack-ops/preface_ops.xml:114(link)
 msgid "Installation Guide for Red Hat Enterprise Linux, CentOS, and Fedora"
-msgstr ""
+msgstr "Red Hat Enterprise Linux, CentOS, Fedora 向けインストールガイド"
 
 #: doc/openstack-ops/preface_ops.xml:120(link)
 msgid "Installation Guide for Ubuntu 12.04 (LTS) Server"
-msgstr ""
+msgstr "Ubuntu 12.04 (LTS) Server 向けインストールガイド"
 
 #: doc/openstack-ops/preface_ops.xml:129(link)
-#, fuzzy
-#| msgid "OpenStack Foundation"
 msgid "OpenStack Configuration Reference"
-msgstr "OpenStack Foundation"
+msgstr "OpenStack 設定レファレンス"
 
 #: doc/openstack-ops/preface_ops.xml:132(para)
 msgid ""
@@ -19086,10 +18896,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:140(link)
-#, fuzzy
-#| msgid "OpenStack Operations Guide"
 msgid "OpenStack Cloud Administrator Guide"
-msgstr "OpenStack 運用ガイド"
+msgstr "OpenStack クラウド管理者ガイド"
 
 #: doc/openstack-ops/preface_ops.xml:142(para)
 msgid ""
@@ -19098,10 +18906,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:150(link)
-#, fuzzy
-#| msgid "OpenStack Ops Guide"
 msgid "OpenStack High Availability Guide"
-msgstr "OpenStack 運用ガイド"
+msgstr "OpenStack 高可用性ガイド"
 
 #: doc/openstack-ops/preface_ops.xml:153(para)
 msgid ""
@@ -19114,10 +18920,8 @@ msgid "Preface"
 msgstr "はじめに"
 
 #: doc/openstack-ops/preface_ops.xml:160(link)
-#, fuzzy
-#| msgid "OpenStack Operations Guide"
 msgid "OpenStack Security Guide"
-msgstr "OpenStack 運用ガイド"
+msgstr "OpenStack セキュリティガイド"
 
 #: doc/openstack-ops/preface_ops.xml:162(para)
 #, fuzzy
@@ -19130,10 +18934,8 @@ msgid ""
 msgstr "本書は OpenStack クラウドの設計および運用に関する情報を提供します。"
 
 #: doc/openstack-ops/preface_ops.xml:167(link)
-#, fuzzy
-#| msgid "Virtual Machine (VM)"
 msgid "Virtual Machine Image Guide"
-msgstr "仮想マシン (VM)"
+msgstr "仮想マシンイメージガイド"
 
 #: doc/openstack-ops/preface_ops.xml:169(para)
 msgid ""
@@ -19148,10 +18950,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:175(link)
-#, fuzzy
-#| msgid "OpenStack Ops Guide"
 msgid "OpenStack End User Guide"
-msgstr "OpenStack 運用ガイド"
+msgstr "OpenStack エンドユーザーガイド"
 
 #: doc/openstack-ops/preface_ops.xml:177(para)
 msgid ""
@@ -19160,10 +18960,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:183(link)
-#, fuzzy
-#| msgid "OpenStack Ops Guide"
 msgid "OpenStack Admin User Guide"
-msgstr "OpenStack 運用ガイド"
+msgstr "OpenStack 管理ユーザーガイド"
 
 #: doc/openstack-ops/preface_ops.xml:185(para)
 msgid ""
@@ -19172,10 +18970,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:192(link)
-#, fuzzy
-#| msgid "OpenStack Storage"
 msgid "OpenStack API Quick Start"
-msgstr "OpenStackのストレージ"
+msgstr "OpenStack API クイックスタート"
 
 #: doc/openstack-ops/preface_ops.xml:194(para)
 msgid ""
@@ -19413,26 +19209,13 @@ msgid "Perform the day-to-day tasks required to administer a cloud."
 msgstr "クラウドを管理する上で必要となる日々のタスクの実行。"
 
 #: doc/openstack-ops/preface_ops.xml:304(para)
-#, fuzzy
-#| msgid ""
-#| "We wrote this book in a Book Sprint, which is a facilitated rapid "
-#| "development production method for books. For more information see the "
-#| "<link title=\"Foundation web site\" href=\"http://www.booksprints.net"
-#| "\">Book Sprint site</link>. Your authors cobbled this book together in "
-#| "five days during February 2013, fueled by caffeine and the best take-out "
-#| "food that Austin, Texas could offer."
 msgid ""
 "We wrote this book in a Book Sprint, which is a facilitated rapid "
 "development production method for books. For more information see the <link "
 "href=\"http://www.booksprints.net\">Book Sprint site</link>. Your authors "
 "cobbled this book together in five days during February 2013, fueled by "
 "caffeine and the best take-out food that Austin, Texas could offer."
-msgstr ""
-"私たちはこの本を Book Sprint で執筆しました。 Book Sprint は短い期間で本を建"
-"設的に作成できるメソッドです。詳しい情報は、 <link title=\"Foundation web "
-"site\" href=\"http://www.booksprints.net\">Book Sprint のサイト</link> を参照"
-"して下さい。著者らは2013年2月の5日間でこの本をまとめあげました。カフェイン"
-"と、テキサス州オースティンの素晴らしいテイクアウトの食事は力になりました。"
+msgstr "私たちはこの本を Book Sprint で執筆しました。 Book Sprint は短い期間で本を建設的に作成できるメソッドです。詳しい情報は、 <link href=\"http://www.booksprints.net\">Book Sprint のサイト</link> を参照して下さい。著者らは2013年2月の5日間でこの本をまとめあげました。カフェインと、テキサス州オースティンの素晴らしいテイクアウトの食事は力になりました。"
 
 #: doc/openstack-ops/preface_ops.xml:310(para)
 msgid ""
@@ -19785,16 +19568,12 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:90(title)
-#, fuzzy
-#| msgid "OpenStack Ops Guide"
 msgid "OpenStack Guides"
-msgstr "OpenStack 運用ガイド"
+msgstr "OpenStack の各種ガイド"
 
 #: doc/openstack-ops/preface_ops.xml:92(term)
-#, fuzzy
-#| msgid "OpenStack Operations Guide"
 msgid "OpenStack Installation Guides"
-msgstr "OpenStack 運用ガイド"
+msgstr "OpenStack インストールガイド"
 
 #: doc/openstack-ops/preface_ops.xml:94(para)
 msgid ""
