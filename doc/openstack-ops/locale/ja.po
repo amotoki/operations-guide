@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
 "POT-Creation-Date: 2013-12-22 03:53+0900\n"
-"PO-Revision-Date: 2013-12-22 17:50+0900\n"
+"PO-Revision-Date: 2013-12-22 21:18+0900\n"
 "Last-Translator: Tsutomu Takekawa <takekawa@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack/"
 "language/ja/)\n"
@@ -249,14 +249,6 @@ msgid "A few nights later, it happened again."
 msgstr "数日後、それは再び起こった。"
 
 #: doc/openstack-ops/app_crypt.xml:154(para)
-#, fuzzy
-#| msgid ""
-#| "We reviewed both sets of logs. The one thing that stood out the most was "
-#| "DHCP. OpenStack, by default, sets DHCP leases for one minute. This means "
-#| "that every instance contacts the cloud controller (DHCP server) to renew "
-#| "its fixed IP. For some reason, this instance could not renew its IP. We "
-#| "correlated the instance's logs with the logs on the cloud controller and "
-#| "put together a conversation:"
 msgid ""
 "We reviewed both sets of logs. The one thing that stood out the most was "
 "DHCP. At the time, OpenStack, by default, set DHCP leases for one minute "
@@ -264,13 +256,7 @@ msgid ""
 "controller (DHCP server) to renew its fixed IP. For some reason, this "
 "instance could not renew its IP. We correlated the instance's logs with the "
 "logs on the cloud controller and put together a conversation:"
-msgstr ""
-"我々はログのセットを両方見直した。頻発したログの１つは DHCP だった。"
-"OpenStack は（デフォルトで）DHCP リース期間を１分に設定する。これは、各インス"
-"タンスが固定 IP アドレスを更新するためにクラウドコントローラー（DHCP サー"
-"バー）に接続することを意味する。幾つかの理由で、このインスタンスはその IP ア"
-"ドレスを更新できなかった。インスタンスのログとクラウドコントローラー上のログ"
-"を突き合わせ、並べてやりとりにしてみた。"
+msgstr "我々はログのセットを両方見直した。頻発したログの１つは DHCP だった。当時、OpenStack はデフォルトでは DHCP リース期間を 1分に設定していた (現在は 2分)。これは、各インスタンスが固定 IP アドレスを更新するためにクラウドコントローラー（DHCP サーバー）に接続することを意味する。幾つかの理由で、このインスタンスはその IP アドレスを更新できなかった。インスタンスのログとクラウドコントローラー上のログを突き合わせ、並べてやりとりにしてみた。"
 
 #: doc/openstack-ops/app_crypt.xml:16(para)
 msgid ""
@@ -1144,17 +1130,11 @@ msgstr ""
 "Service にインポートされます。CLI は nova と euca2ools が使用可能です。"
 
 #: doc/openstack-ops/app_usecases.xml:184(para)
-#, fuzzy
-#| msgid ""
-#| "CERN is currently running around 250 Nova Compute nodes with "
-#| "approximately 1,000 instances."
 msgid ""
 "There are 3 clouds currently running at CERN, totaling around 3400 Nova "
 "Compute nodes, with approximately 60,000 cores. The CERN IT cloud aims to "
 "expand to 300,000 cores by 2015."
-msgstr ""
-"CERN は現在、約 250 台の Nova コンピュートノード上で 約 1,000 インスタンスが "
-"稼働中です。"
+msgstr "CERN では現在 3 つのクラウドが稼働しており、合計で約 3400 台の Nova コンピュートノード、 60,000 コアがあります。 CERN IT クラウドは 2015年までに 300,000 コアにまで拡張される予定です。"
 
 #: doc/openstack-ops/app_usecases.xml:194(para)
 msgid ""
@@ -5691,17 +5671,6 @@ msgstr ""
 "パッキング問題として研究されている難しい問題です。"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:322(para)
-#, fuzzy
-#| msgid ""
-#| "You can use various techniques to handle this problem, one of which is to "
-#| "have flavor sizes scale linearly, be a proportional fraction of your "
-#| "physical node capacity, though solving this problem is out of the scope "
-#| "of this book. To support your scheduling choices, OpenStack Compute "
-#| "provides several different types of scheduling drivers, a full discussion "
-#| "of which is found in the <link title=\"API Specifications\" href=\"http://"
-#| "docs.openstack.org/folsom/openstack-compute/admin/content/ch_scheduling."
-#| "html\">reference manual</link> (http://docs.openstack.org/folsom/"
-#| "openstack-compute/admin/content/ch_scheduling.html)."
 msgid ""
 "You can use various techniques to handle this problem though solving this "
 "problem is out of the scope of this book. To support your scheduling "
@@ -5711,16 +5680,7 @@ msgid ""
 "scheduler.html\">Scheduling</link> in the <citetitle>OpenStack Configuration "
 "Reference</citetitle> (http://docs.openstack.org/havana/config-reference/"
 "content/section_compute-scheduler.html)."
-msgstr ""
-"この問題に対しては様々なテクニックを使うことができます。ひとつの方法は、フ"
-"レーバーのサイズを線形にすること、つまり、物理ノードの容量に比例した割合にす"
-"ることですが、この問題を解くことは本書のスコープ外です。スケジューリングの選"
-"択肢の助けとなるために、OpenStack Compute はいくつかの異なるタイプのスケ"
-"ジューリングドライバーを提供しており、この議論の全体は <link title=\"API "
-"Specifications\" href=\"http://docs.openstack.org/folsom/openstack-compute/"
-"admin/content/ch_scheduling.html\">リファレンスマニュアル</link> (http://"
-"docs.openstack.org/folsom/openstack-compute/admin/content/ch_scheduling."
-"html) にあります。"
+msgstr "この問題を解くことは本書のスコープ外ですが、この問題に対しては様々なテクニックを使うことができます。様々なスケジューリングの選択肢に対応するため、OpenStack Compute はいくつかのタイプのスケジューリングドライバーを提供しています。詳細は、<citetitle>OpenStack 設定レファレンス</citetitle>の<link title=\"OpenStack Configuration Reference\" href=\"http://docs.openstack.org/havana/config-reference/content/section_compute-scheduler.html\">スケジューリング</link> (http://docs.openstack.org/havana/config-reference/content/section_compute-scheduler.html) を参照してください。"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:332(para)
 msgid ""
@@ -9784,43 +9744,43 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:90(para)
 msgid "bandwidth_poll_interval"
-msgstr ""
+msgstr "bandwidth_poll_interval"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:91(para)
 msgid "sync_power_state_interval"
-msgstr ""
+msgstr "sync_power_state_interval"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:92(para)
 msgid "heal_instance_info_cache_interval"
-msgstr ""
+msgstr "heal_instance_info_cache_interval"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:93(para)
 msgid "host_state_interval"
-msgstr ""
+msgstr "host_state_interval"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:94(para)
 msgid "image_cache_manager_interval"
-msgstr ""
+msgstr "image_cache_manager_interval"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:95(para)
 msgid "reclaim_instance_interval"
-msgstr ""
+msgstr "reclaim_instance_interval"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:96(para)
 msgid "volume_usage_poll_interval"
-msgstr ""
+msgstr "volume_usage_poll_interval"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:97(para)
 msgid "shelved_poll_interval"
-msgstr ""
+msgstr "shelved_poll_interval"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:98(para)
 msgid "shelved_offload_time"
-msgstr ""
+msgstr "shelved_offload_time"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:99(para)
 msgid "instance_delete_interval"
-msgstr ""
+msgstr "instance_delete_interval"
 
 #: doc/openstack-ops/ch_ops_backup_recovery.xml:106(title)
 msgid "Image Catalog and Delivery"
@@ -10152,7 +10112,7 @@ msgstr "( umask 226 &amp;&amp; echo \"stack ALL=(ALL) NOPASSWD:ALL\" &gt; /etc/s
 
 #: doc/openstack-ops/ch_ops_customize.xml:129(code)
 msgid "exit"
-msgstr ""
+msgstr "exit"
 
 #: doc/openstack-ops/ch_ops_customize.xml:136(para)
 msgid "Now login as the stack user and set up DevStack."
@@ -11434,20 +11394,12 @@ msgid "To see the endpoint of each service, run:"
 msgstr "各サービスのエンドポイントを見るには、"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:429(para)
-#, fuzzy
-#| msgid ""
-#| "There should be a one-to-one mapping between a <emphasis>service</"
-#| "emphasis> and <emphasis>endpoint</emphasis>. Note the different URLs and "
-#| "ports between the public URL and the admin URL for some services."
 msgid ""
 "This example shows two columns pulled from the larger listing. There should "
 "be a one-to-one mapping between a <emphasis>service</emphasis> and "
 "<emphasis>endpoint</emphasis>. Note the different URLs and ports between the "
 "public URL and the admin URL for some services."
-msgstr ""
-"<emphasis>service</emphasis> と <emphasis>endpoint</emphasis>は1対1でマッピン"
-"グされます。いくつかのサービスではパブリックURLと管理URLが異なるので注意して"
-"ください。"
+msgstr "この例では、多くの出力のうち 2つの列だけを示しています。<emphasis>service</emphasis> と <emphasis>endpoint</emphasis>は1対1でマッピングされます。いくつかのサービスではパブリックURLと管理URLが異なるので注意してください。"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:43(para)
 msgid "python-novaclient (<glossterm>nova</glossterm> CLI)"
@@ -11457,20 +11409,18 @@ msgstr "python-novaclient (<glossterm>nova</glossterm> CLI)"
 msgid ""
 "You can find the version of the Compute installation by using the "
 "<placeholder-1/> command: <placeholder-2/>"
-msgstr ""
+msgstr "<placeholder-1/> コマンドを使ってインストールされている Compute のバージョンを確認できます。<placeholder-2/>"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:440(title)
-#, fuzzy
-#| msgid "A compute node."
 msgid "Diagnose your compute nodes"
-msgstr "コンピュートノード上"
+msgstr "コンピュートノードの詳細状況の取得"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:441(para)
 msgid ""
 "You can obtain extra information about the running virtual machines: their "
 "CPU usage, the memory, the disk I/O or network I/O, per instance, by running "
 "the <placeholder-1/> command with a server ID:"
-msgstr ""
+msgstr "サーバー ID を指定して <placeholder-1/> コマンドを実行することで、実行中の仮想マシンに関するさらなる情報を取得できます。インスタンス毎の CPU 使用状況、メモリ、ディスク I/O、ネットワーク I/O が取得できます。"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:446(para)
 msgid ""
@@ -11479,7 +11429,7 @@ msgid ""
 "work with any hypervisor that is controlled through libvirt (e.g., KVM, "
 "QEMU, LXC), it has only been tested with KVM. Example output when the "
 "hypervisor is KVM:"
-msgstr ""
+msgstr "このコマンドの出力はハイパーバイザーにより異なります。ハイパーバイザーが Xen の場合の出力は以下のようになります。 <placeholder-1/> このコマンドは libvirt 経由で制御されるハイパーバイザーであれば (KVM, QEMU, LXC など) どれであっても動作するはずですが、テストされているのは KVM だけです。ハイパーバイザーが KVM の場合の出力は以下のようになります。"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:47(para)
 msgid "python-glanceclient (<glossterm>glance</glossterm> CLI)"
@@ -14774,7 +14724,7 @@ msgstr ""
 msgid ""
 "Using the command-line interface, you can manage quotas for the OpenStack "
 "Compute Service and the Block Storage Service."
-msgstr ""
+msgstr "コマンドラインインターフェースを使って、OpenStack Compute サービスと Block Storage サービスのクォータを管理できます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:104(para)
 msgid ""
@@ -14784,13 +14734,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:108(para)
-#, fuzzy
-#| msgid ""
-#| "To see which bridge the packet will use, run the command: <placeholder-1/>"
 msgid "To view all tenants, run: <placeholder-1/>"
-msgstr ""
-"下記コマンドを実行することで、パケットがどのブリッジを使うか確認できます。"
-"<placeholder-1/>"
+msgstr "全てのテナントを表示するには、以下のコマンドを実行します。<placeholder-1/>"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:120(title)
 msgid "Set Compute Service Quotas"
@@ -14800,7 +14745,7 @@ msgstr "コンピュートサービスのクォータの設定"
 msgid ""
 "As an administrative user, you can update the Compute Service quotas for an "
 "existing tenant, as well as update the quota defaults for a new tenant."
-msgstr ""
+msgstr "管理ユーザーは、既存のテナントの Compute サービスのクォータを更新できます。また、新規テナントのクォータのデフォルト値を更新することもできます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:125(caption)
 msgid "Compute Quota Descriptions"
@@ -14819,7 +14764,7 @@ msgstr "説明"
 #: doc/openstack-ops/ch_ops_projects_users.xml:137(td)
 #: doc/openstack-ops/ch_ops_projects_users.xml:468(td)
 msgid "Property Name"
-msgstr "属性名"
+msgstr "項目名"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:14(title)
 msgid "Managing Projects and Users"
@@ -14841,7 +14786,7 @@ msgstr ""
 msgid ""
 "Number of fixed IP addresses allowed per tenant. This number must be equal "
 "to or greater than the number of allowed instances."
-msgstr ""
+msgstr "テナント毎の固定 IP アドレスの最大数。この数はテナント毎の最大インスタンス数以上にしなければなりません。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:158(systemitem)
 msgid "fixed-ips"
@@ -15016,23 +14961,23 @@ msgstr "cores"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:352(title)
 msgid "View and update Compute quotas for a tenant (project)"
-msgstr ""
+msgstr "Compute サービスのテナント (プロジェクト) の クォータの表示と更新"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:353(para)
 msgid ""
 "As an administrative user, you can use the <placeholder-1/> commands, which "
 "are provided by the <literal>python-novaclient</literal> package, to view "
 "and update tenant quotas."
-msgstr ""
+msgstr "管理ユーザーは <placeholder-1/> コマンドを使って、テナントのクォータを表示したり更新したりできます。コマンドは <literal>python-novaclient</literal> パッケージに含まれます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:357(title)
 msgid "To view and update default quota values"
-msgstr ""
+msgstr "デフォルトのクォータ値の表示と更新"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:359(para)
 #: doc/openstack-ops/ch_ops_projects_users.xml:524(para)
 msgid "List all default quotas for all tenants, as follows:"
-msgstr ""
+msgstr "全テナントに対するクォータのデフォルト値を全て表示するには、以下のようにします。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:361(para)
 #: doc/openstack-ops/ch_ops_projects_users.xml:385(para)
@@ -15050,7 +14995,7 @@ msgstr "プロジェクトの管理"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:382(para)
 msgid "Update a default value for a new tenant, as follows:"
-msgstr ""
+msgstr "新規テナントに対するクォータのデフォルト値を更新するには、以下のようにします。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:384(replaceable)
 msgid "key"
@@ -15072,12 +15017,12 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:391(title)
 msgid "To view quota values for a tenant (project)"
-msgstr ""
+msgstr "テナント (プロジェクト) のクォータ値の表示"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:392(para)
 #: doc/openstack-ops/ch_ops_projects_users.xml:560(para)
 msgid "Place the tenant ID in a useable variable, as follows:"
-msgstr ""
+msgstr "テナント ID を変数に格納しておきます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:393(replaceable)
 #: doc/openstack-ops/ch_ops_projects_users.xml:422(replaceable)
@@ -15088,20 +15033,20 @@ msgstr "tenantName"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:396(para)
 msgid "List the currently set quota values for a tenant, as follows:"
-msgstr ""
+msgstr "テナントの現在のクォータ値を一覧表示します。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:420(title)
 msgid "To update quota values for a tenant (project)"
-msgstr ""
+msgstr "テナント (プロジェクト) のクォータ値の更新"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:421(para)
 msgid "Obtain the tenant ID, as follows:"
-msgstr ""
+msgstr "テナント ID を取得します。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:425(para)
 #: doc/openstack-ops/ch_ops_projects_users.xml:564(para)
 msgid "Update a particular quota value, as follows:"
-msgstr ""
+msgstr "指定したクォータ値を更新します。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:426(replaceable)
 #: doc/openstack-ops/ch_ops_projects_users.xml:565(replaceable)
@@ -15127,7 +15072,7 @@ msgstr "ダッシュボードからプロジェクトを追加する方法:"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:447(para)
 msgid "To view a list of options for the <placeholder-1/> command, run:"
-msgstr ""
+msgstr "<placeholder-1/> コマンドのオプションリストを表示するには、以下のようにします。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:456(title)
 msgid "Set Block Storage quotas"
@@ -15137,7 +15082,7 @@ msgstr "ブロックストレージのクォータの設定"
 msgid ""
 "As an administrative user, you can update the Block Storage Service quotas "
 "for a tenant, as well as update the quota defaults for a new tenant."
-msgstr ""
+msgstr "管理ユーザーは、既存のテナントの Block Storage サービスのクォータを更新できます。また、新規テナントのクォータのデフォルト値を更新することもできます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:463(caption)
 msgid "Block Storage Quota Descriptions"
@@ -15177,24 +15122,24 @@ msgstr "テナントごとのブロックストレージボリューム数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:517(title)
 msgid "View and update Block Storage quotas for a tenant (project)"
-msgstr ""
+msgstr "Block Storage サービスのテナント (プロジェクト) の クォータの表示と更新"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:518(para)
 msgid ""
 "As an administrative user, you can use the <placeholder-1/> commands, which "
 "are provided by the <literal>python-cinderclient</literal> package, to view "
 "and update tenant quotas."
-msgstr ""
+msgstr "管理ユーザーは <placeholder-1/> コマンドを使って、テナントのクォータを表示したり更新したりできます。コマンドは <literal>python-cinderclient</literal> パッケージに含まれます。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:522(title)
 msgid "To view and update default Block Storage quota values"
-msgstr ""
+msgstr "Block Storage のデフォルトのクォータ値の表示と更新"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:537(para)
 msgid ""
 "To update a default value for a new tenant, update the property in the "
 "<filename>/etc/cinder/cinder.conf</filename> file."
-msgstr ""
+msgstr "新規テナントのクォータのデフォルト値を更新するには、<filename>/etc/cinder/cinder.conf</filename> ファイルの対応する項目を更新します。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:54(para)
 msgid "Click on the \"Create Project\" button at the top right."
@@ -15202,15 +15147,15 @@ msgstr "右上にある「プロジェクトの作成」ボタンをクリック
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:543(title)
 msgid "To view Block Storage quotas for a tenant"
-msgstr ""
+msgstr "テナントの Block Storage クォータを表示する"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:545(para)
 msgid "View quotas for the tenant, as follows:"
-msgstr ""
+msgstr "特定のテナントのクォータを表示するには以下のようにします。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:559(title)
 msgid "To update Compute service quotas"
-msgstr ""
+msgstr "テナントの Block Storage クォータを更新する"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:565(replaceable)
 msgid "NewValue"
@@ -18876,12 +18821,6 @@ msgid "How to Contribute to This Book"
 msgstr "この本の作成に参加するには"
 
 #: doc/openstack-ops/preface_ops.xml:405(para)
-#, fuzzy
-#| msgid ""
-#| "The genesis of this book was an in-person event, but now that the book is "
-#| "in your hands we want you to contribute to it. OpenStack documentation "
-#| "follows the coding principles of iterative work, with bug logging, "
-#| "investigating, and fixing."
 msgid ""
 "The genesis of this book was an in-person event, but now that the book is in "
 "your hands we want you to contribute to it. OpenStack documentation follows "
@@ -18891,10 +18830,7 @@ msgid ""
 "reviews. For the O'Reilly edition of this book, we are using their Atlas "
 "system which also stores source content on Github and enables collaboration "
 "among contributors."
-msgstr ""
-"この本の元は人が集まったイベントで作成されましたが、今やこの本はみなさんも貢"
-"献できる状態になっています。 OpenStack のドキュメント作成は、バグ登録、調査、"
-"修正を繰り返し行うというコーディングの基本原則に基いて行われています。"
+msgstr "この本の元は人が集まったイベントで作成されましたが、今やこの本はみなさんも貢献できる状態になっています。 OpenStack のドキュメント作成は、バグ登録、調査、修正を繰り返して行うというコーディングの基本原則に基いて行われています。我々はこの本のソースコンテンツを Github にも置いており、レビューシステムである OpenStack Gerrit 経由で協力をお待ちしています。この本の O'Reilly 版では、我々は O'Reilly の Atlas システムを使用していますが、ソースコンテンツは Github にも格納され、コントリビュータ間での共同作業ができるようになっています。"
 
 #: doc/openstack-ops/preface_ops.xml:414(para)
 msgid ""
@@ -18943,12 +18879,6 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:58(para)
-#, fuzzy
-#| msgid ""
-#| "OpenStack is more than a software package that you run as-is. It lets you "
-#| "integrate a number of different technologies to construct a cloud. This "
-#| "approach provides great flexibility, but the number of options might be "
-#| "bewildering at first."
 msgid ""
 "OpenStack is designed for scalability, so you can easily add new compute and "
 "storage resources to grow your cloud over time. Organizations such as HP and "
@@ -18957,71 +18887,29 @@ msgid ""
 "number of different technologies to construct a cloud. This approach "
 "provides great flexibility, but the number of options might be bewildering "
 "at first."
-msgstr ""
-"OpenStack は、そのまま実行する単なるソフトウェアパッケージではなく、数多くの"
-"様々な技術を組み合わせてクラウドを構築することができます。このアプローチは非"
-"常に柔軟性がありますが、このため多くの選択肢があり最初は面食らうかもしれませ"
-"ん。"
+msgstr "OpenStack はスケーラビリティを意識して設計されており、あなたのクラウドが大きくなるのにあわせて新たなコンピュートリソースやストレージリソースを簡単に追加することができます。HP や Rackspace などの組織では OpenStack を使って巨大なパブリック・クラウドを構築しています。OpenStack は、そのまま実行する単なるソフトウェアパッケージではなく、数多くの様々な技術を組み合わせてクラウドを構築することができます。このアプローチは非常に柔軟性がありますが、このため多くの選択肢があり最初は面食らうかもしれません。"
 
 #: doc/openstack-ops/preface_ops.xml:68(title)
 msgid "Who This Book Is For"
 msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:69(para)
-#, fuzzy
-#| msgid ""
-#| "This guide assumes that you are familiar with the Ubuntu distribution of "
-#| "Linux, SQL databases, and virtualization. You must be comfortable "
-#| "administering and configuring multiple Linux machines for networking. You "
-#| "must install and maintain a MySQL database, and occasionally run SQL "
-#| "queries against it. One of the most complex aspects of an OpenStack cloud "
-#| "is the networking configuration. You should be familiar with concepts "
-#| "such as DHCP, Linux bridges, VLANs, and iptables. You must also have "
-#| "access to a network hardware expert who can configure the switches and "
-#| "routers required in your OpenStack cloud."
 msgid ""
 "This guide assumes that you are familiar with the Ubuntu distribution of "
 "Linux, SQL databases, and virtualization. You must be comfortable "
 "administering and configuring multiple Linux machines for networking. You "
 "must install and maintain a MySQL database, and occasionally run SQL queries "
 "against it."
-msgstr ""
-"このガイドは、Linux ディストリビューションの Ubuntu、SQL データベースや仮想化"
-"に関してよく知っていることを前提にしています。複数台の Linux マシンのネット"
-"ワーク設定・管理にも慣れている必要があります。MySQL データベースのインストー"
-"ルと管理を行い、場合によってはデータベースに対して SQL クエリーを実行すること"
-"もあります。OpenStack クラウドの最も複雑な点の一つにネットワーク設定がありま"
-"す。DHCP、Linux ブリッジ、VLAN、iptables といった考え方をよく理解していなけれ"
-"ばなりません。OpenStack クラウドで必要となるスイッチやルータを設定できるネッ"
-"トワークハードウェアの専門家と話をする必要もあります。"
+msgstr "このガイドは、Linux ディストリビューションの Ubuntu、SQL データベースや仮想化に関してよく知っていることを前提にしています。複数台の Linux マシンのネットワーク設定・管理にも慣れている必要があります。MySQL データベースのインストールと管理を行い、場合によってはデータベースに対して SQL クエリーを実行することもあります。"
 
 #: doc/openstack-ops/preface_ops.xml:74(para)
-#, fuzzy
-#| msgid ""
-#| "This guide assumes that you are familiar with the Ubuntu distribution of "
-#| "Linux, SQL databases, and virtualization. You must be comfortable "
-#| "administering and configuring multiple Linux machines for networking. You "
-#| "must install and maintain a MySQL database, and occasionally run SQL "
-#| "queries against it. One of the most complex aspects of an OpenStack cloud "
-#| "is the networking configuration. You should be familiar with concepts "
-#| "such as DHCP, Linux bridges, VLANs, and iptables. You must also have "
-#| "access to a network hardware expert who can configure the switches and "
-#| "routers required in your OpenStack cloud."
 msgid ""
 "One of the most complex aspects of an OpenStack cloud is the networking "
 "configuration. You should be familiar with concepts such as DHCP, Linux "
 "bridges, VLANs, and iptables. You must also have access to a network "
 "hardware expert who can configure the switches and routers required in your "
 "OpenStack cloud."
-msgstr ""
-"このガイドは、Linux ディストリビューションの Ubuntu、SQL データベースや仮想化"
-"に関してよく知っていることを前提にしています。複数台の Linux マシンのネット"
-"ワーク設定・管理にも慣れている必要があります。MySQL データベースのインストー"
-"ルと管理を行い、場合によってはデータベースに対して SQL クエリーを実行すること"
-"もあります。OpenStack クラウドの最も複雑な点の一つにネットワーク設定がありま"
-"す。DHCP、Linux ブリッジ、VLAN、iptables といった考え方をよく理解していなけれ"
-"ばなりません。OpenStack クラウドで必要となるスイッチやルータを設定できるネッ"
-"トワークハードウェアの専門家と話をする必要もあります。"
+msgstr "OpenStack クラウドの最も複雑な点の一つにネットワーク設定があります。DHCP、Linux ブリッジ、VLAN、iptables といった考え方をよく理解していなければなりません。OpenStack クラウドで必要となるスイッチやルータを設定できるネットワークハードウェアの専門家と話をする必要もあります。"
 
 #: doc/openstack-ops/preface_ops.xml:79(para)
 msgid ""
@@ -19053,26 +18941,6 @@ msgid ""
 "multiple distributions based on packaging system:"
 msgstr ""
 
-#~ msgid ""
-#~ "dair-ua-c03/nova.log:Dec 19 12:10:59 dair-ua-c03 2012-12-19 12:10:59 INFO "
-#~ "nova.virt.libvirt.imagecache [-] Removing base file: /var/lib/nova/"
-#~ "instances/_base/7b4783508212f5d242cbf9ff56fb8d33b4ce6166_10"
-#~ msgstr ""
-#~ "dair-ua-c03/nova.log:Dec 19 12:10:59 dair-ua-c03 2012-12-19 12:10:59 INFO "
-#~ "nova.virt.libvirt.imagecache [-] Removing base file: /var/lib/nova/"
-#~ "instances/_base/7b4783508212f5d242cbf9ff56fb8d33b4ce6166_10"
-
-#~ msgid ""
-#~ "<link title=\"OpenStack Website\" href=\"http://www.slideshare.net/"
-#~ "noggin143/20121017-openstack-accelerating-science\">San Diego 2012 "
-#~ "Summit</link> (http://www.slideshare.net/noggin143/20121017-openstack-"
-#~ "accelerating-science)"
-#~ msgstr ""
-#~ "<link title=\"OpenStack Website\" href=\"http://www.slideshare.net/"
-#~ "noggin143/20121017-openstack-accelerating-science\">San Diego 2012 "
-#~ "Summit</link> (http://www.slideshare.net/noggin143/20121017-openstack-"
-#~ "accelerating-science)"
-
 #~ msgid "Once that's done, stop MySQL:"
 #~ msgstr "その後、MySQLを停止します。"
 
@@ -19084,9 +18952,6 @@ msgstr ""
 #~ "あなたがまだ<code>nova-volume</code>を使っているのであれば、nova-volume"
 #~ "サービスのエントリも見えるでしょう。 (nova-volumeはFolsomより後のリリース"
 #~ "では廃止予定です)"
-
-#~ msgid "python-quantumclient (<glossterm>quantum</glossterm> CLI)"
-#~ msgstr "python-quantumclient (<glossterm>quantum</glossterm> CLI)"
 
 #~ msgid ""
 #~ "If you do not make quota-related changes, the system uses the following "
