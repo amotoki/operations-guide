@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
 "POT-Creation-Date: 2013-12-22 03:53+0900\n"
-"PO-Revision-Date: 2013-12-22 06:40+0900\n"
+"PO-Revision-Date: 2013-12-22 17:50+0900\n"
 "Last-Translator: Tsutomu Takekawa <takekawa@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack/"
 "language/ja/)\n"
@@ -175,25 +175,15 @@ msgid "\"If you did, you'd add an extra 4 bytes to the packet…\""
 msgstr "「もしやったら、パケットに余計に４バイト追加になるよ…」"
 
 #: doc/openstack-ops/app_crypt.xml:120(para)
-#, fuzzy
-#| msgid "Then it all made sense…"
 msgid "Then it all made sense… <placeholder-1/>"
-msgstr "やっと事の全容が判明した…"
+msgstr "やっと事の全容が判明した… <placeholder-1/>"
 
 #: doc/openstack-ops/app_crypt.xml:124(para)
-#, fuzzy
-#| msgid ""
-#| "In <code>nova.conf</code>, <code>vlan_interface</code> specifies what "
-#| "interface OpenStack should attach all VLANs to. The correct setting "
-#| "should have been: <code>vlan_interface=bond0</code>."
 msgid ""
 "In <filename>nova.conf</filename>, <code>vlan_interface</code> specifies "
 "what interface OpenStack should attach all VLANs to. The correct setting "
 "should have been: <placeholder-1/>."
-msgstr ""
-"<code>nova.conf</code> 中で、<code>vlan_interface</code> は OpenStack が全て"
-"の VLAN をアタッチすべきインターフェースがどれかを指定する。正しい設定はこう"
-"だった: <code>vlan_interface=bond0</code>"
+msgstr "<filename>nova.conf</filename> 中で、<code>vlan_interface</code> は OpenStack が全ての VLAN をアタッチすべきインターフェースがどれかを指定する。正しい設定はこうだった: <placeholder-1/>"
 
 #: doc/openstack-ops/app_crypt.xml:128(para)
 msgid "As this would be the server's bonded NIC."
@@ -283,10 +273,6 @@ msgstr ""
 "を突き合わせ、並べてやりとりにしてみた。"
 
 #: doc/openstack-ops/app_crypt.xml:16(para)
-#, fuzzy
-#| msgid ""
-#| "Herein lies a selection of takes from OpenStack cloud operators. Read, "
-#| "and learn from their wisdom."
 msgid ""
 "Herein lies a selection of tales from OpenStack cloud operators. Read, and "
 "learn from their wisdom."
@@ -342,22 +328,12 @@ msgstr ""
 "インスタンスは自分自身をネットワークから切り離した、と考えた。"
 
 #: doc/openstack-ops/app_crypt.xml:197(para)
-#, fuzzy
-#| msgid ""
-#| "A quick Google search turned up this: <link title=\"DAIR project\" href="
-#| "\"https://lists.launchpad.net/openstack/msg11696.html\">DHCP lease errors "
-#| "in VLAN mode</link> (https://lists.launchpad.net/openstack/msg11696.html) "
-#| "which further supported our DHCP theory."
 msgid ""
 "A quick Google search turned up this: <link href=\"https://lists.launchpad."
 "net/openstack/msg11696.html\">DHCP lease errors in VLAN mode</link> (https://"
 "lists.launchpad.net/openstack/msg11696.html) which further supported our "
 "DHCP theory."
-msgstr ""
-"ちょっと Google 検索した結果、これを見つけた。<link title=\"DAIR project\" "
-"href=\"https://lists.launchpad.net/openstack/msg11696.html\">VLAN モードでの "
-"DHCPリースエラー</link> (https://lists.launchpad.net/openstack/msg11696."
-"html) 。この情報はその後の我々の DHCP 方針の支えになった。"
+msgstr "ちょっと Google 検索した結果、これを見つけた。<link href=\"https://lists.launchpad.net/openstack/msg11696.html\">VLAN モードでの DHCPリースエラー</link> (https://lists.launchpad.net/openstack/msg11696.html) 。この情報はその後の我々の DHCP 方針の支えになった。"
 
 #: doc/openstack-ops/app_crypt.xml:20(title)
 msgid "Double VLAN"
@@ -376,16 +352,10 @@ msgstr ""
 "ことはできる。"
 
 #: doc/openstack-ops/app_crypt.xml:207(para)
-#, fuzzy
-#| msgid ""
-#| "We decided to have <code>tcpdump</code> run on this instance and see if "
-#| "we could catch it in action again. Sure enough, we did."
 msgid ""
 "We decided to have <placeholder-1/> run on this instance and see if we could "
 "catch it in action again. Sure enough, we did."
-msgstr ""
-"我々は、このインスタンス上で <code>tcpdump</code> を実行して、操作で再びこの"
-"現象に遭遇するか見てみることにした。実際、我々はやってみた。"
+msgstr "我々は、このインスタンス上で <placeholder-1/> を実行して、操作で再びこの現象に遭遇するか見てみることにした。実際、我々はやってみた。"
 
 #: doc/openstack-ops/app_crypt.xml:21(para)
 msgid ""
@@ -402,15 +372,6 @@ msgstr ""
 "あった。"
 
 #: doc/openstack-ops/app_crypt.xml:210(para)
-#, fuzzy
-#| msgid ""
-#| "The <code>tcpdump</code> looked very, very weird. In short, it looked as "
-#| "though network communication stopped before the instance tried to renew "
-#| "its IP. Since there is so much DHCP chatter from a one minute lease, it's "
-#| "very hard to confirm it, but even with only milliseconds difference "
-#| "between packets, if one packet arrives first, it arrived first, and if "
-#| "that packet reported network issues, then it had to have happened before "
-#| "DHCP."
 msgid ""
 "The <placeholder-1/> looked very, very weird. In short, it looked as though "
 "network communication stopped before the instance tried to renew its IP. "
@@ -418,13 +379,7 @@ msgid ""
 "to confirm it, but even with only milliseconds difference between packets, "
 "if one packet arrives first, it arrived first, and if that packet reported "
 "network issues, then it had to have happened before DHCP."
-msgstr ""
-"<code>tcpdump</code> の結果は非常に奇妙だった。一言で言えば、インスタンスが "
-"IP アドレスを更新しようとする前に、まるでネットワーク通信が停止しているように"
-"見えた。１分間のリース期間で大量の DHCP ネゴシエーションがあるため、確認作業"
-"は困難を極めた。しかし、パケット間のたった数ミリ秒の違いであれ、あるパケット"
-"が最初に到着する際、そのパケットが最初に到着し、そのパケットがネットワーク障"
-"害を報告した場合、DHCP より前にネットワーク障害が発生していることになる。"
+msgstr "<placeholder-1/> の結果は非常に奇妙だった。一言で言えば、インスタンスが IP アドレスを更新しようとする前に、まるでネットワーク通信が停止しているように見えた。１分間のリース期間で大量の DHCP ネゴシエーションがあるため、確認作業は困難を極めた。しかし、パケット間のたった数ミリ秒の違いであれ、あるパケットが最初に到着する際、そのパケットが最初に到着し、そのパケットがネットワーク障害を報告した場合、DHCP より前にネットワーク障害が発生していることになる。"
 
 #: doc/openstack-ops/app_crypt.xml:218(para)
 msgid ""
@@ -439,22 +394,12 @@ msgstr ""
 "と少しのところだった。"
 
 #: doc/openstack-ops/app_crypt.xml:223(para)
-#, fuzzy
-#| msgid ""
-#| "Further days go by and we catch The Issue in action more and more. We "
-#| "find that dhclient is not running after The Issue happens. Now we're back "
-#| "to thinking it's a DHCP issue. Running <code>/etc/init.d/networking</"
-#| "code> restart brings everything back up and running."
 msgid ""
 "Further days go by and we catch The Issue in action more and more. We find "
 "that dhclient is not running after The Issue happens. Now we're back to "
 "thinking it's a DHCP issue. Running <filename>/etc/init.d/networking</"
 "filename> restart brings everything back up and running."
-msgstr ""
-"それから何日か過ぎ、我々は「あの問題」に度々遭遇した。我々は「あの問題」の発"
-"生後、dhclient が実行されていないことを発見した。今、我々は、それが DHCP の問"
-"題であるという考えに立ち戻った。<code>/etc/init.d/networking</code> restart "
-"を実行すると、全ては元通りに実行されるようになった。"
+msgstr "それから何日か過ぎ、我々は「あの問題」に度々遭遇した。我々は「あの問題」の発生後、dhclient が実行されていないことを発見した。今、我々は、それが DHCP の問題であるという考えに立ち戻った。<filename>/etc/init.d/networking</filename> restart を実行すると、全ては元通りに実行されるようになった。"
 
 #: doc/openstack-ops/app_crypt.xml:228(para)
 msgid ""
@@ -470,57 +415,30 @@ msgstr ""
 "題についての OpenStack と dnsmasq の議論の束を突然発見した。"
 
 #: doc/openstack-ops/app_crypt.xml:235(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"DAIR project\" href=\"http://www.gossamer-threads.com/lists/"
-#| "openstack/operators/18197\">Problem with Heavy Network IO and Dnsmasq</"
-#| "link> (http://www.gossamer-threads.com/lists/openstack/operators/18197)"
 msgid ""
 "<link href=\"http://www.gossamer-threads.com/lists/openstack/"
 "operators/18197\">Problem with Heavy Network IO and Dnsmasq</link> (http://"
 "www.gossamer-threads.com/lists/openstack/operators/18197)"
-msgstr ""
-"<link title=\"DAIR project\" href=\"http://www.gossamer-threads.com/lists/"
-"openstack/operators/18197\">高負荷ネットワークと Dnsmasq における問題</link> "
-"(http://www.gossamer-threads.com/lists/openstack/operators/18197)"
+msgstr "<link href=\"http://www.gossamer-threads.com/lists/openstack/operators/18197\">高負荷ネットワークと Dnsmasq における問題</link> (http://www.gossamer-threads.com/lists/openstack/operators/18197)"
 
 #: doc/openstack-ops/app_crypt.xml:241(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"DAIR project\" href=\"http://www.gossamer-threads.com/lists/"
-#| "openstack/dev/14696\">instances loosing IP address while running, due to "
-#| "No DHCPOFFER</link> (http://www.gossamer-threads.com/lists/openstack/"
-#| "dev/14696)"
 msgid ""
 "<link href=\"http://www.gossamer-threads.com/lists/openstack/"
 "dev/14696\">instances losing IP address while running, due to No DHCPOFFER</"
 "link> (http://www.gossamer-threads.com/lists/openstack/dev/14696)"
-msgstr ""
-"<link title=\"DAIR project\" href=\"http://www.gossamer-threads.com/lists/"
-"openstack/dev/14696\">DHCPOFFER が無いために起動中のインスタンスが IP アドレ"
-"スを失う問題</link> (http://www.gossamer-threads.com/lists/openstack/"
-"dev/14696)"
+msgstr "<link href=\"http://www.gossamer-threads.com/lists/openstack/dev/14696\">DHCPOFFER が無いために起動中のインスタンスが IP アドレスを失う問題</link> (http://www.gossamer-threads.com/lists/openstack/dev/14696)"
 
 #: doc/openstack-ops/app_crypt.xml:247(para)
 msgid "Seriously, Google."
 msgstr "マジ？Google。"
 
 #: doc/openstack-ops/app_crypt.xml:248(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"DAIR project\" href=\"https://bugs.launchpad.net/ubuntu/"
-#| "+source/qemu-kvm/+bug/997978\"> KVM images lose connectivity with bridged "
-#| "network</link> (https://bugs.launchpad.net/ubuntu/+source/qemu-kvm/"
-#| "+bug/997978)"
 msgid ""
 "This bug report was the key to everything: <link href=\"https://bugs."
 "launchpad.net/ubuntu/+source/qemu-kvm/+bug/997978\"> KVM images lose "
 "connectivity with bridged network</link> (https://bugs.launchpad.net/ubuntu/"
 "+source/qemu-kvm/+bug/997978)"
-msgstr ""
-"<link title=\"DAIR project\" href=\"https://bugs.launchpad.net/ubuntu/"
-"+source/qemu-kvm/+bug/997978\"> KVMイメージがブリッジネットワークで接続を失う"
-"</link> (https://bugs.launchpad.net/ubuntu/+source/qemu-kvm/+bug/997978)"
+msgstr "このバグ報告は全ての鍵だった。<link href=\"https://bugs.launchpad.net/ubuntu/+source/qemu-kvm/+bug/997978\"> KVMイメージがブリッジネットワークで接続を失う</link> (https://bugs.launchpad.net/ubuntu/+source/qemu-kvm/+bug/997978)"
 
 #: doc/openstack-ops/app_crypt.xml:254(para)
 msgid ""
@@ -535,21 +453,12 @@ msgid "So it was a qemu/kvm bug."
 msgstr "つまり、これは qemu/kvm のバグである。"
 
 #: doc/openstack-ops/app_crypt.xml:258(para)
-#, fuzzy
-#| msgid ""
-#| "At the same time of finding the bug report, a co-worker was able to "
-#| "successfully reproduce The Issue! How? He used iperf to spew a ton of "
-#| "bandwidth at an instance. Within 30 minutes, the instance just "
-#| "disappeared from the network."
 msgid ""
 "At the same time of finding the bug report, a co-worker was able to "
 "successfully reproduce The Issue! How? He used <placeholder-1/> to spew a "
 "ton of bandwidth at an instance. Within 30 minutes, the instance just "
 "disappeared from the network."
-msgstr ""
-"バグ報告を発見すると同時に、同僚が「あの問題」を再現することに成功した！どう"
-"やって？彼は iperf を使用して、インスタンス上で膨大なネットワーク負荷をかけ"
-"た。30分後、インスタンスはネットワークから姿を消した。"
+msgstr "バグ報告を発見すると同時に、同僚が「あの問題」を再現することに成功した！どうやって？彼は <placeholder-1/> を使用して、インスタンス上で膨大なネットワーク負荷をかけた。30分後、インスタンスはネットワークから姿を消した。"
 
 #: doc/openstack-ops/app_crypt.xml:263(para)
 msgid ""
@@ -564,12 +473,6 @@ msgstr ""
 "グ報告を検索し、私のコメントと実際のテストを見つけることができる。"
 
 #: doc/openstack-ops/app_crypt.xml:27(para)
-#, fuzzy
-#| msgid ""
-#| "On my last day in Kelowna, I was in a conference call from my hotel. In "
-#| "the background, I was fooling around on the new cloud. I launched an "
-#| "instance and logged in. Everything looked fine. Out of boredom, I ran ps "
-#| "aux and all of the sudden the instance locked up."
 msgid ""
 "On my last day in Kelowna, I was in a conference call from my hotel. In the "
 "background, I was fooling around on the new cloud. I launched an instance "
@@ -578,7 +481,7 @@ msgid ""
 msgstr ""
 "ケロウナの最終日、私はホテルから電話会議に参加していた。その裏で、私は新しい"
 "クラウドをいじっていた。私はインスタンスを１つ起動し、ログインした。全ては正"
-"常に思えた。退屈しのぎに、私は ps axu を実行したところ、突然そのインスタンス"
+"常に思えた。退屈しのぎに、私は <placeholder-1/> を実行したところ、突然そのインスタンス"
 "がロックアップしてしまった。"
 
 #: doc/openstack-ops/app_crypt.xml:271(title)
@@ -606,14 +509,6 @@ msgstr ""
 "た。幸運にも、インスタンスは１つだけだった。"
 
 #: doc/openstack-ops/app_crypt.xml:283(para)
-#, fuzzy
-#| msgid ""
-#| "The <code>nova reboot</code> command wasn't working, so I used "
-#| "<code>virsh</code>, but it immediately came back with an error saying it "
-#| "was unable to find the backing disk. In this case, the backing disk is "
-#| "the Glance image that is copied to <code>/var/lib/nova/instances/_base</"
-#| "code> when the image is used for the first time. Why couldn't it find it? "
-#| "I checked the directory and sure enough it was gone."
 msgid ""
 "The <placeholder-1/> command wasn't working, so I used <placeholder-2/>, but "
 "it immediately came back with an error saying it was unable to find the "
@@ -621,12 +516,7 @@ msgid ""
 "copied to <filename>/var/lib/nova/instances/_base</filename> when the image "
 "is used for the first time. Why couldn't it find it? I checked the directory "
 "and sure enough it was gone."
-msgstr ""
-"<code>nova reboot</code> コマンドは機能しなかったので、<code>virsh</code> を"
-"使用したが、すぐに仮想ディスクが見つからないとのエラーが返ってきた。この場"
-"合、仮想ディスクは Glance イメージで、イメージが最初に使用する際に <code>/"
-"var/lib/nova/instances/_base</code> にコピーされていた。何故イメージが見つか"
-"らないのか？私はそのディレクトリをチェックし、イメージがないことを知った。"
+msgstr "<placeholder-1/> コマンドは機能しなかったので、<placeholder-2/> を使用したが、すぐに仮想ディスクが見つからないとのエラーが返ってきた。この場合、仮想ディスクは Glance イメージで、イメージが最初に使用する際に <filename>/var/lib/nova/instances/_base</filename> にコピーされていた。何故イメージが見つからないのか？私はそのディレクトリをチェックし、イメージがないことを知った。"
 
 #: doc/openstack-ops/app_crypt.xml:292(para)
 msgid ""
@@ -639,11 +529,6 @@ msgstr ""
 "は virsh が報告したものと一致した。よって、ここでは矛盾は発見されなかった。"
 
 #: doc/openstack-ops/app_crypt.xml:296(para)
-#, fuzzy
-#| msgid ""
-#| "I checked Glance and noticed that this image was a snapshot that the user "
-#| "created. At least that was good news — this user would have been the only "
-#| "user affected."
 msgid ""
 "I checked Glance and noticed that this image was a snapshot that the user "
 "created. At least that was good news — this user would have been the only "
@@ -654,14 +539,6 @@ msgstr ""
 "響を受けた唯一のユーザだった。"
 
 #: doc/openstack-ops/app_crypt.xml:300(para)
-#, fuzzy
-#| msgid ""
-#| "Finally, I checked StackTach and reviewed the user's events. They had "
-#| "created and deleted several snapshots — most likely experimenting. "
-#| "Although the timestamps didn't match up, my conclusion was that they "
-#| "launched their instance and then deleted the snapshot and it was somehow "
-#| "removed from <code>/var/lib/nova/instances/_base</code>. None of that "
-#| "made sense, but it was the best I could come up with."
 msgid ""
 "Finally, I checked StackTach and reviewed the user's events. They had "
 "created and deleted several snapshots — most likely experimenting. Although "
@@ -669,13 +546,7 @@ msgid ""
 "instance and then deleted the snapshot and it was somehow removed from "
 "<filename>/var/lib/nova/instances/_base</filename>. None of that made sense, "
 "but it was the best I could come up with."
-msgstr ""
-"最後に、私は StackTack をチェックし、ユーザのイベントを見直した。彼らはいくつ"
-"かのスナップショットを作ったり消したりしていた－ありそうな操作ではあるが。タ"
-"イムスタンプが一致しないとはいえ、彼らがインスタンスを起動して、その後スナッ"
-"プショットを削除し、それが何故か <code>/var/lib/nova/instances/_base</code> "
-"から削除されたというのが私の結論だった。大した意味は無かったが、それがその時"
-"私が得た全てだった。"
+msgstr "最後に、私は StackTack をチェックし、ユーザのイベントを見直した。彼らはいくつかのスナップショットを作ったり消したりしていた－ありそうな操作ではあるが。タイムスタンプが一致しないとはいえ、彼らがインスタンスを起動して、その後スナップショットを削除し、それが何故か <filename>/var/lib/nova/instances/_base</filename> から削除されたというのが私の結論だった。大した意味は無かったが、それがその時私が得た全てだった。"
 
 #: doc/openstack-ops/app_crypt.xml:309(para)
 msgid ""
@@ -712,14 +583,6 @@ msgstr ""
 "それは意味が無かった。"
 
 #: doc/openstack-ops/app_crypt.xml:325(para)
-#, fuzzy
-#| msgid ""
-#| "A note about DAIR's architecture: <code>/var/lib/nova/instances</code> is "
-#| "a shared NFS mount. This means that all compute nodes have access to it, "
-#| "which includes the <code>_base</code> directory. Another centralized area "
-#| "is <code>/var/log/rsyslog</code> on the cloud controller. This directory "
-#| "collects all OpenStack logs from all compute nodes. I wondered if there "
-#| "were any entries for the file that <code>virsh</code> is reporting:"
 msgid ""
 "A note about DAIR's architecture: <filename>/var/lib/nova/instances</"
 "filename> is a shared NFS mount. This means that all compute nodes have "
@@ -728,14 +591,7 @@ msgid ""
 "controller. This directory collects all OpenStack logs from all compute "
 "nodes. I wondered if there were any entries for the file that <placeholder-1/"
 "> is reporting: <placeholder-2/>"
-msgstr ""
-"DAIR のアーキテクチャは <code>/var/lib/nova/instances</code> が共有 NFS マウ"
-"ントであることに注意したい。これは、全てのコンピュートノードがそのディレクト"
-"リにアクセスし、その中に <code>_base</code> ディレクトリが含まれることを意味"
-"していた。その他の集約化エリアはクラウドコントローラーの <code>/var/log/"
-"rsyslog</code> だ。このディレクトリは全コンピュートノードの全ての OpenStack "
-"ログが収集されていた。私は、<code>virsh</code> が報告したファイルに関するエン"
-"トリがあるのだろうかと思った。"
+msgstr "DAIR のアーキテクチャは <filename>/var/lib/nova/instances</filename> が共有 NFS マウントであることに注意したい。これは、全てのコンピュートノードがそのディレクトリにアクセスし、その中に <code>_base</code> ディレクトリが含まれることを意味していた。その他の集約化エリアはクラウドコントローラーの <filename>/var/log/rsyslog</filename> だ。このディレクトリは全コンピュートノードの全ての OpenStack ログが収集されていた。私は、<placeholder-1/> が報告したファイルに関するエントリがあるのだろうかと思った。 <placeholder-2/>"
 
 #: doc/openstack-ops/app_crypt.xml:33(para)
 msgid ""
@@ -751,15 +607,6 @@ msgid "Ah-hah! So OpenStack was deleting it. But why?"
 msgstr "あっはっは！じゃぁ、OpenStack が削除したのか。でも何故？"
 
 #: doc/openstack-ops/app_crypt.xml:341(para)
-#, fuzzy
-#| msgid ""
-#| "A feature was introduced in Essex to periodically check and see if there "
-#| "were any _base files not in use. If there were, Nova would delete them. "
-#| "This idea sounds innocent enough and has some good qualities to it. But "
-#| "how did this feature end up turned on? It was disabled by default in "
-#| "Essex. As it should be. It was <link href=\"https://bugs.launchpad.net/"
-#| "nova/+bug/1029674\">decided to be turned on in Folsom</link> (https://"
-#| "bugs.launchpad.net/nova/+bug/1029674). I cannot emphasize enough that:"
 msgid ""
 "A feature was introduced in Essex to periodically check and see if there "
 "were any <code>_base</code> files not in use. If there were, Nova would "
@@ -768,15 +615,7 @@ msgid ""
 "Essex. As it should be. It was <link href=\"https://bugs.launchpad.net/nova/"
 "+bug/1029674\">decided to be turned on in Folsom</link> (https://bugs."
 "launchpad.net/nova/+bug/1029674). I cannot emphasize enough that:"
-msgstr ""
-"Essex で、_base 下の任意のファイルが使用されていないかどうか定期的にチェック"
-"して確認する機能が導入された。もしあれば、Nova はそのファイルを削除する。この"
-"アイデアは問題がないように見え、品質的にも良いようだった。しかし、この機能を"
-"有効にすると最終的にどうなるのか？Essex ではこの機能がデフォルトで無効化され"
-"ていた。そうあるべきであったからだ。これは、<link href=\"https://bugs."
-"launchpad.net/nova/+bug/1029674 \">Folsom で有効になることが決定された</"
-"link> (https://bugs.launchpad.net/nova/+bug/1029674)。私はそうあるべきとは思"
-"わない。何故なら"
+msgstr "Essex で、<code>_base</code> 下の任意のファイルが使用されていないかどうか定期的にチェックして確認する機能が導入された。もしあれば、Nova はそのファイルを削除する。このアイデアは問題がないように見え、品質的にも良いようだった。しかし、この機能を有効にすると最終的にどうなるのか？Essex ではこの機能がデフォルトで無効化されていた。そうあるべきであったからだ。これは、<link href=\"https://bugs.launchpad.net/nova/+bug/1029674 \">Folsom で有効になることが決定された</link> (https://bugs.launchpad.net/nova/+bug/1029674)。私はそうあるべきとは思わない。何故なら"
 
 #: doc/openstack-ops/app_crypt.xml:353(emphasis)
 msgid "Actions which delete things should not be enabled by default."
@@ -787,16 +626,6 @@ msgid "Disk space is cheap these days. Data recovery is not."
 msgstr "今日、ディスクスペースは安価である。データの復元はそうではない。"
 
 #: doc/openstack-ops/app_crypt.xml:358(para)
-#, fuzzy
-#| msgid ""
-#| "Secondly, DAIR's shared <code>/var/lib/nova/instances</code> directory "
-#| "contributed to the problem. Since all compute nodes have access to this "
-#| "directory, all compute nodes periodically review the _base directory. If "
-#| "there is only one instance using an image, and the node that the instance "
-#| "is on is down for a few minutes, it won't be able to mark the image as "
-#| "still in use. Therefore, the image seems like it's not in use and is "
-#| "deleted. When the compute node comes back online, the instance hosted on "
-#| "that node is unable to start."
 msgid ""
 "Secondly, DAIR's shared <filename>/var/lib/nova/instances</filename> "
 "directory contributed to the problem. Since all compute nodes have access to "
@@ -806,31 +635,14 @@ msgid ""
 "in use. Therefore, the image seems like it's not in use and is deleted. When "
 "the compute node comes back online, the instance hosted on that node is "
 "unable to start."
-msgstr ""
-"次に、DAIR の共有された <code>/var/lib/nova/instances</code> が問題を助長し"
-"た。全コンピュートノードがこのディレクトリにアクセスするため、全てのコン"
-"ピュートノードは定期的に _base ディレクトリを見直していた。あるイメージを使用"
-"しているインスタンスが１つだけあり、そのインスタンスが存在するノードが数分間"
-"ダウンした場合、そのイメージが使用中であるという印を付けられなくなる。それゆ"
-"え、イメージは使用中に見えず、削除されてしまったのだ。そのコンピュートノード"
-"が復帰した際、そのノード上でホスティングされていたインスタンスは起動できな"
-"い。"
+msgstr "次に、DAIR の共有された <filename>/var/lib/nova/instances</filename> が問題を助長した。全コンピュートノードがこのディレクトリにアクセスするため、全てのコンピュートノードは定期的に _base ディレクトリを見直していた。あるイメージを使用しているインスタンスが１つだけあり、そのインスタンスが存在するノードが数分間ダウンした場合、そのイメージが使用中であるという印を付けられなくなる。それゆえ、イメージは使用中に見えず、削除されてしまったのだ。そのコンピュートノードが復帰した際、そのノード上でホスティングされていたインスタンスは起動できない。"
 
 #: doc/openstack-ops/app_crypt.xml:36(para)
-#, fuzzy
-#| msgid ""
-#| "At the data center, I was finishing up some tasks and remembered the lock-"
-#| "up. I logged into the new instance and ran ps aux again. It worked. Phew. "
-#| "I decided to run it one more time. It locked up. WTF."
 msgid ""
 "At the data center, I was finishing up some tasks and remembered the lock-"
 "up. I logged into the new instance and ran <placeholder-1/> again. It "
 "worked. Phew. I decided to run it one more time. It locked up. WTF."
-msgstr ""
-"データセンターで、私はいくつかの仕事を済ませると、ロックアップのことを思い出"
-"した。私は新しいインスタンスにログインし、再度 ps aux を実行した。コマンドは"
-"機能した。ふぅ。私はもう一度試してみることにした。今度はロックアップした。何"
-"だこれは？"
+msgstr "データセンターで、私はいくつかの仕事を済ませると、ロックアップのことを思い出した。私は新しいインスタンスにログインし、再度 <placeholder-1/> を実行した。コマンドは機能した。ふぅ。私はもう一度試してみることにした。今度はロックアップした。何だこれは？"
 
 #: doc/openstack-ops/app_crypt.xml:371(title)
 msgid "The Valentine's Day Compute Node Massacre"
@@ -847,34 +659,19 @@ msgstr ""
 "い）。"
 
 #: doc/openstack-ops/app_crypt.xml:376(para)
-#, fuzzy
-#| msgid ""
-#| "This past Valentine's Day, I received an alert that a compute node was no "
-#| "longer available in the cloud — meaning,"
 msgid ""
 "This past Valentine's Day, I received an alert that a compute node was no "
 "longer available in the cloud — meaning, <placeholder-1/> showed this "
 "particular node with a status of <code>XXX</code>."
-msgstr ""
-"この前のバレンタインデーに、クラウド中にあるコンピュートノードが最早動いてい"
-"ないとの警告を受け取った。つまり"
+msgstr "この前のバレンタインデーに、クラウド中にあるコンピュートノードが最早動いていないとの警告を受け取った。つまり <placeholder-1/> の出力で、この特定のノードの状態が <code>XXX</code> になっていた。"
 
 #: doc/openstack-ops/app_crypt.xml:382(para)
-#, fuzzy
-#| msgid ""
-#| "I logged into the cloud controller and was able to both ping and SSH into "
-#| "the problematic compute node which seemed very odd. Usually if I receive "
-#| "this type of alert, the compute node has totally locked up and would be "
-#| "inaccessible."
 msgid ""
 "I logged into the cloud controller and was able to both <placeholder-1/> and "
 "SSH into the problematic compute node which seemed very odd. Usually if I "
 "receive this type of alert, the compute node has totally locked up and would "
 "be inaccessible."
-msgstr ""
-"実に奇妙なことだが、私はクラウドコントローラーにログインし、問題のコンピュー"
-"トノードに ping と SSH の両方を実行できた。通常、この種の警告を受け取ると、コ"
-"ンピュートノードは完全にロックしていてアクセス不可になる。"
+msgstr "実に奇妙なことだが、私はクラウドコントローラーにログインし、問題のコンピュートノードに <placeholder-1/> と SSH の両方を実行できた。通常、この種の警告を受け取ると、コンピュートノードは完全にロックしていてアクセス不可になる。"
 
 #: doc/openstack-ops/app_crypt.xml:387(para)
 msgid "After a few minutes of troubleshooting, I saw the following details:"
@@ -942,10 +739,6 @@ msgstr ""
 "ことが出来た。bond0 NIC は DOWN だったが、1Gb NIC は有効だった。"
 
 #: doc/openstack-ops/app_crypt.xml:425(para)
-#, fuzzy
-#| msgid ""
-#| "And the best part: the same user had just tried creating a CentOS "
-#| "instance. Wat?"
 msgid ""
 "And the best part: the same user had just tried creating a CentOS instance. "
 "What?"
@@ -954,25 +747,13 @@ msgstr ""
 "かりだった。何だと？"
 
 #: doc/openstack-ops/app_crypt.xml:427(para)
-#, fuzzy
-#| msgid ""
-#| "I was totally confused at this point, so I texted our network admin to "
-#| "see if he was available to help. He logged in to both switches and "
-#| "immediately saw the problem: the switches detected spanning tree packets "
-#| "coming from the two compute nodes and immediately shut the ports down to "
-#| "prevent spanning tree loops:"
 msgid ""
 "I was totally confused at this point, so I texted our network admin to see "
 "if he was available to help. He logged in to both switches and immediately "
 "saw the problem: the switches detected spanning tree packets coming from the "
 "two compute nodes and immediately shut the ports down to prevent spanning "
 "tree loops: <placeholder-1/>"
-msgstr ""
-"私はこの時点で完全に混乱した。よって、私はネットワーク管理者に対して、私を助"
-"けられるか聞いてみるためメールした。彼は両方のスイッチにログインし、すぐに問"
-"題を発見した。そのスイッチは２つのコンピュートノードから来たスパニングツリー"
-"パケットを検出し、スパニングツリーループを回避するため、即時にそれらのポート"
-"をダウンさせたのだ。"
+msgstr "私はこの時点で完全に混乱した。よって、私はネットワーク管理者に対して、私を助けられるか聞いてみるためメールした。彼は両方のスイッチにログインし、すぐに問題を発見した。そのスイッチは２つのコンピュートノードから来たスパニングツリーパケットを検出し、スパニングツリーループを回避するため、即時にそれらのポートをダウンさせたのだ。<placeholder-1/>"
 
 #: doc/openstack-ops/app_crypt.xml:440(para)
 msgid ""
@@ -1017,10 +798,6 @@ msgstr ""
 "接続は問題なく機能する！"
 
 #: doc/openstack-ops/app_crypt.xml:453(para)
-#, fuzzy
-#| msgid ""
-#| "This is an ongoing and hot topic in networking circles — especially with "
-#| "the raise of virtualization and virtual switches."
 msgid ""
 "This is an ongoing and hot topic in networking circles — especially with the "
 "raise of virtualization and virtual switches."
@@ -1033,13 +810,6 @@ msgid "Down the Rabbit Hole"
 msgstr "ウサギの穴に落ちて"
 
 #: doc/openstack-ops/app_crypt.xml:459(para)
-#, fuzzy
-#| msgid ""
-#| "Users being able to retrieve console logs from running instances is a "
-#| "boon for support — many times they can figure out what's going on inside "
-#| "their instance and fix what's going on without bothering you. "
-#| "Unfortunately, sometimes overzealous logging of failures can cause "
-#| "problems of its own."
 msgid ""
 "Users being able to retrieve console logs from running instances is a boon "
 "for support — many times they can figure out what's going on inside their "
@@ -1052,14 +822,6 @@ msgstr ""
 "問題となり得る。"
 
 #: doc/openstack-ops/app_crypt.xml:465(para)
-#, fuzzy
-#| msgid ""
-#| "A report came in: VMs were launching slowly, or not at all. Cue the "
-#| "standard checks — nothing on the nagios, but there was a spike in network "
-#| "towards the current master of our RabbitMQ cluster. Investigation "
-#| "started, but soon the other parts of the queue cluster were leaking "
-#| "memory like a sieve. Then the alert came in — the master rabbit server "
-#| "went down. Connections failed over to the slave."
 msgid ""
 "A report came in: VMs were launching slowly, or not at all. Cue the standard "
 "checks — nothing on the nagios, but there was a spike in network towards the "
@@ -1089,16 +851,6 @@ msgstr ""
 "に復帰し、我々はその日は帰宅した。"
 
 #: doc/openstack-ops/app_crypt.xml:479(para)
-#, fuzzy
-#| msgid ""
-#| "Continuing the diagnosis the next morning was kick started by another "
-#| "identical failure. We quickly got the message queue running again, and "
-#| "tried to work out why Rabbit was suffering from so much network traffic. "
-#| "Enabling debug logging on nova-api quickly brought understanding. A "
-#| "<code>tail -f /var/log/nova/nova-api.log</code> was scrolling by faster "
-#| "than we'd ever seen before. CTRL+C on that and we could plainly see the "
-#| "contents of a system log spewing failures over and over again - a system "
-#| "log from one of our users' instances."
 msgid ""
 "Continuing the diagnosis the next morning was kick started by another "
 "identical failure. We quickly got the message queue running again, and tried "
@@ -1108,27 +860,14 @@ msgid ""
 "ever seen before. CTRL+C on that and we could plainly see the contents of a "
 "system log spewing failures over and over again - a system log from one of "
 "our users' instances."
-msgstr ""
-"翌朝の継続調査は別の同様の障害でいきなり始まった。我々は急いで RabbitMQ サー"
-"バーを再起動し、何故 RabbitMQ がそのような過剰なネットワーク負荷に直面してい"
-"るのかを調べようとした。nova-api のデバッグログを出力することにより、理由はす"
-"ぐに判明した。<code>tail -f /var/log/nova/nova-api.log</code> は我々が見たこ"
-"ともない速さでスクロールしていた。CTRL+C でコマンドを止め、障害を吐き出してい"
-"たシステムログの内容をはっきり目にすることが出来た。－我々のユーザの１人のイ"
-"ンスタンスからのシステムログだった。"
+msgstr "翌朝の継続調査は別の同様の障害でいきなり始まった。我々は急いで RabbitMQ サーバーを再起動し、何故 RabbitMQ がそのような過剰なネットワーク負荷に直面しているのかを調べようとした。<systemitem class=\"service\">nova-api</systemitem> のデバッグログを出力することにより、理由はすぐに判明した。<placeholder-1/> は我々が見たこともない速さでスクロールしていた。CTRL+C でコマンドを止め、障害を吐き出していたシステムログの内容をはっきり目にすることが出来た。－我々のユーザの１人のインスタンスからのシステムログだった。"
 
 #: doc/openstack-ops/app_crypt.xml:491(para)
-#, fuzzy
-#| msgid ""
-#| "After finding the instance ID we headed over to <code>/var/lib/nova/"
-#| "instances</code> to find the <code>console.log</code>:"
 msgid ""
 "After finding the instance ID we headed over to <filename>/var/lib/nova/"
 "instances</filename> to find the <filename>console.log</filename>: "
 "<placeholder-1/>"
-msgstr ""
-"インスタンスIDの発見後、<code>console.log</code> を探すため <code>/var/lib/"
-"nova/instances</code> にアクセスした。"
+msgstr "インスタンスIDの発見後、<filename>console.log</filename> を探すため <filename>/var/lib/nova/instances</filename> にアクセスした。<placeholder-1/>"
 
 #: doc/openstack-ops/app_crypt.xml:499(para)
 msgid ""
@@ -1184,22 +923,12 @@ msgstr ""
 "起こり始める…例えばセッションのランダムなロックアップとか。"
 
 #: doc/openstack-ops/app_crypt.xml:59(para)
-#, fuzzy
-#| msgid ""
-#| "Not all packets have a size of 1500. Running the ls command over SSH "
-#| "might only create a single packets less than 1500 bytes. However, running "
-#| "a command with heavy output, such as <placeholder-1/> requires several "
-#| "packets of 1500 bytes."
 msgid ""
 "Not all packets have a size of 1500. Running the <placeholder-1/> command "
 "over SSH might only create a single packets less than 1500 bytes. However, "
 "running a command with heavy output, such as <placeholder-2/> requires "
 "several packets of 1500 bytes."
-msgstr ""
-"すべてのパケットサイズが 1500 に収まるわけではない。SSH 経由の ls コマンド実"
-"行は 1500 バイト未満のサイズのパケット１つで収まるかもしれない。しかし、 "
-"<placeholder-1/> のように多大な出力を行うコマンドを実行する場合、1500 バイト"
-"のパケットが複数必要とある。"
+msgstr "すべてのパケットサイズが 1500 に収まるわけではない。SSH 経由の <placeholder-1/> コマンド実行は 1500 バイト未満のサイズのパケット１つで収まるかもしれない。しかし、 <placeholder-2/> のように多大な出力を行うコマンドを実行する場合、1500 バイトのパケットが複数必要とある。"
 
 #: doc/openstack-ops/app_crypt.xml:65(para)
 msgid ""
@@ -1223,14 +952,6 @@ msgstr ""
 "いってないようだった。我々はこれらの領域のMTUは変更すべきではないようだ。"
 
 #: doc/openstack-ops/app_crypt.xml:77(para)
-#, fuzzy
-#| msgid ""
-#| "As a last resort, our network admin (Alvaro) and myself sat down with "
-#| "four terminal windows, a pencil, and a piece of paper. In one window, we "
-#| "ran ping. In the second window, we ran tcpdump on the cloud controller. "
-#| "In the third, tcpdump on the compute node. And the forth had tcpdump on "
-#| "the instance. For background, this cloud was a multi-node, non-multi-host "
-#| "setup."
 msgid ""
 "As a last resort, our network admin (Alvaro) and myself sat down with four "
 "terminal windows, a pencil, and a piece of paper. In one window, we ran "
@@ -1238,25 +959,9 @@ msgid ""
 "In the third, <placeholder-2/> on the compute node. And the forth had "
 "<placeholder-3/> on the instance. For background, this cloud was a multi-"
 "node, non-multi-host setup."
-msgstr ""
-"結局、我々のネットワーク管理者（Alvao）と私自身は４つのターミナルウィンドウ、"
-"１本の鉛筆と紙切れを持って座った。１つのウインドウで我々は ping を実行した。"
-"２つ目のウインドウではクラウドコントローラー上の tcpdump、３つ目ではコン"
-"ピュートノード上の tcpdump、４つ目ではインスタンス上の tcpdump を実行した。前"
-"提として、このクラウドはマルチノード、非マルチホスト構成である。"
+msgstr "結局、我々のネットワーク管理者（Alvao）と私自身は４つのターミナルウィンドウ、１本の鉛筆と紙切れを持って座った。１つのウインドウで我々は ping を実行した。２つ目のウインドウではクラウドコントローラー上の <placeholder-1/>、３つ目ではコンピュートノード上の <placeholder-2/>、４つ目ではインスタンス上の <placeholder-3/> を実行した。前提として、このクラウドはマルチノード、非マルチホスト構成である。"
 
 #: doc/openstack-ops/app_crypt.xml:85(para)
-#, fuzzy
-#| msgid ""
-#| "One cloud controller acted as a gateway to all compute nodes. VlanManager "
-#| "was used for the network config. This means that the cloud controller and "
-#| "all compute nodes had a different VLAN for each OpenStack project. We "
-#| "used the -s option of ping to change the packet size. We watched as "
-#| "sometimes packets would fully return, sometimes they'd only make it out "
-#| "and never back in, and sometimes the packets would stop at a random "
-#| "point. We changed tcpdump to start displaying the hex dump of the packet. "
-#| "We pinged between every combination of outside, controller, compute, and "
-#| "instance."
 msgid ""
 "One cloud controller acted as a gateway to all compute nodes. VlanManager "
 "was used for the network config. This means that the cloud controller and "
@@ -1267,16 +972,7 @@ msgid ""
 "changed <placeholder-2/> to start displaying the hex dump of the packet. We "
 "pinged between every combination of outside, controller, compute, and "
 "instance."
-msgstr ""
-"１つのクラウドコントローラーが全コンピュートノードのゲートウェイの役割を果た"
-"していた。ネットワーク設定には VlanManager が使われていた。これは、クラウドコ"
-"ントローラーと全コンピュートノードで、各 OpenStack プロジェクトが異なる VLAN "
-"を持つことを意味する。パケットサイズ変更のため、ping の -s オプションを使用し"
-"ていた。パケットが全て戻ってくる時もあれば、パケットが出ていったきり全く戻っ"
-"て来ない時もあれば、パケットはランダムな場所で止まってしまう時もある、という"
-"状況だった。tcpdump を変更し、パケットの16進ダンプを表示するようにした。外"
-"部、コントローラー、コンピュート、インスタンスのあらゆる組み合わせの間で "
-"ping を実行した。"
+msgstr "１つのクラウドコントローラーが全コンピュートノードのゲートウェイの役割を果たしていた。ネットワーク設定には VlanManager が使われていた。これは、クラウドコントローラーと全コンピュートノードで、各 OpenStack プロジェクトが異なる VLAN を持つことを意味する。パケットサイズ変更のため、<placeholder-1/> の -s オプションを使用していた。パケットが全て戻ってくる時もあれば、パケットが出ていったきり全く戻って来ない時もあれば、パケットはランダムな場所で止まってしまう時もある、という状況だった。<placeholder-2/> を変更し、パケットの16進ダンプを表示するようにした。外部、コントローラー、コンピュート、インスタンスのあらゆる組み合わせの間で ping を実行した。"
 
 #: doc/openstack-ops/app_crypt.xml:97(para)
 msgid ""
@@ -1313,15 +1009,6 @@ msgid "DAIR"
 msgstr "DAIR"
 
 #: doc/openstack-ops/app_usecases.xml:117(para)
-#, fuzzy
-#| msgid ""
-#| "Who uses it: DAIR is an integrated virtual environment that leverages the "
-#| "CANARIE network to develop and test new information communication "
-#| "technology (ICT) and other digital technologies. It combines such digital "
-#| "infrastructure as advanced networking, and cloud computing and storage to "
-#| "create an environment for develop and test of innovative ICT "
-#| "applications, protocols and services, perform at-scale experimentation "
-#| "for deployment, and facilitate a faster time to market."
 msgid ""
 "Who uses it: DAIR is an integrated virtual environment that leverages the "
 "CANARIE network to develop and test new information communication technology "
@@ -1395,24 +1082,13 @@ msgstr ""
 "経由していません。"
 
 #: doc/openstack-ops/app_usecases.xml:15(para)
-#, fuzzy
-#| msgid ""
-#| "This section contains a small selection of use cases from the community "
-#| "with more technical detail than usual. Further examples can be found on "
-#| "the <link title=\"OpenStack Website\" href=\"https://www.openstack.org/"
-#| "user-stories/\">OpenStack Website</link> (https://www.openstack.org/user-"
-#| "stories/)"
 msgid ""
 "This section contains a small selection of use cases from the community with "
 "more technical detail than usual. Further examples can be found on the <link "
 "title=\"OpenStack User Stories Website\" href=\"https://www.openstack.org/"
 "user-stories/\">OpenStack Website</link> (https://www.openstack.org/user-"
 "stories/)"
-msgstr ""
-"この節ではコミュニティからを事例をいくつか紹介します。これらでは通常より多く"
-"の技術的詳細情報が提供されています。他の事例は <link title=\"OpenStack "
-"Website\" href=\"https://www.openstack.org/user-stories/\">OpenStack ウェブサ"
-"イト</link> (https://www.openstack.org/user-stories/) で探して下さい。"
+msgstr "この節ではコミュニティからを事例をいくつか紹介します。これらでは通常より多くの技術的詳細情報が提供されています。他の事例は <link title=\"OpenStack User Stories Website\" href=\"https://www.openstack.org/user-stories/\">OpenStack ウェブサイト</link> (https://www.openstack.org/user-stories/) で探して下さい。"
 
 #: doc/openstack-ops/app_usecases.xml:153(title)
 #: doc/openstack-ops/app_usecases.xml:191(title)
@@ -1422,18 +1098,10 @@ msgid "Resources"
 msgstr "リソース"
 
 #: doc/openstack-ops/app_usecases.xml:156(para)
-#, fuzzy
-#| msgid ""
-#| "<link title=\"OpenStack Website\" href=\"http://www.canarie.ca/en/dair-"
-#| "program/about\">DAIR Homepage</link> (http://www.canarie.ca/en/dair-"
-#| "program/about)"
 msgid ""
 "<link href=\"http://www.canarie.ca/en/dair-program/about\">DAIR Homepage</"
 "link> (http://www.canarie.ca/en/dair-program/about)"
-msgstr ""
-"<link title=\"OpenStack Website\" href=\"http://www.canarie.ca/en/dair-"
-"program/about\">DAIR ホームページ</link> (http://www.canarie.ca/en/dair-"
-"program/about)"
+msgstr "<link href=\"http://www.canarie.ca/en/dair-program/about\">DAIR ホームページ</link> (http://www.canarie.ca/en/dair-program/about)"
 
 #: doc/openstack-ops/app_usecases.xml:165(title)
 msgid "CERN"
@@ -1494,7 +1162,7 @@ msgid ""
 "openstack-clouds-50000.html\">OpenStack in Production: A tale of 3 OpenStack "
 "Clouds</link> (openstack-in-production.blogspot.com/2013/09/a-tale-of-3-"
 "openstack-clouds-50000.html)"
-msgstr ""
+msgstr "<link href=\"http://openstack-in-production.blogspot.com/2013/09/a-tale-of-3-openstack-clouds-50000.html\">OpenStack in Production: A tale of 3 OpenStack Clouds</link> (openstack-in-production.blogspot.com/2013/09/a-tale-of-3-openstack-clouds-50000.html)"
 
 #: doc/openstack-ops/app_usecases.xml:202(para)
 msgid ""
@@ -6855,16 +6523,6 @@ msgstr ""
 "み合わせての使い方に関するドキュメントが最新版に追従していなかったりします。"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:70(para)
-#, fuzzy
-#| msgid ""
-#| "The best information available to support your choice is found on the "
-#| "<link title=\"reference manual\" href=\"https://wiki.openstack.org/wiki/"
-#| "HypervisorSupportMatrix\">Hypervisor Support Matrix</link> (https://wiki."
-#| "openstack.org/wiki/HypervisorSupportMatrix), and in the <link title="
-#| "\"reference manual\" href=\"http://docs.openstack.org/folsom/openstack-"
-#| "compute/admin/content/ch_hypervisors.html\">reference manual</link> "
-#| "(http://docs.openstack.org/folsom/openstack-compute/admin/content/"
-#| "ch_hypervisors.html)."
 msgid ""
 "The best information available to support your choice is found on the <link "
 "title=\"reference manual\" href=\"https://wiki.openstack.org/wiki/"
@@ -6874,14 +6532,7 @@ msgid ""
 "reference/content/section_compute-hypervisors.html\">configuration "
 "reference</link> (http://docs.openstack.org/trunk/config-reference/content/"
 "section_compute-hypervisors.html)."
-msgstr ""
-"ハイパーバイザー選択の参考になる情報は、<link title=\"reference manual\" "
-"href=\"https://wiki.openstack.org/wiki/HypervisorSupportMatrix\">Hypervisor "
-"Support Matrix</link> (https://wiki.openstack.org/wiki/"
-"HypervisorSupportMatrix) と <link title=\"reference manual\" href=\"http://"
-"docs.openstack.org/folsom/openstack-compute/admin/content/ch_hypervisors.html"
-"\">レファレンスマニュアル</link> (http://docs.openstack.org/folsom/openstack-"
-"compute/admin/content/ch_hypervisors.html) です。"
+msgstr "ハイパーバイザー選択の参考になる情報は、<link title=\"reference manual\" href=\"https://wiki.openstack.org/wiki/HypervisorSupportMatrix\">Hypervisor Support Matrix</link> (https://wiki.openstack.org/wiki/HypervisorSupportMatrix) と <link title=\"configuration reference\" href=\"http://docs.openstack.org/trunk/config-reference/content/section_compute-hypervisors.html\">設定レファレンス</link> (http://docs.openstack.org/trunk/config-reference/content/section_compute-hypervisors.html) です。"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:80(para)
 msgid ""
@@ -7099,17 +6750,6 @@ msgstr ""
 "す。"
 
 #: doc/openstack-ops/ch_arch_example.xml:203(para)
-#, fuzzy
-#| msgid ""
-#| "We chose the <emphasis role=\"bold\">SQL back-end for Identity Service "
-#| "(keystone)</emphasis> over others, such as LDAP. This back-end is simple "
-#| "to install and is robust. The authors acknowledge that many installations "
-#| "want to bind with existing directory services, and caution careful "
-#| "understanding of the <link title=\"LDAP config options\" href=\"http://"
-#| "docs.openstack.org/folsom/openstack-compute/admin/content/reference-for-"
-#| "ldap-config-options.html\">array of options available</link> (http://docs."
-#| "openstack.org/folsom/openstack-compute/admin/content/reference-for-ldap-"
-#| "config-options.html)"
 msgid ""
 "We chose the <emphasis role=\"bold\">SQL back-end for Identity Service "
 "(keystone)</emphasis> over others, such as LDAP. This back-end is simple to "
@@ -7120,16 +6760,7 @@ msgid ""
 "html#configuring-keystone-for-ldap-backend\">array of options available</"
 "link> (http://docs.openstack.org/trunk/config-reference/content/"
 "ch_configuring-openstack-identity.html#configuring-keystone-for-ldap-backend)"
-msgstr ""
-"<emphasis role=\"bold\">Identity サービス (keystone)</emphasis> のバックエン"
-"ドとして、LDAP などの他の選択肢ではなく <emphasis role=\"bold\">SQL バックエ"
-"ンド</emphasis>を選択しました。 SQL バックエンドはインストールが簡単で、堅牢"
-"性があります。多くのシステムで既存のディレクトリサービスと接続したいという要"
-"望があることは理解しています。その場合は、<link title=\"LDAP config options"
-"\" href=\"http://docs.openstack.org/folsom/openstack-compute/admin/content/"
-"reference-for-ldap-config-options.html\">設定オプションリスト</link> (http://"
-"docs.openstack.org/folsom/openstack-compute/admin/content/reference-for-ldap-"
-"config-options.html) を注意深く理解してから使って下さい。"
+msgstr "<emphasis role=\"bold\">Identity サービス (keystone)</emphasis> のバックエンドとして、LDAP などの他の選択肢ではなく <emphasis role=\"bold\">SQL バックエンド</emphasis>を選択しました。 SQL バックエンドはインストールが簡単で、堅牢性があります。多くのシステムで既存のディレクトリサービスと接続したいという要望があることは理解しています。その場合は、<link title=\"LDAP config options\" href=\"http://docs.openstack.org/trunk/config-reference/content/ch_configuring-openstack-identity.html#configuring-keystone-for-ldap-backend\">設定オプションリスト</link> (http://docs.openstack.org/trunk/config-reference/content/ch_configuring-openstack-identity.html#configuring-keystone-for-ldap-backend) を注意深く理解してから使って下さい。"
 
 #: doc/openstack-ops/ch_arch_example.xml:213(para)
 msgid ""
@@ -7322,16 +6953,10 @@ msgstr ""
 "照)。"
 
 #: doc/openstack-ops/ch_arch_example.xml:330(para)
-#, fuzzy
-#| msgid ""
-#| "Add an OpenStack Storage service (http://docs.openstack.org/folsom/"
-#| "openstack-object-storage/admin/)"
 msgid ""
 "Add an OpenStack Storage service (http://docs.openstack.org/havana/install-"
 "guide/install/apt/content/ch_swift.html)"
-msgstr ""
-"OpenStack Storage サービスを追加する (http://docs.openstack.org/folsom/"
-"openstack-object-storage/admin/)"
+msgstr "OpenStack Storage サービスを追加する (http://docs.openstack.org/havana/install-guide/install/apt/content/ch_swift.html)"
 
 #: doc/openstack-ops/ch_arch_example.xml:334(para)
 msgid ""
@@ -7346,15 +6971,6 @@ msgid "What's Next?"
 msgstr "次はどうする？"
 
 #: doc/openstack-ops/ch_arch_example.xml:339(para)
-#, fuzzy
-#| msgid ""
-#| "Congratulations! By now, you should have a solid design for your cloud. "
-#| "We now recommend that you turn to the <link title=\"OpenStack Install and "
-#| "Deploy Manual - Ubuntu\" href=\"http://docs.openstack.org/folsom/"
-#| "openstack-compute/install/apt/content/\">OpenStack Install and Deploy "
-#| "Manual - Ubuntu</link> (http://docs.openstack.org/folsom/openstack-"
-#| "compute/install/apt/content/), which contains a step-by-step guide on how "
-#| "to manually install the OpenStack packages and dependencies on your cloud."
 msgid ""
 "Congratulations! By now, you should have a solid design for your cloud. We "
 "now recommend that you turn to the <link title=\"OpenStack Install and "
@@ -7363,15 +6979,7 @@ msgid ""
 "(http://docs.openstack.org/havana/install-guide/install/apt/), which "
 "contains a step-by-step guide on how to manually install the OpenStack "
 "packages and dependencies on your cloud."
-msgstr ""
-"おめでとうございます！ ここまでで、あなたのクラウドのしっかりとした基本設計が"
-"できたことでしょう。ここまで来たら、<link title=\"OpenStack Install and "
-"Deploy Manual - Ubuntu\" href=\"http://docs.openstack.org/folsom/openstack-"
-"compute/install/apt/content/\">OpenStack Install and Deploy Manual - Ubuntu</"
-"link> (http://docs.openstack.org/folsom/openstack-compute/install/apt/"
-"content/) を見ることをお薦めします。このマニュアルには、OpenStack パッケージ"
-"と依存モジュールをあなたのクラウドに手動でインストールする方法がステップバイ"
-"ステップで説明されています。"
+msgstr "おめでとうございます！ ここまでで、あなたのクラウドのしっかりとした基本設計ができたことでしょう。ここまで来たら、<link title=\"OpenStack Install and Deploy Manual - Ubuntu\" href=\"http://docs.openstack.org/havana/install-guide/install/apt/\">OpenStack Install and Deploy Manual - Ubuntu</link> (http://docs.openstack.org/havana/install-guide/install/apt/) を見ることをお薦めします。このマニュアルには、OpenStack パッケージと依存モジュールをあなたのクラウドに手動でインストールする方法がステップバイステップで説明されています。"
 
 #: doc/openstack-ops/ch_arch_example.xml:347(para)
 msgid ""
@@ -9717,14 +9325,6 @@ msgstr ""
 "には対応できません。"
 
 #: doc/openstack-ops/ch_arch_storage.xml:428(para)
-#, fuzzy
-#| msgid ""
-#| "The Solaris iSCSI driver for OpenStack Block Storage implements blocks as "
-#| "<emphasis role=\"bold\">ZFS</emphasis> entities. ZFS is a file system "
-#| "that also has functionality of a volume manager. This is unlike on a "
-#| "Linux system, where there is a separation of volume manager (LVM) and "
-#| "file system (such as, ext3, ext4, xfs, btrfs). ZFS has a number of "
-#| "advantages over ext4, including improved data integrity checking."
 msgid ""
 "<emphasis role=\"bold\">ZFS</emphasis>. The Solaris iSCSI driver for "
 "OpenStack Block Storage implements blocks as ZFS entities. ZFS is a file "
@@ -9732,13 +9332,7 @@ msgid ""
 "Linux system, where there is a separation of volume manager (LVM) and file "
 "system (such as, ext3, ext4, xfs, btrfs). ZFS has a number of advantages "
 "over ext4, including improved data integrity checking."
-msgstr ""
-"Solarisの OpenStack Block Storage用のiSCSIドライバーは<emphasis role=\"bold"
-"\">ZFS</emphasis>を実態としたブロックストレージを実装しています。ZFSはボ"
-"リュームマネージャ機能を持ったファイルシステムです。これはボリュームマネー"
-"ジャ(LVM)とファイルシステム(ext3, ext4, xfs, btrfsのような)が分離している"
-"Linuxとは異なっています。ZFSはデータ整合性チェックを含み、ext4より多くの利点"
-"を持っています。"
+msgstr "<emphasis role=\"bold\">ZFS</emphasis>. Solarisの OpenStack Block Storage用のiSCSIドライバーはZFSを実態としたブロックストレージを実装しています。ZFSはボリュームマネージャ機能を持ったファイルシステムです。これはボリュームマネージャ(LVM)とファイルシステム(ext3, ext4, xfs, btrfsのような)が分離しているLinuxとは異なっています。ZFSはデータ整合性チェックを含み、ext4より多くの利点を持っています。"
 
 #: doc/openstack-ops/ch_arch_storage.xml:43(para)
 msgid "Add additional persistent storage to a virtual machine (VM)"
@@ -10082,10 +9676,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:14(title)
-#, fuzzy
-#| msgid "Automated Configuration"
 msgid "Advanced Configuration"
-msgstr "自動環境設定"
+msgstr "高度な設定"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:15(para)
 msgid ""
@@ -11112,18 +10704,6 @@ msgid "Nova Scheduler Example"
 msgstr "Nova スケジューラーの例"
 
 #: doc/openstack-ops/ch_ops_customize.xml:658(para)
-#, fuzzy
-#| msgid ""
-#| "Many OpenStack projects allow for customization of specific features "
-#| "using a driver architecture. You can write a driver that conforms to a "
-#| "particular interface and plug it in through configuration. For example, "
-#| "you can easily plug in a new scheduler for nova. The existing schedulers "
-#| "for nova are feature full and well documented at <link href=\"http://docs."
-#| "openstack.org/folsom/openstack-compute/admin/content/ch_scheduling.html"
-#| "\">Scheduling</link> (http://docs.openstack.org/folsom/openstack-compute/"
-#| "admin/content/ch_scheduling.html). However, depending on your user's use "
-#| "cases, the existing schedulers might not meet your requirements. You "
-#| "might need to create a new scheduler."
 msgid ""
 "Many OpenStack projects allow for customization of specific features using a "
 "driver architecture. You can write a driver that conforms to a particular "
@@ -11135,17 +10715,7 @@ msgid ""
 "section_compute-scheduler.html). However, depending on your user's use "
 "cases, the existing schedulers might not meet your requirements. You might "
 "need to create a new scheduler."
-msgstr ""
-"多くの OpenStack のプロジェクトでは、ドライバ・アーキテクチャを使うことによっ"
-"て、特定の機能をカスタマイズすることができます。特定のインターフェースに適合"
-"するドライバを書き、環境定義によって組み込むことができます。例えば、簡単に "
-"nova に新しいスケジューラーを組み込むことができます。nova の既存のスケジュー"
-"ラーは、フル機能であり、<link href=\"http://docs.openstack.org/folsom/"
-"openstack-compute/admin/content/ch_scheduling.html\">スケジューリング</link> "
-"(http://docs.openstack.org/folsom/openstack-compute/admin/content/"
-"ch_scheduling.html) によくドキュメントされています。しかし、あなたのユーザの"
-"ユース・ケースに依存して、既存のスケジューラで要件が満たせないかもしれませ"
-"ん。この場合は、新しいスケジューラーを作成する必要があるでしょう。"
+msgstr "多くの OpenStack のプロジェクトでは、ドライバ・アーキテクチャを使うことによって、特定の機能をカスタマイズすることができます。特定のインターフェースに適合するドライバを書き、環境定義によって組み込むことができます。例えば、簡単に nova に新しいスケジューラーを組み込むことができます。nova の既存のスケジューラーは、フル機能であり、<link href=\"http://docs.openstack.org/trunk/config-reference/content/section_compute-scheduler.html\">スケジューリング</link> (http://docs.openstack.org/trunk/config-reference/content/section_compute-scheduler.html) によくドキュメントされています。しかし、あなたのユーザのユース・ケースに依存して、既存のスケジューラで要件が満たせないかもしれません。この場合は、新しいスケジューラーを作成する必要があるでしょう。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:671(para)
 msgid ""
@@ -15223,10 +14793,8 @@ msgstr ""
 "<placeholder-1/>"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:120(title)
-#, fuzzy
-#| msgid "compute service"
 msgid "Set Compute Service Quotas"
-msgstr "コンピュートサービス"
+msgstr "コンピュートサービスのクォータの設定"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:121(para)
 msgid ""
@@ -15473,10 +15041,8 @@ msgstr ""
 #: doc/openstack-ops/ch_ops_projects_users.xml:526(para)
 #: doc/openstack-ops/ch_ops_projects_users.xml:547(para)
 #: doc/openstack-ops/ch_ops_projects_users.xml:566(para)
-#, fuzzy
-#| msgid "Example"
 msgid "For example:"
-msgstr "例"
+msgstr "例えば"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:38(title)
 msgid "Managing Projects"
@@ -15488,12 +15054,12 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:384(replaceable)
 msgid "key"
-msgstr ""
+msgstr "key"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:384(replaceable)
 #: doc/openstack-ops/ch_ops_user_facing.xml:838(th)
 msgid "value"
-msgstr "値"
+msgstr "value"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:39(para)
 msgid ""
@@ -15517,10 +15083,8 @@ msgstr ""
 #: doc/openstack-ops/ch_ops_projects_users.xml:422(replaceable)
 #: doc/openstack-ops/ch_ops_projects_users.xml:546(replaceable)
 #: doc/openstack-ops/ch_ops_projects_users.xml:561(replaceable)
-#, fuzzy
-#| msgid "tenant"
 msgid "tenantName"
-msgstr "テナント"
+msgstr "tenantName"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:396(para)
 msgid "List the currently set quota values for a tenant, as follows:"
@@ -15541,23 +15105,17 @@ msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:426(replaceable)
 #: doc/openstack-ops/ch_ops_projects_users.xml:565(replaceable)
-#, fuzzy
-#| msgid "quota"
 msgid "quotaName"
-msgstr "クォータ"
+msgstr "quotaName"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:426(replaceable)
-#, fuzzy
-#| msgid "quota"
 msgid "quotaValue"
-msgstr "クォータ"
+msgstr "quotaValue"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:426(replaceable)
 #: doc/openstack-ops/ch_ops_projects_users.xml:565(replaceable)
-#, fuzzy
-#| msgid "tenant ID"
 msgid "tenantID"
-msgstr "テナント ID"
+msgstr "tenantID"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:43(title)
 msgid "Adding Projects"
@@ -15572,10 +15130,8 @@ msgid "To view a list of options for the <placeholder-1/> command, run:"
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:456(title)
-#, fuzzy
-#| msgid "Block Storage Nodes"
 msgid "Set Block Storage quotas"
-msgstr "ブロックストレージ ノード"
+msgstr "ブロックストレージのクォータの設定"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:457(para)
 msgid ""
@@ -15584,56 +15140,40 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:463(caption)
-#, fuzzy
-#| msgid "Block Storage Nodes"
 msgid "Block Storage Quota Descriptions"
-msgstr "ブロックストレージ ノード"
+msgstr "ブロックストレージのクォータの設定"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:47(para)
 msgid "Log in as an administrative user."
 msgstr "管理ユーザーとしてログインします。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:479(para)
-#, fuzzy
-#| msgid "quota_gigabytes=1000"
 msgid "gigabytes"
-msgstr "quota_gigabytes=1000"
+msgstr "gigabytes"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:484(para)
-#, fuzzy
-#| msgid "(IntOpt) number of volume gigabytes allowed per project (tenant)"
 msgid "Number of volume gigabytes allowed per tenant."
-msgstr ""
-"(整数型) プロジェクト (テナント) ごとのボリューム容量の最大値（単位はギガバイ"
-"ト）"
+msgstr "テナントごとのボリューム容量の最大値（単位はギガバイト）"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:491(para)
-#, fuzzy
-#| msgid "snapshot"
 msgid "snapshots"
-msgstr "スナップショット"
+msgstr "snapshots"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:496(para)
-#, fuzzy
-#| msgid "(IntOpt) number of floating ips allowed per project (tenant)"
 msgid "Number of Block Storage snapshots allowed per tenant."
-msgstr "(整数型) プロジェクト (テナント) ごとの最大 Floating IP 数"
+msgstr "テナントごとのブロックストレージスナップショット数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:50(para)
 msgid "Select the \"Projects\" link in the left hand navigation bar."
 msgstr "左側のナビゲーションバーにある「プロジェクト」リンクを選択します。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:503(para)
-#, fuzzy
-#| msgid "volume"
 msgid "volumes"
-msgstr "ボリューム"
+msgstr "volumes"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:508(para)
-#, fuzzy
-#| msgid "(IntOpt) number of volumes allowed per project (tenant)"
 msgid "Number of Block Storage volumes allowed per tenant."
-msgstr "(整数型) プロジェクト (テナント) ごとのボリューム数"
+msgstr "テナントごとのブロックストレージボリューム数"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:517(title)
 msgid "View and update Block Storage quotas for a tenant (project)"
@@ -15673,10 +15213,8 @@ msgid "To update Compute service quotas"
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:565(replaceable)
-#, fuzzy
-#| msgid "value"
 msgid "NewValue"
-msgstr "値"
+msgstr "NewValue"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:58(para)
 msgid ""
@@ -17614,19 +17152,11 @@ msgid "Security groups"
 msgstr "セキュリティグループ"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:256(para)
-#, fuzzy
-#| msgid ""
-#| "One of the most common new user issues with OpenStack is failing to set "
-#| "appropriate security group when launching an instance and are then unable "
-#| "to contact the instance on the network."
 msgid ""
 "A common new-user issue with OpenStack is failing to set an appropriate "
 "security group when launching an instance. As a result, the user is unable "
 "to contact the instance on the network."
-msgstr ""
-"OpenStack の新しいユーザーが非常によく経験する問題の一つが、インスタンスを起"
-"動するときに適切なセキュリティグループを設定できず、ネットワーク経由でインス"
-"タンスにアクセスできないことです。"
+msgstr "OpenStack の新しいユーザーがよく経験する問題が、インスタンスを起動するときに適切なセキュリティグループを設定できず、その結果、ネットワーク経由でインスタンスにアクセスできないというものです。"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:259(para)
 msgid ""
@@ -18924,14 +18454,10 @@ msgid "OpenStack Security Guide"
 msgstr "OpenStack セキュリティガイド"
 
 #: doc/openstack-ops/preface_ops.xml:162(para)
-#, fuzzy
-#| msgid ""
-#| "This book provides information about designing and operating OpenStack "
-#| "clouds."
 msgid ""
 "Provide best practices and conceptual information about securing an "
 "OpenStack cloud."
-msgstr "本書は OpenStack クラウドの設計および運用に関する情報を提供します。"
+msgstr "OpenStack クラウドを安全にするためのベストプラクティスと基本的な考え方について書かれています。"
 
 #: doc/openstack-ops/preface_ops.xml:167(link)
 msgid "Virtual Machine Image Guide"
@@ -19249,25 +18775,13 @@ msgid "The team includes:"
 msgstr "以下が執筆チームのメンバーです。"
 
 #: doc/openstack-ops/preface_ops.xml:328(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\">Tom Fifield</emphasis>. After learning about "
-#| "scalability in computing from particle physics experiments like ATLAS at "
-#| "the LHC, Tom works on OpenStack clouds in production to support the "
-#| "Australian public research sector. He lives in Melbourne, Australia and "
-#| "works on OpenStack documentation in his spare time."
 msgid ""
 "<emphasis role=\"bold\">Tom Fifield</emphasis>. After learning about "
 "scalability in computing from particle physics experiments like ATLAS at the "
 "LHC, Tom worked on OpenStack clouds in production to support the Australian "
 "public research sector. Tom currently serves as an OpenStack community "
 "manager and works on OpenStack documentation in his spare time."
-msgstr ""
-"<emphasis role=\"bold\">Tom Fifield</emphasis>. LHC で ATLAS のような素粒子物"
-"理学実験でコンピューティングのスケーラビリティの経験を積んだ後、現在はオース"
-"トラリアの公的な研究部門を支援するプロダクションの OpenStack クラウドに携わっ"
-"ています。オーストラリアのメルボルンに住んでいて、空いた時間で OpenStack ド"
-"キュメントプロジェクトに参加しています。"
+msgstr "<emphasis role=\"bold\">Tom Fifield</emphasis>. LHC で ATLAS のような素粒子物理学実験でコンピューティングのスケーラビリティの経験を積んだ後、現在はオーストラリアの公的な研究部門を支援するプロダクションの OpenStack クラウドに携わっていました。現在は OpenStack のコミュニティマネージャーを務めており、空いた時間で OpenStack ドキュメントプロジェクトに参加しています。"
 
 #: doc/openstack-ops/preface_ops.xml:337(para)
 msgid ""
@@ -19312,15 +18826,6 @@ msgstr ""
 "いました。"
 
 #: doc/openstack-ops/preface_ops.xml:361(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\">Adam Hyde</emphasis>. Adam facilitated this Book "
-#| "Sprint. He also founded the Book Sprint methodology and is the most "
-#| "experienced Book Sprint facilitator around. See http://www.booksprints."
-#| "net/ for more information. Adam founded FLOSS Manuals—a community of some "
-#| "3,000 individuals developing Free Manuals about Free Software. He is also "
-#| "the founder and project manager for Booktype, an open source project for "
-#| "writing, editing, and publishing books online and in print."
 msgid ""
 "<emphasis role=\"bold\">Adam Hyde</emphasis>. Adam facilitated this Book "
 "Sprint. He also founded the Book Sprint methodology and is the most "
@@ -19329,24 +18834,9 @@ msgid ""
 "some 3,000 individuals developing Free Manuals about Free Software. He is "
 "also the founder and project manager for Booktype, an open source project "
 "for writing, editing, and publishing books online and in print."
-msgstr ""
-"<emphasis role=\"bold\">Adam Hyde</emphasis>. 彼は今回の Book Sprint をリード"
-"しました。 Book Sprint メソッドを創設者でもあり、一番経験豊富な Book Sprint "
-"のファシリテーターです。詳しい情報は http://www.booksprints.net/ を見て下さ"
-"い。 3000人もの参加者がいるフリーソフトウェアのフリーなマニュアルを作成するコ"
-"ミュニティである FLOSS Manuals の創設者です。また、Booktype の創設者でプロ"
-"ジェクトマネージャーです。 Booktype はオンラインで本の執筆、編集、出版を行う"
-"オープンソースプロジェクトです。"
+msgstr "<emphasis role=\"bold\">Adam Hyde</emphasis>. 彼は今回の Book Sprint をリードしました。 Book Sprint メソッドを創設者でもあり、一番経験豊富な Book Sprint のファシリテーターです。詳しい情報は <uri>http://www.booksprints.net/</uri> を見て下さい。 3000人もの参加者がいるフリーソフトウェアのフリーなマニュアルを作成するコミュニティである FLOSS Manuals の創設者です。また、Booktype の創設者でプロジェクトマネージャーです。 Booktype はオンラインで本の執筆、編集、出版を行うオープンソースプロジェクトです。"
 
 #: doc/openstack-ops/preface_ops.xml:373(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\">Jonathan Proulx</emphasis>. Jon has been piloting "
-#| "an OpenStack cloud as a senior system administrator at the MIT Computer "
-#| "Science and Artificial Intelligence Lab for his researchers to have as "
-#| "much computing power as they need. He started contributing to OpenStack "
-#| "documentation and reviewing the documentation so that he could accelerate "
-#| "his learning."
 msgid ""
 "<emphasis role=\"bold\">Jonathan Proulx</emphasis>. Jon has been piloting an "
 "OpenStack cloud as a senior technical architect at the MIT Computer Science "
@@ -19354,12 +18844,7 @@ msgid ""
 "computing power as they need. He started contributing to OpenStack "
 "documentation and reviewing the documentation so that he could accelerate "
 "his learning."
-msgstr ""
-"<emphasis role=\"bold\">Jonathan Proulx</emphasis>. 彼は MIT Computer "
-"Science and Artificial Intelligence Lab で上級システム管理者として OpenStack "
-"クラウドを運用し、研究者が必要なだけの計算能力を使えるようにしています。 "
-"OpenStack の勉強を加速しようと思い、OpenStack ドキュメントへの貢献とドキュメ"
-"ントのレビューを始めました。"
+msgstr "<emphasis role=\"bold\">Jonathan Proulx</emphasis>. 彼は MIT Computer Science and Artificial Intelligence Lab で上級技術アーキテクトとして OpenStack クラウドを運用し、研究者が必要なだけの計算能力を使えるようにしています。 OpenStack の勉強を加速しようと思い、OpenStack ドキュメントへの貢献とドキュメントのレビューを始めました。"
 
 #: doc/openstack-ops/preface_ops.xml:382(para)
 msgid ""
@@ -19377,14 +18862,6 @@ msgstr ""
 "す。"
 
 #: doc/openstack-ops/preface_ops.xml:391(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\">Joe Topjian</emphasis>. Joe has designed and "
-#| "deployed several clouds at Cybera, where, as a non-profit, they are "
-#| "building e-infrastructure to support entrepreneurs and local researchers "
-#| "in Alberta, Canada. He also actively maintains and operates these clouds "
-#| "which has generated a wealth of troubleshooting skills for cloud "
-#| "environments."
 msgid ""
 "<emphasis role=\"bold\">Joe Topjian</emphasis>. Joe has designed and "
 "deployed several clouds at Cybera, where, as a non-profit, they are building "
@@ -19392,12 +18869,7 @@ msgid ""
 "Canada. He also actively maintains and operates these clouds as a systems "
 "architect, and his experiences have generated a wealth of troubleshooting "
 "skills for cloud environments."
-msgstr ""
-"<emphasis role=\"bold\">Joe Topjian</emphasis>. 彼は Cybera で複数のクラウド"
-"の設計と構築を行って来ました。 Cybera は、非営利でカナダのアルバータ州の起業"
-"家や研究者を支援する電子情報インフラを構築しています。また、これらのクラウド"
-"の維持・運用を活発に行なっており、その経験からクラウド環境でのトラブルシュー"
-"ティングの豊富な知識を持っています。"
+msgstr "<emphasis role=\"bold\">Joe Topjian</emphasis>. 彼は Cybera で複数のクラウドの設計と構築を行って来ました。 Cybera は、非営利でカナダのアルバータ州の起業家や研究者を支援する電子情報インフラを構築しています。また、システムアーキテクトとしてこれらのクラウドの維持・運用を活発に行なっており、その経験からクラウド環境でのトラブルシューティングの豊富な知識を持っています。"
 
 #: doc/openstack-ops/preface_ops.xml:404(title)
 msgid "How to Contribute to This Book"
@@ -19581,9 +19053,6 @@ msgid ""
 "multiple distributions based on packaging system:"
 msgstr ""
 
-#~ msgid "This bug report was the key to everything:"
-#~ msgstr "このバグ報告は全ての鍵だった。"
-
 #~ msgid ""
 #~ "dair-ua-c03/nova.log:Dec 19 12:10:59 dair-ua-c03 2012-12-19 12:10:59 INFO "
 #~ "nova.virt.libvirt.imagecache [-] Removing base file: /var/lib/nova/"
@@ -19592,9 +19061,6 @@ msgstr ""
 #~ "dair-ua-c03/nova.log:Dec 19 12:10:59 dair-ua-c03 2012-12-19 12:10:59 INFO "
 #~ "nova.virt.libvirt.imagecache [-] Removing base file: /var/lib/nova/"
 #~ "instances/_base/7b4783508212f5d242cbf9ff56fb8d33b4ce6166_10"
-
-#~ msgid "showed this particular node with a status of <code>XXX</code>."
-#~ msgstr "の出力で、この特定のノードの状態が <code>XXX</code> になっていた。"
 
 #~ msgid ""
 #~ "<link title=\"OpenStack Website\" href=\"http://www.slideshare.net/"
@@ -19606,21 +19072,9 @@ msgstr ""
 #~ "noggin143/20121017-openstack-accelerating-science\">San Diego 2012 "
 #~ "Summit</link> (http://www.slideshare.net/noggin143/20121017-openstack-"
 #~ "accelerating-science)"
-
-#~ msgid "quantum"
-#~ msgstr "quantum"
-
-#~ msgid "quantum API"
-#~ msgstr "quantum API"
-
-#~ msgid "quantum manager"
-#~ msgstr "quantum マネージャー"
 
 #~ msgid "Once that's done, stop MySQL:"
 #~ msgstr "その後、MySQLを停止します。"
-
-#~ msgid "<placeholder-1/> "
-#~ msgstr "<placeholder-1/> "
 
 #~ msgid ""
 #~ "If you are still using <code>nova-volume</code> (this service is "
@@ -19649,36 +19103,12 @@ msgstr ""
 #~ msgid "(Type) Description"
 #~ msgstr "(型) 説明"
 
-#~ msgid "quota_cores=20"
-#~ msgstr "quota_cores=20"
-
-#~ msgid "quota_fixed_ips=-1"
-#~ msgstr "quota_fixed_ips=-1"
-
 #~ msgid ""
 #~ "(IntOpt) number of fixed ips allowed per project (this should be at least "
 #~ "the number of instances allowed). -1 is unlimited"
 #~ msgstr ""
 #~ "(整数型) プロジェクトごとの最大 Fixed IP 数 (少なくとも最大インスタンス数"
 #~ "にはすべきです)。-1 は無制限です。"
-
-#~ msgid "quota_instances=10"
-#~ msgstr "quota_instances=10"
-
-#~ msgid "quota_key_pairs=100"
-#~ msgstr "quota_key_pairs=100"
-
-#~ msgid "quota_ram=51200"
-#~ msgstr "quota_ram=51200"
-
-#~ msgid "quota_security_group_rules=20"
-#~ msgstr "quota_security_group_rules=20"
-
-#~ msgid "quota_security_groups=10"
-#~ msgstr "quota_security_groups=10"
-
-#~ msgid "quota_volumes=10"
-#~ msgstr "quota_volumes=10"
 
 #~ msgid ""
 #~ "Configuration table excerpted from http://docs.openstack.org/folsom/"
@@ -19804,15 +19234,6 @@ msgstr ""
 #~ "ば、ナビゲーションサイドバーにある「クォータ」リンクを使用して、既定の"
 #~ "クォータを参照できます (編集できません)。これらの規定のプロジェクトクォー"
 #~ "タはクラウドコントローラーにある <code>nova.conf</code> で指定されます。"
-
-#~ msgid ""
-#~ "Report a bug in <link href=\"https://bugs.launchpad.net/python-"
-#~ "quantumclient/+filebug\">python-quantumclient</link> (https://bugs."
-#~ "launchpad.net/python-quantumclient/+filebug)"
-#~ msgstr ""
-#~ "<link href=\"https://bugs.launchpad.net/python-quantumclient/+filebug"
-#~ "\">python-quantumclient</link> のバグ報告(https://bugs.launchpad.net/"
-#~ "python-quantumclient/+filebug)"
 
 #~ msgid ""
 #~ "OpenStack is an open source platform that lets you build an "
