@@ -1,6 +1,7 @@
 #!/bin/bash -x
 
 CONV_ONLY=False
+DO_COMMIT=True
 
 #GHPAGEDIR=$HOME/openstack-manuals-ja
 #TARGETDIR=openstack-ops-draft
@@ -23,11 +24,18 @@ sed -i -e '/webhelpDirname/a\                            <webhelpIndexerLanguage
 mvn clean generate-sources
 cd -
 
-if [ "$CONV_ONLY" != "True" ]; then
-  cd $GHPAGEDIR
-  pwd
-  git checkout gh-pages
-  mkdir -p $TARGETDIR
-  rm -rf $TARGETDIR/*
-  cp -pr $CURDIR/generated/ja/openstack-ops/target/docbkx/webhelp/local/openstack-ops/* $TARGETDIR
+if [ "$CONV_ONLY" == "True" ]; then
+  exit 0
+fi
+
+cd $GHPAGEDIR
+pwd
+git checkout gh-pages
+mkdir -p $TARGETDIR
+rm -rf $TARGETDIR/*
+cp -pr $CURDIR/generated/ja/openstack-ops/target/docbkx/webhelp/local/openstack-ops/* $TARGETDIR
+
+if [ "$DO_COMMIT" == "True" ]; then
+  git add $TARGETDIR
+  git commit -m "Translation snapshot"
 fi
