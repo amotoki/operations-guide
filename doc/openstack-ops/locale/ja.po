@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
 "POT-Creation-Date: 2013-12-22 03:53+0900\n"
-"PO-Revision-Date: 2013-12-22 21:18+0900\n"
+"PO-Revision-Date: 2013-12-23 01:19+0900\n"
 "Last-Translator: Tsutomu Takekawa <takekawa@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack/"
 "language/ja/)\n"
@@ -9601,27 +9601,27 @@ msgid ""
 "To set a configuration option to zero, include a line such as "
 "<literal>image_cache_manager_interval=0</literal> to your <filename>nova."
 "conf</filename> file."
-msgstr ""
+msgstr "設定オプションを 0 に設定するには、<filename>nova.conf</filename> に <literal>image_cache_manager_interval=0</literal> のような行を入れてください。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:106(para)
 msgid ""
 "This list will change between releases, so please refer to your "
 "configuration guide for up to date information."
-msgstr ""
+msgstr "上記のリストはリリース間で変更されることもあります。最新の情報については設定ガイドを参照してください。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:112(title)
 msgid "Specific configuration topics"
-msgstr ""
+msgstr "設定に関する個別のトピック"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:113(para)
 msgid ""
 "This section covers specific examples of configuration options you might "
 "consider tuning. It is by no means an exhaustive list."
-msgstr ""
+msgstr "この節では、調整を検討した方がよい設定オプションの個別の具体例を扱います。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:120(title)
 msgid "Periodic task frequency"
-msgstr ""
+msgstr "周期的タスクの頻度"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:121(para)
 msgid ""
@@ -9633,7 +9633,7 @@ msgid ""
 "of periodic tasks from the start of the work the task does. So, our 30 "
 "minute periodic task will run every hour, with a 30 minute wait between the "
 "end of the first run and the start of the next."
-msgstr ""
+msgstr "Grizzly リリースより前では、周期的タスクの頻度はタスクの実行間の秒数で指定していました。これは、周期的タスクの実行に30分かかり、頻度が1時間に一度に設定されていた場合、その周期的タスクは実際には90分に一回実行されることを意味します。そのタスクは実行完了後にもう一度実行されるまでに1時間待つからです。この動作は Grizzly で変更され、現在は、周期的タスクの頻度はそのタスクの実行の開始からの時間で計算されます。そのため、30分かかる周期的タスクは 1時間毎に実行され、最初の実行の完了から次の実行の開始までの待ち時間は30分になります。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:14(title)
 msgid "Advanced Configuration"
@@ -9647,7 +9647,7 @@ msgid ""
 "behaviour of the various components to be tweaked depending on your needs. "
 "Unfortunately it is not possible to cover all possible deployments with the "
 "default configuration values."
-msgstr ""
+msgstr "OpenStack は、非常に小さなプライベートクラウドから大規模なパブリッククラウドまで様々な構成でうまく動くことを意図して作られています。これを実現するため、開発者はコードに設定オプションを用意し、要件にあわせて種々のコンポーネントの振る舞いを細かく調整できるようにしています。しかし、残念ながら、デフォルトの設定値ですべてのデプロイメントに対応することはできません。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:22(para)
 msgid ""
@@ -9657,11 +9657,11 @@ msgid ""
 "reference guide</link>. This chapter cannot hope to document all of these, "
 "but however we do try to introduce the important concepts so that you know "
 "where to go digging for more information."
-msgstr ""
+msgstr "執筆時点では、OpenStack には 1,500 以上の設定オプションがあります。これらのオプションは <link href=\"http://docs.openstack.org/trunk/config-reference/content/config_overview.html\">OpenStack 設定レファレンスガイド</link>に記載されています。この章では、これら全てについて説明するつもりはありませんが、さらなる情報が必要なときにどこを探せばよいか分かるように、大事な考え方について説明したいと思います。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:29(title)
 msgid "Differences between various drivers"
-msgstr ""
+msgstr "ドライバーによる違い"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:30(para)
 msgid ""
@@ -9670,7 +9670,7 @@ msgid ""
 "Compute (Nova), there are various hypervisor drivers implemented -- libvirt, "
 "xenserver, hyper-v and vmware for example. Not all of these hypervisor "
 "drivers have the same features, and each has different tuning requirements."
-msgstr ""
+msgstr "多くの OpenStack プロジェクトではドライバー層が実装され、各ドライバーはドライバー固有の設定オプションが実装されています。例えば、OpenStack Compute (Nova) では、libvirt, xenserver, hyper-v, vmware などの種々のハイパーバイザードライバーが実装されていますが、これらのハイパーバイザードライバーすべてが同じ機能を持っている訳ではなく、異なるチューニング要件もドライバー毎に異なります。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:37(para)
 msgid ""
@@ -9680,18 +9680,18 @@ msgid ""
 "various features in OpenStack Compute (Nova) hypervisor drivers on the "
 "OpenStack wiki at <link href=\"https://wiki.openstack.org/wiki/"
 "HypervisorSupportMatrix\">the Hypervisor support matrix page</link>."
-msgstr ""
+msgstr "現在実装されているハイパーバイザーの一覧は <link href=\"http://docs.openstack.org/trunk/config-reference/content/section_compute-hypervisors.html\">OpenStack のドキュメントウェブサイト</link>にあります。OpenStack Compute (Nova) のハイパーバイザードライバーの各種機能の対応状況は、OpenStack Wiki の <link href=\"https://wiki.openstack.org/wiki/HypervisorSupportMatrix\">Hypervisor support matrix ページ</link>に記載されています。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:43(para)
 msgid ""
 "The point we are trying to make here is that just because an option exists "
 "doesn't mean that option is relevant to your driver choices. Normally the "
 "documentation notes which drivers the configuration applies to."
-msgstr ""
+msgstr "ここで言っておきたいことは、オプションが存在するからといって、そのオプションがあなたが選んだドライバーに関係するとは限らないということである。通常は、ドキュメントには、その設定オプションが適用されるドライバーについての記載があります。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:50(title)
 msgid "Periodic tasks"
-msgstr ""
+msgstr "周期的タスク"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:51(para)
 msgid ""
@@ -9700,7 +9700,7 @@ msgid ""
 "but they are run inside of an OpenStack process. For example, when OpenStack "
 "Compute (Nova) needs to work out what images it can remove from its local "
 "cache, it runs a periodic task to do this."
-msgstr ""
+msgstr "様々な OpenStack プロジェクトに共通する別の考え方として、周期的タスク (periodic task) があります。周期的タスクは伝統的な Unix システムの cron ジョブに似ていますが、OpenStack プロセスの内部で実行されます。例えば、OpenStack Compute (Nova) はローカルキャッシュからどのイメージを削除できるかを決める必要がある際に、これを行うために周期的タスクを実行します。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:57(para)
 msgid ""
@@ -9709,7 +9709,7 @@ msgid ""
 "python, which means that if something long and complicated is running, it "
 "will block other tasks inside that process from running unless it "
 "voluntarily yields execution to another cooperative thread."
-msgstr ""
+msgstr "周期的タスクは、OpenStack が使用しているスレッドモデルにおける制限を理解する上で重要です。OpenStack は Python の協調スレッドを使用しています。このことは、何か長く複雑な処理が実行された場合、その処理が自発的に別の協調スレッドに実行を譲らない限り、そのプロセス内の他のタスクの実行が停止されることを意味します。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:64(para)
 msgid ""
@@ -9722,7 +9722,7 @@ msgid ""
 "reported as a bug and fixed, nova-compute would block on this task and stop "
 "responding to RPC requests. This was visible to users as failure of "
 "operations such as spawning or deleting instances."
-msgstr ""
+msgstr "これの具体的な例が nova-compute プロセスです。libvirt でイメージキャッシュを管理するために、nova-compute はイメージキャッシュの内容をスキャンする周期的なプロセスを用意します。このスキャンの中で、各イメージのチェックサムを計算し、チェックサムが nova-compute が期待する値と一致することを確認します。しかしながら、イメージは非常に大きく、チェックサムを生成するのに長い時間がかかる場合があります。このことがバグとして報告され修正される前の時点では、nova-compute はこのタスクで停止し RPC リクエストに対する応答を停止してしまっていました。この振る舞いは、インスタンスの起動や削除などの操作の失敗としてユーザーに見えていました。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:75(para)
 msgid ""
@@ -9732,7 +9732,7 @@ msgid ""
 "disable the periodic tasks by setting their interval to zero. Additionally, "
 "you can configure how often these periodic tasks run -- in some cases it "
 "might make sense to run them at a different frequency from the default."
-msgstr ""
+msgstr "これから分かることは、OpenStack のプロセスが少しの間「停止」したように見えて、それから通常通りの動作を継続するような状況を見つけた場合、周期的タスクが問題になっていないかを確認すべきだということです。取りうる一つの方法は、間隔を 0 に設定して周期的タスクを無効にすることです。また、周期的タスクの実行頻度を設定することもできます。デフォルトとは異なる頻度で周期的タスクを実行する方が意味がある場合もあります。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:83(para)
 msgid ""
@@ -9740,7 +9740,7 @@ msgid ""
 "disable every periodic task in OpenStack Compute (Nova), you would need to "
 "set a number of configuration options to zero. The current list of "
 "configuration options you would need to set to zero are:"
-msgstr ""
+msgstr "実行頻度は周期的タスク別に定義されています。したがって、OpenStack Compute (Nova) ではすべての周期的タスクは無効にするためには、多くの設定オプションを 0 に設定する必要があることでしょう。現在のところ 0 に設定する必要がある設定オプションの一覧は以下のとおりです。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:90(para)
 msgid "bandwidth_poll_interval"
@@ -14420,7 +14420,7 @@ msgstr ""
 msgid ""
 "It's openstack-nova-network on RHEL/CentOS/Fedora but nova-network on Ubuntu/"
 "Debian."
-msgstr ""
+msgstr "RHEL/CentOS/Fedora では openstack-nova-network ですが、Ubuntu/Debian では nova-network です。"
 
 #: doc/openstack-ops/ch_ops_network_troubleshooting.xml:305(para)
 msgid ""
@@ -18388,7 +18388,7 @@ msgstr "OpenStack 高可用性ガイド"
 msgid ""
 "Describes potential strategies for making your OpenStack services and "
 "related controllers and data stores highly available."
-msgstr ""
+msgstr "OpenStack サービス、関連するコントローラやデータストアを高可用にするために取りうる方策に説明しています。"
 
 #: doc/openstack-ops/preface_ops.xml:16(title)
 msgid "Preface"
@@ -18412,13 +18412,13 @@ msgstr "仮想マシンイメージガイド"
 msgid ""
 "Shows you how to obtain, create, and modify virtual machine images that are "
 "compatible with OpenStack."
-msgstr ""
+msgstr "OpenStack で利用可能な仮想マシンイメージを取得、作成、更新する方法について説明されています。"
 
 #: doc/openstack-ops/preface_ops.xml:17(para)
 msgid ""
 "OpenStack is an open source platform that lets you build an Infrastructure "
 "as a Service (IaaS) cloud that runs on commodity hardware."
-msgstr ""
+msgstr "OpenStack はオープンソースプラットフォームで、OpenStack を使うと、コモディティハードウェア上で動作する Infrastructure as a Service (IaaS) クラウドを自分で構築できます。"
 
 #: doc/openstack-ops/preface_ops.xml:175(link)
 msgid "OpenStack End User Guide"
@@ -18448,18 +18448,18 @@ msgstr "OpenStack API クイックスタート"
 msgid ""
 "A brief overview of how to send REST API requests to endpoints for OpenStack "
 "services."
-msgstr ""
+msgstr "OpenStack サービスのエンドポイントに REST API リクエストをどのように送信するかについての概要が説明されています。"
 
 #: doc/openstack-ops/preface_ops.xml:201(title)
 msgid "How This Book Is Organized"
-msgstr ""
+msgstr "この本の構成"
 
 #: doc/openstack-ops/preface_ops.xml:202(para)
 msgid ""
 "This book is organized in two parts, the architecture decisions for "
 "designing OpenStack clouds and the repeated operations for running OpenStack "
 "clouds."
-msgstr ""
+msgstr "この本は 2つの部分から構成されています。一つは OpenStack クラウド設計においてアーキテクチャーの決定に関してで、もうひとつは稼働中の OpenStack クラウドで繰り返し行う運用に関してです。"
 
 #: doc/openstack-ops/preface_ops.xml:205(para)
 msgid ""
@@ -18478,7 +18478,7 @@ msgstr ""
 
 #: doc/openstack-ops/preface_ops.xml:21(title)
 msgid "Introduction to OpenStack"
-msgstr ""
+msgstr "OpenStack の概要"
 
 #: doc/openstack-ops/preface_ops.xml:213(para)
 msgid ""
@@ -18891,7 +18891,7 @@ msgstr "OpenStack はスケーラビリティを意識して設計されてお�
 
 #: doc/openstack-ops/preface_ops.xml:68(title)
 msgid "Who This Book Is For"
-msgstr ""
+msgstr "この本の対象読者"
 
 #: doc/openstack-ops/preface_ops.xml:69(para)
 msgid ""
@@ -18925,7 +18925,7 @@ msgid ""
 "There are other books on the OpenStack documentation web site at <link href="
 "\"http://docs.openstack.org\">docs.openstack.org</link> that can help you "
 "get the job done."
-msgstr ""
+msgstr "OpenStack のドキュメントウェブサイト <link href=\"http://docs.openstack.org\">docs.openstack.org</link> には他にも本があり、助けになることでしょう。"
 
 #: doc/openstack-ops/preface_ops.xml:90(title)
 msgid "OpenStack Guides"
@@ -19011,61 +19011,6 @@ msgstr ""
 #~ "おいて推奨されているベストプラクティスに従った場合、設定管理システムによ"
 #~ "り、自動的に、すべてのスケジューラーが一貫した設定を持った状態に保たれま"
 #~ "す。"
-
-#~ msgid ""
-#~ "To view and edit quotas for an individual project through the Dashboard:"
-#~ msgstr "各プロジェクトのクォータをダッシュボードから表示および編集する方法:"
-
-#~ msgid ""
-#~ "Use the \"Projects\" navigation link to get a list of your existing "
-#~ "projects."
-#~ msgstr ""
-#~ "既存のプロジェクトの一覧を取得するには「プロジェクト」ナビゲーションリンク"
-#~ "を使用します。"
-
-#~ msgid ""
-#~ "Locate the project you want to modify and select \"Modify Quotas\" from "
-#~ "the \"Actions\" drop down menu a the end of the line.  "
-#~ msgstr ""
-#~ "変更したいプロジェクトに移動し、「アクション」ドロップダウンメニューの最終"
-#~ "行にある「クォータの変更」を選択します。"
-
-#~ msgid ""
-#~ "To view and edit quotas for an individual project through the CLI, follow "
-#~ "these steps:"
-#~ msgstr ""
-#~ "各プロジェクトのクォータを CLI から表示および編集する方法は、以下のとおり"
-#~ "です。"
-
-#~ msgid ""
-#~ "You can access and modify quotas from the command line but it is a bit "
-#~ "complicated. This is done using Keystone to get the ID and then "
-#~ "<code>nova-manage.</code>"
-#~ msgstr ""
-#~ "コマンドラインからクォータの確認および変更をできますが、少しだけ複雑です。"
-#~ "Keystone を使って ID を取得し、それから <code>nova-manage</code> を実行し"
-#~ "ます。"
-
-#~ msgid ""
-#~ "To list a project's quota, you must first find its ID using the Keystone "
-#~ "CLI tool."
-#~ msgstr ""
-#~ "プロジェクトのクォータを一覧表示するには、まず Keystone CLI ツールを使用し"
-#~ "て ID を確認する必要があります。"
-
-#~ msgid ""
-#~ "Recall that the Keystone CLI tool uses \"tenant\" where the Nova CLI tool "
-#~ "uses \"project\" for the same concept."
-#~ msgstr ""
-#~ "Nova CLI ツールが「プロジェクト」を使用するところで、Keystone CLI ツールは"
-#~ "同じ意味で「テナント」を使用することを思い出してください。"
-
-#~ msgid ""
-#~ "To show the quota for the project, for the example above, we must use the "
-#~ "ID <code>98333a1a28e746fa8c629c83a818ad57</code>:"
-#~ msgstr ""
-#~ "上の例に対して、プロジェクトのクォータを表示するには、ID "
-#~ "<code>98333a1a28e746fa8c629c83a818ad57</code> を使用する必要があります。"
 
 #~ msgid ""
 #~ "Confusingly, <code>nova-manage project quota</code> silently accepts any "
