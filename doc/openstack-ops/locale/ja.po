@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
 "POT-Creation-Date: 2013-12-22 03:53+0900\n"
-"PO-Revision-Date: 2013-12-23 01:19+0900\n"
+"PO-Revision-Date: 2013-12-23 04:42+0900\n"
 "Last-Translator: Tsutomu Takekawa <takekawa@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack/"
 "language/ja/)\n"
@@ -130,7 +130,7 @@ msgid ""
 "the book sprint method effectively again and again. He creates both tools "
 "and faith in collaborative authoring at <link href=\"http://www.booksprints."
 "net/\">www.booksprints.net</link>."
-msgstr ""
+msgstr "我々の Book Sprint のファシリテーターである Adam Hyde は、毎日 Book Sprint の部屋に我々とともにいてくれました。彼の絶え間ない支えと励ましなしには、このような本を 5日間で書き上げることができるとは思わなかったでしょう。 Adam はこれまでに何度も Book Sprint という手法が有効であることを証明して来ました。彼は共同出版のツールと考え方の両方を  <link href=\"http://www.booksprints.net/\">www.booksprints.net</link> で作り上げています。"
 
 #: doc/openstack-ops/acknowledgements.xml:77(para)
 msgid ""
@@ -4649,7 +4649,7 @@ msgstr ""
 msgid ""
 "Additions to acknowledgements and preface to situate this guide relative to "
 "other OpenStack guides."
-msgstr ""
+msgstr "謝辞の追加と、この本と他の OpenStack のガイドの関係の「はじめに」への追加を行いました。"
 
 #: doc/openstack-ops/bk_ops_guide.xml:552(glossterm)
 msgid "capacity updater"
@@ -9617,7 +9617,7 @@ msgstr "設定に関する個別のトピック"
 msgid ""
 "This section covers specific examples of configuration options you might "
 "consider tuning. It is by no means an exhaustive list."
-msgstr "この節では、調整を検討した方がよい設定オプションの個別の具体例を扱います。"
+msgstr "この節では、調整を検討した方がよい設定オプションの個別の具体例を扱います。決して完全なリストではありません。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:120(title)
 msgid "Periodic task frequency"
@@ -12611,7 +12611,7 @@ msgid ""
 "after their deletion. Running a command equivalent to: <placeholder-1/> to "
 "find deleted instances that are still registered in the hypervisor and "
 "removing them prior to running the upgrade can avoid issues."
-msgstr ""
+msgstr "状態の一貫性を確保するために、アップグレードを開始する前にある種のクラスターの「クリーニング」を実行するのもよい考えです。例えば、削除されたがシステムからは完全に消されていないインスタンスがある場合に問題があったという報告もあります。<placeholder-1/> と等価なコマンドを実行して、削除済みだがハイパーバイザーにはまだ登録されているインスタンスを探し、アップグレードを行う前にそれらを削除しておくことで、問題を避けることができます。"
 
 #: doc/openstack-ops/ch_ops_maintenance.xml:108(title)
 msgid "Compute Node Failures and Maintenance"
@@ -14731,7 +14731,7 @@ msgid ""
 "Typically, default values are changed because a tenant requires more than "
 "the OpenStack default of 10 volumes per tenant, or more than the OpenStack "
 "default of 1TB of disk space on a Compute node."
-msgstr ""
+msgstr "通常は、デフォルト値は変更されます。テナントで、OpenStack デフォルトであるテナントあたり 10 個よりも多くのボリュームが必要であったり、一つのコンピュートノードで OpenStack デフォルトである 1TB より多くのディスク空間が必要である、などの理由からです。"
 
 #: doc/openstack-ops/ch_ops_projects_users.xml:108(para)
 msgid "To view all tenants, run: <placeholder-1/>"
@@ -15722,7 +15722,7 @@ msgid ""
 "gigabytes allowed per tenant can be controlled to ensure that a single "
 "tenant cannot consume all of the disk space. Quotas are currently enforced "
 "at the tenant (or project) level, rather than by user."
-msgstr ""
+msgstr "通知なしにシステム容量が使い切られてしまうことを避けるため、クォータを設定することができます。クォータは運用上の上限です。例えば、一つのテナントが全ディスク空間を使い切ってしまうことがないように、テナント毎に許容されるギガバイト数を制御できます。現在のところ、クォータはユーザー単位ではなくテナント (プロジェクト) 単位で適用されます。"
 
 #: doc/openstack-ops/ch_ops_resources.xml:18(para)
 msgid ""
@@ -18086,7 +18086,7 @@ msgid ""
 "virtual machines without pausing them. These snapshots are simply disk-only "
 "snapshots. Snapshotting an instance can now be performed with no downtime "
 "(assuming QEMU 1.3+ and libvirt 1.0+ are used)."
-msgstr ""
+msgstr "ライブスナップショットは、ユーザーが実行中の仮想マシンのスナップショットを一時停止なしで取得できる機能です。このスナップショットは単にディスクのみのスナップショットです。現在はインスタンスのスナップショットは停止時間なしで実行できます (QEMU 1.3+ と libvirt 1.0+ が使用されていることが前提です)。"
 
 #: doc/openstack-ops/ch_ops_user_facing.xml:879(title)
 msgid "Ensuring snapshots are consistent"
@@ -18368,7 +18368,7 @@ msgstr "OpenStack 設定レファレンス"
 msgid ""
 "Contains a reference listing of all configuration options for core and "
 "integrated OpenStack services by release version."
-msgstr ""
+msgstr "リリースバージョン毎に、OpenStack のコアサービス、統合されたサービスのすべての設定オプションの一覧が載っています。"
 
 #: doc/openstack-ops/preface_ops.xml:140(link)
 msgid "OpenStack Cloud Administrator Guide"
@@ -18378,7 +18378,7 @@ msgstr "OpenStack クラウド管理者ガイド"
 msgid ""
 "Contains how-to information for managing an OpenStack cloud as needed for "
 "your use cases, such as storage, computing, or software-defined-networking."
-msgstr ""
+msgstr "あなたのユースケースに合わせて、ストレージ、コンピューティング、Software-defined-networking など OpenStack クラウドを管理する方法が書かれています。"
 
 #: doc/openstack-ops/preface_ops.xml:150(link)
 msgid "OpenStack High Availability Guide"
@@ -18428,7 +18428,7 @@ msgstr "OpenStack エンドユーザーガイド"
 msgid ""
 "Shows OpenStack end users how to create and manage resources in an OpenStack "
 "cloud with the OpenStack dashboard and OpenStack client commands."
-msgstr ""
+msgstr "OpenStack のエンドユーザーが、OpenStack Dashboard と OpenStack クライアントコマンドを使って、OpenStack クラウドのリソースの作成・管理を行う方法を説明しています。"
 
 #: doc/openstack-ops/preface_ops.xml:183(link)
 msgid "OpenStack Admin User Guide"
@@ -18438,7 +18438,7 @@ msgstr "OpenStack 管理ユーザーガイド"
 msgid ""
 "Shows OpenStack administrators how to create and manage resources in an "
 "OpenStack cloud with the OpenStack dashboard and OpenStack client commands."
-msgstr ""
+msgstr "OpenStack の管理者が、OpenStack Dashboard と OpenStack クライアントコマンドを使って、OpenStack クラウドのリソースの作成・管理を行う方法を説明しています。"
 
 #: doc/openstack-ops/preface_ops.xml:192(link)
 msgid "OpenStack API Quick Start"
@@ -18617,7 +18617,7 @@ msgstr ""
 msgid ""
 "Glossary: A list of terms used in this book is included, which is a subset "
 "of the larger OpenStack Glossary available online."
-msgstr ""
+msgstr "用語集: この本で使われている用語の一覧。オンライン上にある OpenStack 用語集のサブセットです。"
 
 #: doc/openstack-ops/preface_ops.xml:281(title)
 msgid "Why and How We Wrote This Book"
@@ -18918,7 +18918,7 @@ msgid ""
 "Perhaps you're on a devops team, perhaps you are a system administrator "
 "starting to dabble in the cloud, or maybe you want to get on that OpenStack "
 "cloud team at your company. This book is for all of you."
-msgstr ""
+msgstr "この本は、OpenStack クラウドの運用を始めようとして人も、運用中の OpenStack クラウドを引き継ぎ、うまく動かし続けようとしている人も対象にしています。おそらく、あなたは devops チームの一員であったり、クラウドを始めたばかりのシステム管理者なのでしょう。あなたの会社の OpenStack クラウドチームに入ろうとしているのかもしれません。この本はそのような皆さん全員に向けたものです。"
 
 #: doc/openstack-ops/preface_ops.xml:85(para)
 msgid ""
@@ -18939,7 +18939,7 @@ msgstr "OpenStack インストールガイド"
 msgid ""
 "Describe a manual install process, as in, by hand, no automation, for "
 "multiple distributions based on packaging system:"
-msgstr ""
+msgstr "自動化せずに、手動で行う場合のインストール手順について説明しています。パッケージングシステムがある複数のディストリビューション向けのインストールガイドがあります。"
 
 #~ msgid "Once that's done, stop MySQL:"
 #~ msgstr "その後、MySQLを停止します。"
