@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
 "POT-Creation-Date: 2014-02-02 02:28+0900\n"
-"PO-Revision-Date: 2014-01-07 14:01+0900\n"
+"PO-Revision-Date: 2014-02-02 22:25+0900\n"
 "Last-Translator: Tsutomu Takekawa <takekawa@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack/"
 "language/ja/)\n"
@@ -1104,52 +1104,36 @@ msgstr ""
 "VLAN 部分が削除されていないように見える。"
 
 #: doc/openstack-ops/app_roadmaps.xml:104(link)
-#, fuzzy
-#| msgid "2012.1.1"
 msgid "2013.1.1"
-msgstr "2012.1.1"
+msgstr "2013.1.1"
 
 #: doc/openstack-ops/app_roadmaps.xml:106(para)
-#, fuzzy
-#| msgid "Jan 19, 2012"
 msgid "May 9, 2013"
-msgstr "2012年1月19日"
+msgstr "2013年5月9日"
 
 #: doc/openstack-ops/app_roadmaps.xml:113(link)
-#, fuzzy
-#| msgid "2012.1.2"
 msgid "2013.1.2"
-msgstr "2012.1.2"
+msgstr "2013.1.2"
 
 #: doc/openstack-ops/app_roadmaps.xml:115(para)
-#, fuzzy
-#| msgid "Jun 22, 2012"
 msgid "Jun 6, 2013"
-msgstr "2012年6月22日"
+msgstr "2013年6月6日"
 
 #: doc/openstack-ops/app_roadmaps.xml:122(link)
-#, fuzzy
-#| msgid "2012.1.3"
 msgid "2013.1.3"
-msgstr "2012.1.3"
+msgstr "2013.1.3"
 
 #: doc/openstack-ops/app_roadmaps.xml:124(para)
-#, fuzzy
-#| msgid "Aug 10, 2012"
 msgid "Aug 8, 2013"
-msgstr "2012年8月10日"
+msgstr "2013年8月8日"
 
 #: doc/openstack-ops/app_roadmaps.xml:131(link)
-#, fuzzy
-#| msgid "2013"
 msgid "2013.1.4"
-msgstr "2013"
+msgstr "2013.1.4"
 
 #: doc/openstack-ops/app_roadmaps.xml:133(para)
-#, fuzzy
-#| msgid "Oct 12, 2012"
 msgid "Oct 17, 2013"
-msgstr "2012年10月12日"
+msgstr "2013年10月17日"
 
 #: doc/openstack-ops/app_roadmaps.xml:136(para)
 #: doc/openstack-ops/ch_arch_example.xml:43(para)
@@ -1206,22 +1190,16 @@ msgid "2012.2.3"
 msgstr "2012.2.3"
 
 #: doc/openstack-ops/app_roadmaps.xml:169(para)
-#, fuzzy
-#| msgid "Jan 31, 2012"
 msgid "Jan 31, 2013"
-msgstr "2012年1月31日"
+msgstr "2013年1月31日"
 
 #: doc/openstack-ops/app_roadmaps.xml:176(link)
-#, fuzzy
-#| msgid "2012.2.1"
 msgid "2012.2.4"
-msgstr "2012.2.1"
+msgstr "2012.2.4"
 
 #: doc/openstack-ops/app_roadmaps.xml:178(para)
-#, fuzzy
-#| msgid "Apr 4, 2013"
 msgid "Apr 11, 2013"
-msgstr "2013年4月4日"
+msgstr "2013年4月11日"
 
 #: doc/openstack-ops/app_roadmaps.xml:181(para)
 #: doc/openstack-ops/glossary-terms.xml:997(glossterm)
@@ -1245,18 +1223,6 @@ msgid "Jun 22, 2012"
 msgstr "2012年6月22日"
 
 #: doc/openstack-ops/app_roadmaps.xml:20(para)
-#, fuzzy
-#| msgid ""
-#| "OpenStack follows a six month release cycle, typically releasing in April "
-#| "and October each year. At the start of each cycle, the community gathers "
-#| "in a single location for a Design Summit. At the summit, the features for "
-#| "the coming releases are discussed, prioritized and planned. Here's an "
-#| "example release cycle with dates showing milestone releases, code freeze, "
-#| "and string freeze dates along with an example of when the Summit occurs. "
-#| "Milestones are interim releases within the cycle that are available as "
-#| "packages for download and testing. Code freeze is putting a stop to "
-#| "adding new features to the release. String freeze is putting a stop to "
-#| "changing any strings within the source code."
 msgid ""
 "OpenStack follows a six month release cycle, typically releasing in April/"
 "May and October/November each year. At the start of each cycle, the "
@@ -1268,16 +1234,7 @@ msgid ""
 "as packages for download and testing. Code freeze is putting a stop to "
 "adding new features to the release. String freeze is putting a stop to "
 "changing any strings within the source code."
-msgstr ""
-"OpenStack は6ヶ月のリリースサイクルを取っており、通常は4月と10月にリリースが"
-"行われます。各リリースサイクルの最初に、OpenStack コミュニティは一ヶ所に集ま"
-"りデザインサミットを行います。サミットでは、次のリリースでの機能が議論され、"
-"優先度付けと計画が行われます。以下はリリースサイクルの一例で、サミットが行わ"
-"れて以降のマイルストーンリリース、Code Freeze、String Freeze などが記載されて"
-"います。マイルストーンはリリースサイクル内での中間リリースで、テスト用にパッ"
-"ケージが作成され、ダウンロードできるようになります。 Code Freeze では、そのリ"
-"リースに向けての新機能の追加が凍結されます。String Freeze は、ソースコード内"
-"の文字列の変更が凍結されることを意味します。"
+msgstr "OpenStack は6ヶ月のリリースサイクルを取っており、通常は4月/5月と10月/11月にリリースが行われます。各リリースサイクルの最初に、OpenStack コミュニティは一ヶ所に集まりデザインサミットを行います。サミットでは、次のリリースでの機能が議論され、優先度付けと計画が行われます。以下はリリースサイクルの一例で、サミットが行われて以降のマイルストーンリリース、Code Freeze、String Freeze などが記載されています。マイルストーンはリリースサイクル内での中間リリースで、テスト用にパッケージが作成され、ダウンロードできるようになります。 Code Freeze では、そのリリースに向けての新機能の追加が凍結されます。String Freeze は、ソースコード内の文字列の変更が凍結されることを意味します。"
 
 #: doc/openstack-ops/app_roadmaps.xml:204(link)
 msgid "2012.1.2"
@@ -1603,10 +1560,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/app_roadmaps.xml:439(title)
-#, fuzzy
-#| msgid "OpenStack Block Storage (Cinder)"
 msgid "OpenStack on OpenStack (TripleO)"
-msgstr "OpenStack Block Storage (Cinder)"
+msgstr "OpenStack on OpenStack (TripleO)"
 
 #: doc/openstack-ops/app_roadmaps.xml:44(title)
 msgid "Information Available to You"
@@ -1715,7 +1670,7 @@ msgstr "リリース日"
 #: doc/openstack-ops/app_roadmaps.xml:60(para)
 #: doc/openstack-ops/glossary-terms.xml:1330(glossterm)
 msgid "Icehouse"
-msgstr ""
+msgstr "Icehouse"
 
 #: doc/openstack-ops/app_roadmaps.xml:64(link)
 msgid "Under development, Release schedule"
@@ -1726,25 +1681,21 @@ msgid "Due"
 msgstr "リリース予定"
 
 #: doc/openstack-ops/app_roadmaps.xml:68(para)
-#, fuzzy
-#| msgid "Apr 4, 2013"
 msgid "Apr 17, 2013"
-msgstr "2013年4月4日"
+msgstr "2013年4月17日"
 
 #: doc/openstack-ops/app_roadmaps.xml:71(para)
 #: doc/openstack-ops/glossary-terms.xml:1263(glossterm)
 msgid "Havana"
-msgstr ""
+msgstr "Havana"
 
 #: doc/openstack-ops/app_roadmaps.xml:72(para)
 msgid "Current stable release, security-supported"
 msgstr "現在の安定版リリース、セキュリティアップデート対象"
 
 #: doc/openstack-ops/app_roadmaps.xml:78(link)
-#, fuzzy
-#| msgid "2013"
 msgid "2013.2"
-msgstr "2013"
+msgstr "2013.2"
 
 #: doc/openstack-ops/app_roadmaps.xml:80(para)
 #: doc/openstack-ops/app_roadmaps.xml:98(para)
@@ -1752,16 +1703,12 @@ msgid "Apr 4, 2013"
 msgstr "2013年4月4日"
 
 #: doc/openstack-ops/app_roadmaps.xml:86(link)
-#, fuzzy
-#| msgid "2012.2.1"
 msgid "2013.2.1"
-msgstr "2012.2.1"
+msgstr "2013.2.1"
 
 #: doc/openstack-ops/app_roadmaps.xml:88(para)
-#, fuzzy
-#| msgid "Dec 13, 2012"
 msgid "Dec 16, 2013"
-msgstr "2012年12月13日"
+msgstr "2013年12月16日"
 
 #: doc/openstack-ops/app_roadmaps.xml:91(para)
 #: doc/openstack-ops/glossary-terms.xml:1229(glossterm)
@@ -1775,10 +1722,8 @@ msgid "Security-supported"
 msgstr "コミュニティによるサポートが行われている"
 
 #: doc/openstack-ops/app_roadmaps.xml:96(link)
-#, fuzzy
-#| msgid "2013"
 msgid "2013.1"
-msgstr "2013"
+msgstr "2013.1"
 
 #: doc/openstack-ops/app_usecases.xml:105(para)
 msgid ""
@@ -1833,16 +1778,10 @@ msgid "Resources"
 msgstr "情報源"
 
 #: doc/openstack-ops/app_usecases.xml:149(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"https://www.nectar.org.au/\">NeCTAR Website</link> (https://"
-#| "www.nectar.org.au/)"
 msgid ""
 "<link href=\"http://www.csail.mit.edu\">CSAIL Homepage</link> (http://www."
 "csail.mit.edu)"
-msgstr ""
-"<link href=\"https://www.nectar.org.au/\">NeCTAR Web サイト</link> (https://"
-"www.nectar.org.au/)"
+msgstr "<link href=\"http://www.csail.mit.edu\">CSAIL ホームページ</link> (http://www.csail.mit.edu)"
 
 #: doc/openstack-ops/app_usecases.xml:15(para)
 msgid ""
@@ -1887,26 +1826,13 @@ msgid "Deployment"
 msgstr "デプロイ"
 
 #: doc/openstack-ops/app_usecases.xml:171(para)
-#, fuzzy
-#| msgid ""
-#| "DAIR is hosted at two different data centres across Canada: one in "
-#| "Alberta and the other in Quebec. It consists of a cloud controller at "
-#| "each location, however, one is designated as the \"master\" controller "
-#| "that is in charge of central authentication and quotas. This is done "
-#| "through custom scripts and light modifications to OpenStack. DAIR is "
-#| "currently running Folsom."
 msgid ""
 "DAIR is hosted at two different data centres across Canada: one in Alberta "
 "and the other in Quebec. It consists of a cloud controller at each location, "
 "however, one is designated as the \"master\" controller that is in charge of "
 "central authentication and quotas. This is done through custom scripts and "
 "light modifications to OpenStack. DAIR is currently running Grizzly."
-msgstr ""
-"DAIR はカナダの2つの異なるデータセンタ（１つはアルバータ州、もう1つはケベック"
-"州）でホスティングされています。各拠点にはそれぞれクラウドコントローラがあり"
-"ますが、その１つが「マスター」コントローラーとして、認証とクォータ管理を集中"
-"して行うよう設計されています。これは、特製スクリプトと OpenStack の軽微な改造"
-"により実現されています。DAIR は現在、Folsom で運営されています。"
+msgstr "DAIR はカナダの2つの異なるデータセンタ（１つはアルバータ州、もう1つはケベック州）でホスティングされています。各拠点にはそれぞれクラウドコントローラがありますが、その１つが「マスター」コントローラーとして、認証とクォータ管理を集中して行うよう設計されています。これは、特製スクリプトと OpenStack の軽微な改造により実現されています。DAIR は現在、Grizzly で運営されています。"
 
 #: doc/openstack-ops/app_usecases.xml:179(para)
 msgid "For Object Storage, each region has a Swift environment."
@@ -2125,24 +2051,13 @@ msgstr ""
 "利用者：マサチューセッツ工科大学コンピュータ科学・人工知能研究所の研究者。"
 
 #: doc/openstack-ops/app_usecases.xml:85(para)
-#, fuzzy
-#| msgid ""
-#| "The CSAIL cloud is currently 64 physical nodes with a total of 768 "
-#| "physical cores and 3,456 GB of RAM. Persistent data storage is largely "
-#| "outside of the cloud on NFS with cloud resources focused on compute "
-#| "resources. There are 65 users in 23 projects with typical capacity "
-#| "utilization nearing 90% we are looking to expand."
 msgid ""
 "The CSAIL cloud is currently 64 physical nodes with a total of 768 physical "
 "cores and 3,456 GB of RAM. Persistent data storage is largely outside of the "
 "cloud on NFS with cloud resources focused on compute resources. There are "
 "more than 130 users in more than 40 projects with typically running 2,000 - "
 "2,500 vCPUs in 300 to 400 instances."
-msgstr ""
-"CSAIL クラウドは現在 64 物理ノード、768 物理コア、3,456 GB のメモリがありま"
-"す。クラウドリソースがコンピュータリソースに焦点をあてているため、永続データ"
-"ストレージの大部分は、クラウド外の NFS 上にあります。現在 65 ユーザと 23 プロ"
-"ジェクトがあり、拡張が期待される約 90% 近くの利用率があります。"
+msgstr "CSAIL クラウドは現在 64 物理ノード、768 物理コア、3,456 GB のメモリがあります。クラウドリソースがコンピュータリソースに焦点をあてているため、永続データストレージの大部分は、クラウド外の NFS 上にあります。現在 40 以上のプロジェクトで 130 以上のユーザがあり、通常 300 から 400 のインスタンスで 2,000 から 2,500 vCPU が動いています。"
 
 #: doc/openstack-ops/app_usecases.xml:92(para)
 msgid ""
@@ -2257,20 +2172,16 @@ msgid "OpenStack"
 msgstr "OpenStack"
 
 #: doc/openstack-ops/bk_ops_guide.xml:51(date)
-#, fuzzy
-#| msgid "2013-04-02"
 msgid "2013-01-04"
-msgstr "2013-04-02"
+msgstr "2013-01-04"
 
 #: doc/openstack-ops/bk_ops_guide.xml:55(para)
 msgid "Addresses detail needed in cloud controller."
 msgstr ""
 
 #: doc/openstack-ops/bk_ops_guide.xml:62(date)
-#, fuzzy
-#| msgid "2013-12-12"
 msgid "2013-12-18"
-msgstr "2013-12-12"
+msgstr "2013-12-18"
 
 #: doc/openstack-ops/bk_ops_guide.xml:66(para)
 msgid "Adds additional explanation and detail to Provisioning and Deployment."
@@ -2537,16 +2448,10 @@ msgstr ""
 "データベースサーバーの設置が単純になりました。"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:26(para)
-#, fuzzy
-#| msgid ""
-#| "For more details about the overall architecture, see the <xref linkend="
-#| "\"example_architecture\"/>."
 msgid ""
 "For more details about an overall example architecture, see the <xref "
 "linkend=\"example_architecture\"/>."
-msgstr ""
-"全体的なアーキテクチャの詳細については、<xref linkend=\"example_architecture"
-"\"/>の章を参照してください。"
+msgstr "全体的な参照アーキテクチャの詳細については、<xref linkend=\"example_architecture\"/>の章を参照してください。"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:266(para)
 msgid "Run one VM per service"
@@ -2805,10 +2710,8 @@ msgstr ""
 "入することができ、ベンダー固有の特定の機能を導入することもできます。"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:426(title)
-#, fuzzy
-#| msgid "Scheduler"
 msgid "Scheduling"
-msgstr "スケジューラー"
+msgstr "スケジューリング"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:427(para)
 msgid ""
@@ -2921,23 +2824,12 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:488(para)
-#, fuzzy
-#| msgid ""
-#| "The OpenStack Dashboard is implemented as a Python web application that "
-#| "runs in <glossterm>Apache</glossterm><code>httpd</code>. Therefore, you "
-#| "may treat it the same as any other web application, provided it can reach "
-#| "the API servers (including their admin endpoints) over the network."
 msgid ""
 "The dashboard is implemented as a Python web application that normally runs "
 "in <glossterm>Apache</glossterm><code>httpd</code>. Therefore, you may treat "
 "it the same as any other web application, provided it can reach the API "
 "servers (including their admin endpoints) over the network."
-msgstr ""
-"OpenStack ダッシュボードは、<glossterm>Apache</glossterm> <code>httpd</code>"
-"の中で実行される Python の Web アプリケーションとして実装されています。した"
-"がって、そこから ネットワーク経由で (admin エンドポイントを含む) API サーバー"
-"にアクセスできるという条件の下、他の任意の Web アプリケーションと同じように取"
-"り扱うことができます。"
+msgstr "ダッシュボードは、Python の Web アプリケーションとして実装されており、通常は <glossterm>Apache</glossterm> <code>httpd</code>の中で実行されます。したがって、そこから ネットワーク経由で (admin エンドポイントを含む) API サーバーにアクセスできるという条件の下、他の任意の Web アプリケーションと同じように取り扱うことができます。"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:496(title)
 msgid "Authentication and Authorization"
@@ -2968,24 +2860,13 @@ msgstr ""
 "はプロジェクトに対して関連づけられています。"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:508(para)
-#, fuzzy
-#| msgid ""
-#| "The OpenStack Identity Service (Keystone) is the point that provides the "
-#| "authentication decisions and user attribute information, which is then "
-#| "used by the other OpenStack services to perform authorization. Policy is "
-#| "set in the policy.json file. For information on how to configure these, "
-#| "see <xref linkend=\"projects_users\"/>."
 msgid ""
 "The OpenStack Identity Service (Keystone) is the point that provides the "
 "authentication decisions and user attribute information, which is then used "
 "by the other OpenStack services to perform authorization. Policy is set in "
 "the <filename>policy.json</filename> file. For information on how to "
 "configure these, see <xref linkend=\"projects_users\"/>."
-msgstr ""
-"OpenStack Identity Service (Keystone) は、認証の判定とユーザの属性情報を提供"
-"する場となり、他の OpenStack サービスから認可のために使用されます。ポリシー"
-"は policy.json で記述されます。これらを設定するための情報については、<xref "
-"linkend=\"projects_users\"/> を参照してください。"
+msgstr "OpenStack Identity Service (Keystone) は、認証の判定とユーザの属性情報を提供する場となり、他の OpenStack サービスから認可のために使用されます。ポリシーは <filename>policy.json</filename> で記述されます。これらを設定するための情報については、<xref linkend=\"projects_users\"/> を参照してください。"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:515(para)
 #, fuzzy
@@ -3007,15 +2888,15 @@ msgstr ""
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:524(para)
 msgid "SQL database (such as MySQL or PostgreSQL)"
-msgstr ""
+msgstr "SQL データベース (MySQL や PostgreSQL など)"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:528(para)
 msgid "PAM (Pluggable Authentication Module)"
-msgstr ""
+msgstr "PAM (Pluggable Authentication Module)"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:531(para)
 msgid "LDAP (such as OpenLDAP or Microsoft's Active Directory)"
-msgstr ""
+msgstr "LDAP (OpenLDAP や Microsoft の Active Directory)"
 
 #: doc/openstack-ops/ch_arch_cloud_controller.xml:535(para)
 msgid ""
@@ -3182,14 +3063,6 @@ msgid "How do you manage the storage operationally?"
 msgstr "運用上ストレージをどのように管理したいのか？"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:135(para)
-#, fuzzy
-#| msgid ""
-#| "Many operators use separate compute and storage hosts. Compute services "
-#| "and storage services have different requirements, compute hosts typically "
-#| "require more CPU and RAM than storage hosts. Therefore, for a fixed "
-#| "budget, it makes sense to have different configurations for your compute "
-#| "nodes and your storage nodes with compute nodes invested in CPU and RAM, "
-#| "and storage nodes invested in block storage."
 msgid ""
 "Many operators use separate compute and storage hosts. Compute services and "
 "storage services have different requirements, compute hosts typically "
@@ -3197,13 +3070,7 @@ msgid ""
 "it makes sense to have different configurations for your compute nodes and "
 "your storage nodes. Compute nodes will be invested in CPU and RAM, and "
 "storage nodes will be invested in block storage."
-msgstr ""
-"多くの運用者はコンピュートホストとストレージホストを分離して使用しています。"
-"コンピュートサービスとストレージサービスには異なる要件があり、コンピュートホ"
-"ストでは通常はストレージホストよりも多くのCPUとRAMが必要です。そのため、一定"
-"の予算の中では、コンピュートホストとストレージホストで異なる構成として、コン"
-"ピュートホストに多くのCPUとRAMを持たせ、ストレージホストに多くのブロックスト"
-"レージを持たせるのは、理にかなっています。"
+msgstr "多くの運用者はコンピュートホストとストレージホストを分離して使用しています。コンピュートサービスとストレージサービスには異なる要件があり、コンピュートホストでは通常はストレージホストよりも多くのCPUとRAMが必要です。そのため、一定の予算の中では、コンピュートホストとストレージホストで異なる構成とするのは理にかなっています。コンピュートホストではCPUとRAMに、ストレージホストではブロックストレージに重点的に投資します。"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:14(title)
 #: doc/openstack-ops/ch_ops_log_monitor.xml:102(para)
@@ -3249,38 +3116,19 @@ msgid "Off Compute Node Storage – Shared File System"
 msgstr "コンピュートノード外のストレージ （共有ファイルシステム）"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:154(para)
-#, fuzzy
-#| msgid ""
-#| "In this option, the disks storing the running instances are hosted in "
-#| "servers outside of the compute nodes. There are also several advantages "
-#| "to this approach:"
 msgid ""
 "In this option, the disks storing the running instances are hosted in "
 "servers outside of the compute nodes."
-msgstr ""
-"この方法では、実行中のインスタンスの状態を格納するディスクはコンピュートホス"
-"ト外のサーバーに置かれます。この方法には以下のようなメリットもあります。"
+msgstr "この方法では、実行中のインスタンスの状態を格納するディスクはコンピュートホスト外のサーバーに置かれます。"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:157(para)
-#, fuzzy
-#| msgid ""
-#| "Also, if you use separate compute and storage hosts then you can treat "
-#| "your compute hosts as \"stateless\". This simplifies maintenance for the "
-#| "compute hosts. As long as you don't have any instances currently running "
-#| "on a compute host, you can take it offline or wipe it completely without "
-#| "having any effect on the rest of your cloud."
 msgid ""
 "If you use separate compute and storage hosts then you can treat your "
 "compute hosts as \"stateless\". As long as you don't have any instances "
 "currently running on a compute host, you can take it offline or wipe it "
 "completely without having any effect on the rest of your cloud. This "
 "simplifies maintenance for the compute hosts."
-msgstr ""
-"また、コンピュートホストとストレージホストを分離しておけば、コンピュートホス"
-"トを「ステートレス」（状態を保持しないもの）として扱うことができます。これに"
-"より、コンピュートホストの管理を単純にすることができます。コンピュートホスト"
-"上で動作しているインスタンスがない限り、クラウドの他の部分に影響を与えずにそ"
-"のノードをオフラインにしたり取り除いたりすることができます。"
+msgstr "コンピュートホストとストレージホストを分離しておけば、コンピュートホストを「ステートレス」（状態を保持しないもの）として扱うことができます。コンピュートホスト上で動作しているインスタンスがない限り、クラウドの他の部分に影響を与えずにそのノードをオフラインにしたり取り除いたりすることができます。これにより、コンピュートホストの管理を単純にすることができます。"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:163(para)
 #, fuzzy
@@ -3571,16 +3419,12 @@ msgstr ""
 "次のようになっています。"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:326(para)
-#, fuzzy
-#| msgid "CPU allocation ratio: 16"
 msgid "CPU allocation ratio: 16:1"
-msgstr "CPU 割当比: 16"
+msgstr "CPU 割当比: 16:1"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:329(para)
-#, fuzzy
-#| msgid "RAM allocation ratio: 1.5"
 msgid "RAM allocation ratio: 1.5:1"
-msgstr "RAM 割当比: 1.5"
+msgstr "RAM 割当比: 1.5:1"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:332(para)
 #, fuzzy
@@ -3789,16 +3633,10 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:60(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"https://www.nectar.org.au/\">NeCTAR Website</link> (https://"
-#| "www.nectar.org.au/)"
 msgid ""
 "<link title=\"reference manual\" href=\"http://www.linux-kvm.org/\">KVM</"
 "link> (http://www.linux-kvm.org/)"
-msgstr ""
-"<link href=\"https://www.nectar.org.au/\">NeCTAR Web サイト</link> (https://"
-"www.nectar.org.au/)"
+msgstr "<link title=\"reference manual\" href=\"http://www.linux-kvm.org/\">KVM</link> (http://www.linux-kvm.org/)"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:61(para)
 msgid ""
@@ -3820,16 +3658,10 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:64(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"https://www.nectar.org.au/\">NeCTAR Website</link> (https://"
-#| "www.nectar.org.au/)"
 msgid ""
 "<link title=\"reference manual\" href=\"http://www.xen.org/\">Xen</link> "
 "(http://www.xen.org/)"
-msgstr ""
-"<link href=\"https://www.nectar.org.au/\">NeCTAR Web サイト</link> (https://"
-"www.nectar.org.au/)"
+msgstr "<link title=\"reference manual\" href=\"http://www.xen.org/\">Xen</link> (http://www.xen.org/)"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:65(para)
 msgid ""
@@ -3839,16 +3671,10 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:66(para)
-#, fuzzy
-#| msgid ""
-#| "<link href=\"https://www.nectar.org.au/\">NeCTAR Website</link> (https://"
-#| "www.nectar.org.au/)"
 msgid ""
 "<link title=\"reference manual\" href=\"http://www.docker.io/\">Docker</"
 "link> (http://www.docker.io/)"
-msgstr ""
-"<link href=\"https://www.nectar.org.au/\">NeCTAR Web サイト</link> (https://"
-"www.nectar.org.au/)"
+msgstr "<link title=\"reference manual\" href=\"http://www.docker.io/\">Docker</link> (http://www.docker.io/)"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:69(para)
 msgid ""
@@ -3862,13 +3688,6 @@ msgstr ""
 "ティでの経験量などあると思います。"
 
 #: doc/openstack-ops/ch_arch_compute_nodes.xml:74(para)
-#, fuzzy
-#| msgid ""
-#| "For example, KVM is the most widely adopted hypervisor in the OpenStack "
-#| "community. Besides KVM, more deployments exist running Xen, LXC, VMWare "
-#| "and Hyper-V than the others listed — however, each of these are lacking "
-#| "some feature support or the documentation on how to use them with "
-#| "OpenStack is out of date."
 msgid ""
 "For example, KVM is the most widely adopted hypervisor in the OpenStack "
 "community. Besides KVM, more deployments exist running Xen, LXC, VMWare, and "
@@ -4898,22 +4717,12 @@ msgid "Management Network"
 msgstr "管理ネットワーク"
 
 #: doc/openstack-ops/ch_arch_network_design.xml:32(para)
-#, fuzzy
-#| msgid ""
-#| "A management network, typically consisting of a separate switch and "
-#| "separate NICs, is a recommended option. This segregation prevents system "
-#| "administration and monitoring system access from being disrupted by "
-#| "traffic generated by the guests themselves."
 msgid ""
 "A management network, typically consisting of a separate switch and separate "
 "NICs (Network Interface Cards), is a recommended option. This segregation "
 "prevents system administration and monitoring system access from being "
 "disrupted by traffic generated by the guests."
-msgstr ""
-"管理ネットワークを用意するのはお薦めの選択肢です。通常、管理ネットワークは専"
-"用のスイッチと NIC で構成します。ネットワークを分離することで、システム管理と"
-"監視システムアクセスが、ゲスト自身が生成するトラフィックによって邪魔されるこ"
-"とがなくなります。"
+msgstr "管理ネットワークを用意するのはお薦めの選択肢です。通常、管理ネットワークは専用のスイッチと NIC (ネットワークインタフェースカード) で構成します。ネットワークを分離することで、システム管理と監視システムアクセスが、ゲストが生成するトラフィックによって邪魔されることがなくなります。"
 
 #: doc/openstack-ops/ch_arch_network_design.xml:38(para)
 #, fuzzy
@@ -5380,10 +5189,6 @@ msgid "Disk Partitioning and RAID"
 msgstr "ディスクのパーティショニングと RAID"
 
 #: doc/openstack-ops/ch_arch_provision.xml:49(para)
-#, fuzzy
-#| msgid ""
-#| "At the very base of any operating system are the hard drives on which the "
-#| "OS is installed."
 msgid ""
 "At the very base of any operating system are the hard drives on which the "
 "operating system (OS) is installed."
@@ -5582,10 +5387,8 @@ msgid "Scaling"
 msgstr "スケーリング"
 
 #: doc/openstack-ops/ch_arch_scaling.xml:140(title)
-#, fuzzy
-#| msgid "Adding Controller Nodes"
 msgid "Adding Cloud Controller Nodes"
-msgstr "コントローラーノードの追加"
+msgstr "クラウドコントローラーノードの追加"
 
 #: doc/openstack-ops/ch_arch_scaling.xml:141(para)
 msgid ""
@@ -5990,15 +5793,6 @@ msgstr ""
 "ウェア故障が発生した場合でも高可用性を達成することができます。"
 
 #: doc/openstack-ops/ch_arch_scaling.xml:364(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\">Host aggregate</emphasis>. Enables you to "
-#| "partition OpenStack Compute deployments into logical groups for load "
-#| "balancing and instance distribution. You can use host aggregates to "
-#| "further partition an availability zone. For example, you might use host "
-#| "aggregates to partition an availability zone into groups of hosts that "
-#| "either share common resources, such as storage and network, or have a "
-#| "special property, such as trusted computing hardware."
 msgid ""
 "<emphasis role=\"bold\">Host aggregates</emphasis> enable you to partition "
 "OpenStack Compute deployments into logical groups for load balancing and "
@@ -6007,15 +5801,7 @@ msgid ""
 "an availability zone into groups of hosts that either share common "
 "resources, such as storage and network, or have a special property, such as "
 "trusted computing hardware."
-msgstr ""
-"<emphasis role=\"bold\">ホストアグリゲート</emphasis>:  負荷分散やインスタン"
-"スの分散配置のために、 OpenStack Compute のデプロイメントを論理グループに分割"
-"することができるようになります。ホストアグリゲートを使って一つのアベイラビリ"
-"ティゾーンをさらに分割することもできます。例えば、ホストアグリゲートを使うこ"
-"とで、一つのアベイラビリティゾーンを、ストレージやネットワークなどの共通のリ"
-"ソースを共有するホストのグループや、トラステッドコンピューティングハードウェ"
-"アのような特別な性質を備えたホストのグループ、に分割することができるでしょ"
-"う。"
+msgstr "<emphasis role=\"bold\">ホストアグリゲート</emphasis>を使うと、負荷分散やインスタンスの分散配置のために、 OpenStack Compute のデプロイメントを論理グループに分割することができるようになります。ホストアグリゲートを使って一つのアベイラビリティゾーンをさらに分割することもできます。例えば、ホストアグリゲートを使うことで、一つのアベイラビリティゾーンを、ストレージやネットワークなどの共通のリソースを共有するホストのグループや、トラステッドコンピューティングハードウェアのような特別な性質を備えたホストのグループ、に分割することができるでしょう。"
 
 #: doc/openstack-ops/ch_arch_scaling.xml:373(para)
 msgid ""
@@ -6193,18 +5979,10 @@ msgstr ""
 "ハードウェア環境を作ることに注力してください。"
 
 #: doc/openstack-ops/ch_arch_scaling.xml:477(para)
-#, fuzzy
-#| msgid ""
-#| "OpenStack can be deployed on any hardware supported by an OpenStack-"
-#| "compatible Linux distribution, such as Ubuntu 12.04 as used in this "
-#| "books' reference architecture."
 msgid ""
 "OpenStack can be deployed on any hardware supported by an OpenStack-"
 "compatible Linux distribution."
-msgstr ""
-"OpenStack は、この本の参考アーキテクチャで使われている Ubuntu 12.04 のよう"
-"に、OpenStack と互換性のある Linux ディストリビューションでサポートされたハー"
-"ドウェアにデプロイできます。"
+msgstr "OpenStack は、OpenStack と互換性のある Linux ディストリビューションでサポートされたハードウェアであればどんなハードウェアにもデプロイできます。"
 
 #: doc/openstack-ops/ch_arch_scaling.xml:479(para)
 msgid ""
@@ -6687,8 +6465,6 @@ msgid "NFS"
 msgstr "NFS"
 
 #: doc/openstack-ops/ch_arch_storage.xml:26(title)
-#, fuzzy
-#| msgid "Ephemeral storage"
 msgid "Ephemeral Storage"
 msgstr "エフェメラルストレージ"
 
@@ -7171,17 +6947,6 @@ msgstr ""
 "てみてください。これはネットワークに大きな負荷を発生させます。"
 
 #: doc/openstack-ops/ch_arch_storage.xml:539(para)
-#, fuzzy
-#| msgid ""
-#| "Another oft forgotten fact is that when a new file is being uploaded, the "
-#| "proxy server must write out as many streams as there are replicas - "
-#| "giving a multiple of network traffic. For a 3-replica cluster, 10Gbps in "
-#| "means 30Gbps out. Combining this with the previous high bandwidth demands "
-#| "of replication is what results in the recommendation that your private "
-#| "network is of significantly higher bandwidth than your public need be. "
-#| "Oh, and OpenStack Object Storage communicates internally with "
-#| "unencrypted, unauthenticated rsync for performance - you do want the "
-#| "private network to be private."
 msgid ""
 "Another oft forgotten fact is that when a new file is being uploaded, the "
 "proxy server must write out as many streams as there are replicas - giving a "
@@ -7215,19 +6980,11 @@ msgstr ""
 "エンドは、Block Storage のドライバによりサポートされている必要があります。"
 
 #: doc/openstack-ops/ch_arch_storage.xml:550(para)
-#, fuzzy
-#| msgid ""
-#| "The remaining point on bandwidth is the public facing portion. swift-"
-#| "proxy is stateless, which means that you can easily add more and use http "
-#| "load-balancing methods to share bandwidth and availability between them."
 msgid ""
 "The remaining point on bandwidth is the public facing portion. The swift-"
 "proxy service is stateless, which means that you can easily add more and use "
 "http load-balancing methods to share bandwidth and availability between them."
-msgstr ""
-"残りのポイントはパブリック側のネットワーク帯域になります。swift-proxyはステー"
-"トレスなため、ノードを追加し、HTTPロードバランスを使うことで帯域の増加と可用"
-"性の向上を容易に行うことができます。"
+msgstr "残りのポイントはパブリック側のネットワーク帯域になります。swift-proxy サービスはステートレスなため、ノードを追加し、HTTPロードバランスを使うことで帯域の増加と可用性の向上を容易に行うことができます。"
 
 #: doc/openstack-ops/ch_arch_storage.xml:554(para)
 msgid "More proxies means more bandwidth, if your storage can keep up."
@@ -7354,10 +7111,8 @@ msgid ""
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:123(title)
-#, fuzzy
-#| msgid "Availability Zones"
 msgid "High Availability"
-msgstr "アベイラビリティゾーン"
+msgstr "高可用性"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:124(para)
 msgid ""
@@ -7412,10 +7167,8 @@ msgstr ""
 "設定値ですべてのデプロイメントに対応することはできません。"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:153(title)
-#, fuzzy
-#| msgid "Periodic task frequency"
 msgid "Periodic Task Frequency for Compute"
-msgstr "周期的タスクの頻度"
+msgstr "コンピュートの周期的タスクの頻度"
 
 #: doc/openstack-ops/ch_ops_advanced_configuration.xml:154(para)
 msgid ""
@@ -8003,22 +7756,12 @@ msgstr ""
 "かれていますし、機能開発ガイドラインに従う新機能を歓迎します。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:158(para)
-#, fuzzy
-#| msgid ""
-#| "When you run <code>stack.sh</code>, you might see an error message that "
-#| "reads “ERROR: at least one RPC back-end must be enabled”. Don’t worry "
-#| "about it; swift and keystone do not need an RPC (AMQP) back-end. You can "
-#| "also ignore any <code>ImportErrors</code>."
 msgid ""
 "When you run <code>stack.sh</code>, you might see an error message that "
 "reads “ERROR: at least one RPC back-end must be enabled”. Don’t worry about "
 "it; Swift and Keystone do not need an RPC (AMQP) back-end. You can also "
 "ignore any <code>ImportErrors</code>."
-msgstr ""
-"<code>stack.sh</code> を実行する際、“ERROR: at least one RPC back-end must "
-"be enabled” というエラーメッセージが出るかもしれません。これは心配しないでく"
-"ださい。swift と keystone はRPC (AMQP) バックエンドを必要としないのです。同様"
-"に、<code>ImportErrors</code> はすべて無視できます。"
+msgstr "<code>stack.sh</code> を実行する際、“ERROR: at least one RPC back-end must be enabled” というエラーメッセージが出るかもしれません。これは心配しないでください。Swift と Keystone はRPC (AMQP) バックエンドを必要としません。同様に、<code>ImportErrors</code> はすべて無視できます。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:169(para)
 msgid ""
@@ -8033,51 +7776,26 @@ msgstr ""
 "ださい。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:182(para)
-#, fuzzy
-#| msgid ""
-#| "Now that you have an OpenStack development environment, you're free to "
-#| "hack around without worrying about damaging your production deployment. "
-#| "Proceed to either the <emphasis role=\"bold\">Middleware Example</"
-#| "emphasis> for a Swift-only environment, or the <emphasis role=\"bold"
-#| "\">Nova Scheduler Example</emphasis> for all other projects."
 msgid ""
 "Now that you have an OpenStack development environment, you're free to hack "
 "around without worrying about damaging your production deployment. Proceed "
 "to either the <xref linkend=\"ip_whitelist\"/> for a Swift-only environment, "
 "or the <xref linkend=\"ip_scheduler\"/> for other projects."
-msgstr ""
-"以上で OpenStack の開発環境を準備できましたので、運用環境にダメージを与えるこ"
-"とを心配せずに自由にハックできます。Swift のみの環境では <emphasis role="
-"\"bold\">ミドルウェア例</emphasis> に、‘他のすべてのプロジェクトでは "
-"<emphasis role=\"bold\">Nova Scheduler Example</emphasis> に進んでください。"
+msgstr "以上で OpenStack の開発環境を準備できましたので、運用環境にダメージを与えることを心配せずに自由にハックできます。Swift のみの環境では <xref linkend=\"ip_whitelist\"/> に、‘他のプロジェクトでは <xref linkend=\"ip_scheduler\"/> に進んでください。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:189(title)
-#, fuzzy
-#| msgid "[1] Swift only localrc"
 msgid "Swift only localrc"
-msgstr "[1] Swift only localrc"
+msgstr "Swift only localrc"
 
 #: doc/openstack-ops/ch_ops_customize.xml:216(title)
-#, fuzzy
-#| msgid "[2] All other projects localrc"
 msgid "Nova projects localrc"
-msgstr "[2] All other projects localrc"
+msgstr "Nova projects localrc"
 
 #: doc/openstack-ops/ch_ops_customize.xml:249(title)
 msgid "Middleware Example"
 msgstr "ミドルウェア例"
 
 #: doc/openstack-ops/ch_ops_customize.xml:250(para)
-#, fuzzy
-#| msgid ""
-#| "Most OpenStack projects are based on the Python <link href=\"http://"
-#| "pythonpaste.org/\">Paste</link>(http://pythonpaste.org/) framework. The "
-#| "best introduction to its architecture is <link href=\"http://pythonpaste."
-#| "org/do-it-yourself-framework.html\">A Do-It-Yourself Framework</link> "
-#| "(http://pythonpaste.org/do-it-yourself-framework.html). Due to the use of "
-#| "this framework, you are able to add features to a project by placing some "
-#| "custom code in a project's pipeline without having to change any of the "
-#| "core code."
 msgid ""
 "Swift is based on the Python <link href=\"http://pythonpaste.org/\">Paste</"
 "link> (http://pythonpaste.org/) framework. The best introduction to its "
@@ -8086,14 +7804,7 @@ msgid ""
 "yourself-framework.html). Due to the use of this framework, you are able to "
 "add features to a project by placing some custom code in a project's "
 "pipeline without having to change any of the core code."
-msgstr ""
-"ほとんどの OpenStack プロジェクトは Python <link href=\"http://pythonpaste."
-"org/\">Paste</link>(http://pythonpaste.org/) フレームワークに基づいています。"
-"<link href=\"http://pythonpaste.org/do-it-yourself-framework.html\">A Do-It-"
-"Yourself Framework</link> (http://pythonpaste.org/do-it-yourself-framework."
-"html) は、このアーキテクチャの最良の紹介です。このフレームワークを使っている"
-"ため、コードに一切手をいれずに、プロジェクトの処理パイプラインになんらかのカ"
-"スタム・コードを入れて機能追加を行うことができます。"
+msgstr "Swift は Python <link href=\"http://pythonpaste.org/\">Paste</link>(http://pythonpaste.org/) フレームワークを使っています。<link href=\"http://pythonpaste.org/do-it-yourself-framework.html\">A Do-It-Yourself Framework</link> (http://pythonpaste.org/do-it-yourself-framework.html) は、このアーキテクチャの最良の紹介です。このフレームワークを使っているため、コードに一切手をいれずに、プロジェクトの処理パイプラインになんらかのカスタム・コードを入れて機能追加を行うことができます。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:261(para)
 msgid ""
@@ -8131,69 +7842,38 @@ msgid "The asterisk * indicates which screen you are on."
 msgstr "* (アスタリスク)は、どの screen にいるのかを示します。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:281(para)
-#, fuzzy
-#| msgid "View quotas for the tenant, as follows:"
 msgid "The purpose of the screens are as follows."
-msgstr "特定のテナントのクォータを表示するには以下のようにします。"
+msgstr "それぞれの screen の目的は以下の通りです。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:284(para)
 #: doc/openstack-ops/ch_ops_customize.xml:636(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\"><code>shell</code></emphasis>. A shell where you "
-#| "can get some work done."
 msgid ""
 "<emphasis role=\"bold\"><code>shell</code></emphasis> A shell where you can "
 "get some work done."
-msgstr ""
-"<emphasis role=\"bold\"><code>0$ shell</code></emphasis>. 何か作業することが"
-"できる shell セッションです。"
+msgstr "<emphasis role=\"bold\"><code>0$ shell</code></emphasis> 何か作業することができる shell セッションです。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:289(para)
 #: doc/openstack-ops/ch_ops_customize.xml:641(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\"><code>key</code></emphasis>. The keystone service."
 msgid ""
 "<emphasis role=\"bold\"><code>key</code></emphasis> The Keystone service."
-msgstr ""
-"<emphasis role=\"bold\"><code>1$ key</code></emphasis>. keystone サービス。"
+msgstr "<emphasis role=\"bold\"><code>1$ key</code></emphasis> Keystone サービス。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:294(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\"><code>n-*</code></emphasis>. The nova services."
 msgid "<emphasis role=\"bold\"><code>s-*</code></emphasis> The Swift services."
-msgstr "<emphasis role=\"bold\"><code>n-*</code></emphasis>. nova サービス。"
+msgstr "<emphasis role=\"bold\"><code>s-*</code></emphasis> Swift サービス。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:300(title)
 msgid "To create the middleware and plug it in through Paste configuration:"
 msgstr "ミドルウェアを作成して Paste の環境設定を通して組み込むためには："
 
 #: doc/openstack-ops/ch_ops_customize.xml:303(para)
-#, fuzzy
-#| msgid ""
-#| "All of the code for OpenStack lives in <code>/opt/stack</code>. Go to the "
-#| "swift directory in the shell screen and edit your middleware module."
 msgid ""
 "All of the code for OpenStack lives in <code>/opt/stack</code>. Go to the "
 "swift directory in the <code>shell</code> screen and edit your middleware "
 "module."
-msgstr ""
-"すべての OpenStack のコードは <code>/opt/stack</code> にあります。shell セッ"
-"ションの screen の中で swift ディレクトリに移動し、あなたのミドルウェアモ"
-"ジュールを編集してください。"
+msgstr "すべての OpenStack のコードは <code>/opt/stack</code> にあります。<code>shell</code> セッションの screen の中で swift ディレクトリに移動し、あなたのミドルウェアモジュールを編集してください。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:31(para)
-#, fuzzy
-#| msgid ""
-#| "Alternately, if the feature you need does not require deep integration, "
-#| "there are other ways to customize OpenStack. If the project where your "
-#| "feature would need to reside uses the Python Paste framework, you can "
-#| "create middleware for it and plug it in through configuration. There may "
-#| "also be specific ways of customizing an project such as creating a new "
-#| "scheduler for OpenStack Compute or a customized Dashboard. This chapter "
-#| "focuses on the second method of customizing OpenStack."
 msgid ""
 "Alternately, if the feature you need does not require deep integration, "
 "there are other ways to customize OpenStack. If the project where your "
@@ -8201,15 +7881,7 @@ msgid ""
 "middleware for it and plug it in through configuration. There may also be "
 "specific ways of customizing an project such as creating a new scheduler for "
 "OpenStack Compute or a customized Dashboard."
-msgstr ""
-"代替え案としては、もしあなたが必要とする機能が密なインテグレーションを必要と"
-"しないのであれば、OpenStack をカスタマイズする他の方法があります。もし、あな"
-"たの機能が必要とされるプロジェクトが Python Paste フレームワークを使っている"
-"のであれば、そのための ミドルウェアを作成し、環境設定を通じて組み込めばよいの"
-"です。例えば OpenStack Compute の新しいスケジューラーや、カスタマイズされた"
-"ダッシュボードを作成するといった、プロジェクトをカスタマイズする特定の方法も"
-"あるかもしれません。この章では、OpenStack をカスタマイズする後者の方法に"
-"フォーカスします。"
+msgstr "代替え案としては、もしあなたが必要とする機能が密なインテグレーションを必要としないのであれば、OpenStack をカスタマイズする他の方法があります。もし、あなたの機能が必要とされるプロジェクトが Python Paste フレームワークを使っているのであれば、そのための ミドルウェアを作成し、環境設定を通じて組み込めばよいのです。例えば OpenStack Compute の新しいスケジューラーや、カスタマイズされたダッシュボードを作成するといった、プロジェクトをカスタマイズする特定の方法もあるかもしれません。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:317(para)
 #: doc/openstack-ops/ch_ops_customize.xml:684(para)
@@ -8223,20 +7895,13 @@ msgid "ip_whitelist.py"
 msgstr ""
 
 #: doc/openstack-ops/ch_ops_customize.xml:38(para)
-#, fuzzy
-#| msgid ""
-#| "To customize OpenStack this way you'll need a development environment. "
-#| "The best way to get an environment up and running quickly is to run "
-#| "DevStack within your cloud."
 msgid ""
 "This chapter focuses on the second method of customizing OpenStack and will "
 "follow to examples in detail, one for Swift and one for Nova. To customize "
 "OpenStack this way you'll need a development environment. The best way to "
 "get an environment up and running quickly is to run DevStack within your "
 "cloud."
-msgstr ""
-"OpenStack をこの方法でカスタマイズするためには、開発環境が必要です。開発環境"
-"を手軽に動作させる最良の方法は、クラウドの中で DevStack を動かすことです。"
+msgstr "この章では、OpenStack をカスタマイズする後者の方法に焦点をあて、Swift と Nova での詳細例も挙げて説明します。 OpenStack をこの方法でカスタマイズするためには、開発環境が必要です。開発環境を手軽に動作させる最良の方法は、クラウドの中で DevStack を動かすことです。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:418(para)
 msgid ""
@@ -8264,16 +7929,10 @@ msgstr ""
 "する必要があります。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:436(para)
-#, fuzzy
-#| msgid ""
-#| "Find the <code>[filter:ratelimit]</code> section and copy in the "
-#| "following configuration section."
 msgid ""
 "Find the <code>[filter:ratelimit]</code> section and copy in the following "
 "configuration section after it."
-msgstr ""
-"<code>[filter:ratelimit]</code> セクションを探し、以下の環境定義セクションを"
-"貼り付けてください。"
+msgstr "<code>[filter:ratelimit]</code> セクションを探し、以下の環境定義セクションをその後ろに貼り付けてください。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:45(title)
 #: doc/openstack-ops/glossary-terms.xml:834(glossterm)
@@ -8281,39 +7940,19 @@ msgid "DevStack"
 msgstr "DevStack"
 
 #: doc/openstack-ops/ch_ops_customize.xml:450(para)
-#, fuzzy
-#| msgid ""
-#| "Find the <code>[pipeline:main]</code> section and add <code>ip_whitelist</"
-#| "code> to the list like so. When you're done, save and close the file."
 msgid ""
 "Find the <code>[pipeline:main]</code> section and add <code>ip_whitelist</"
 "code> after ratelimit to the list like so. When you're done, save and close "
 "the file."
-msgstr ""
-"<code>[pipeline:main]</code> セクションを探し、このように "
-"<code>ip_whitelist</code> リストを追加してください。完了したら、ファイルを保"
-"存して閉じてください。"
+msgstr "<code>[pipeline:main]</code> セクションを探し、このように <code>ip_whitelist</code> をリストの ratelimit の後ろに追加してください。完了したら、ファイルを保存して閉じてください。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:458(para)
-#, fuzzy
-#| msgid ""
-#| "Restart the Swift Proxy service to make Swift use your middleware. Start "
-#| "by switching to the swift screen."
 msgid ""
 "Restart the Swift Proxy service to make Swift use your middleware. Start by "
 "switching to the swift-proxy screen."
-msgstr ""
-"Swift にこのミドルウェアを使わせるために、Swift プロキシサービスを再起動しま"
-"す。swift の screen セッションに切り替えてはじめてください。"
+msgstr "Swift にこのミドルウェアを使わせるために、Swift プロキシサービスを再起動します。swift-proxy の screen セッションに切り替えてはじめてください。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:46(para)
-#, fuzzy
-#| msgid ""
-#| "You can find all of the documentation at the <link href=\"http://devstack."
-#| "org/\">DevStack</link> (http://devstack.org/) website. Depending on which "
-#| "project you would like to customize, either Object Storage (swift) or "
-#| "another project, you must configure DevStack differently. For the "
-#| "middleware example below, you must install with the Object Store enabled."
 msgid ""
 "You can find all of the documentation at the <link href=\"http://devstack."
 "org/\">DevStack</link> (http://devstack.org/) website. Depending on which "
@@ -8321,27 +7960,14 @@ msgid ""
 "another project, you must configure DevStack differently. For the <xref "
 "linkend=\"ip_whitelist\"/> below, you must install with the Object Store "
 "enabled."
-msgstr ""
-"ドキュメンテーションはすべて <link href=\"http://devstack.org/\">DevStack</"
-"link> (http://devstack.org/) のウェブサイトにあります。 どのプロジェクトをカ"
-"スタマイズしたいかによって、つまり Object Storage (swift) なのか他のプロジェ"
-"クトなのかによって、DevStack の環境設定が異なります。以下のミドルウェアの例で"
-"は、Object Storage を有効にしてインストールしなければなりません。"
+msgstr "ドキュメンテーションはすべて <link href=\"http://devstack.org/\">DevStack</link> (http://devstack.org/) のウェブサイトにあります。 どのプロジェクトをカスタマイズしたいかによって、つまり Object Storage (Swift) なのか他のプロジェクトなのかによって、DevStack の環境設定が異なります。以下の <xref linkend=\"ip_whitelist\"/> では、Object Storage を有効にしてインストールしなければなりません。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:477(para)
-#, fuzzy
-#| msgid ""
-#| "Test your middleware with the Swift CLI. Start by switching to the shell "
-#| "screen and finish by switching back to the swift screen to check the log "
-#| "output."
 msgid ""
 "Test your middleware with the Swift CLI. Start by switching to the shell "
 "screen and finish by switching back to the <code>swift-proxy</code> screen "
 "to check the log output."
-msgstr ""
-"Swift の CLI でミドルウェアのテストをしてください。shell の screen セッション"
-"に切り替えてテストを開始し、swift の screen セッションにもどってログ出力を"
-"チェックして終了します。"
+msgstr "Swift の CLI でミドルウェアのテストをしてください。shell の screen セッションに切り替えてテストを開始し、<code>swift-proxy</code> の screen セッションにもどってログ出力をチェックして終了します。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:500(para)
 msgid "Among the log statements you'll see the lines."
@@ -8402,10 +8028,8 @@ msgstr ""
 "今度は成功します。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:55(title)
-#, fuzzy
-#| msgid "To run DevStack for the stable Folsom branch on an instance:"
 msgid "To run DevStack for the stable Havana branch on an instance:"
-msgstr "インスタンス上で、Folsom の安定版用の DevStack を動作させるためには："
+msgstr "インスタンス上で、安定版の Havana 用の DevStack を動作させるためには："
 
 #: doc/openstack-ops/ch_ops_customize.xml:552(para)
 #: doc/openstack-ops/ch_ops_customize.xml:892(para)
@@ -8417,15 +8041,6 @@ msgstr ""
 "ありませんが、作業を開始することはできます。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:555(para)
-#, fuzzy
-#| msgid ""
-#| "A similar pattern can be followed in all other projects that use the "
-#| "Python Paste framework. Simply create a middleware module and plug it in "
-#| "through configuration. The middleware runs in sequence as part of that "
-#| "project's pipeline and can call out to other services as necessary. No "
-#| "project core code is touched. Look for a <code>pipeline</code> value in "
-#| "the project's <code>conf</code> or <code>ini</code> configuration files "
-#| "in <code>/etc/&lt;project&gt;</code> to identify projects that use Paste."
 msgid ""
 "A similar pattern can be followed in other projects that use the Python "
 "Paste framework. Simply create a middleware module and plug it in through "
@@ -8435,7 +8050,7 @@ msgid ""
 "<code>conf</code> or <code>ini</code> configuration files in <code>/etc/&lt;"
 "project&gt;</code> to identify projects that use Paste."
 msgstr ""
-"Python Paste フレームワークを使う他のすべてのプロジェクトで、類似のパターンに"
+"Python Paste フレームワークを使う他のプロジェクトで、類似のパターンに"
 "従うことができます。単純にミドルウェアモジュールを作成し、環境定義によって組"
 "み込んでください。そのミドルウェアはプロジェクトのパイプラインの一部として順"
 "番に実行され、必要に応じて他のサービスを呼び出します。プロジェクトのコア・"
@@ -8467,18 +8082,6 @@ msgid "Nova Scheduler Example"
 msgstr "Nova スケジューラーの例"
 
 #: doc/openstack-ops/ch_ops_customize.xml:577(para)
-#, fuzzy
-#| msgid ""
-#| "Many OpenStack projects allow for customization of specific features "
-#| "using a driver architecture. You can write a driver that conforms to a "
-#| "particular interface and plug it in through configuration. For example, "
-#| "you can easily plug in a new scheduler for nova. The existing schedulers "
-#| "for nova are feature full and well documented at <link href=\"http://docs."
-#| "openstack.org/trunk/config-reference/content/section_compute-scheduler."
-#| "html\">Scheduling</link> (http://docs.openstack.org/trunk/config-"
-#| "reference/content/section_compute-scheduler.html). However, depending on "
-#| "your user's use cases, the existing schedulers might not meet your "
-#| "requirements. You might need to create a new scheduler."
 msgid ""
 "Many OpenStack projects allow for customization of specific features using a "
 "driver architecture. You can write a driver that conforms to a particular "
@@ -8494,7 +8097,7 @@ msgstr ""
 "多くの OpenStack のプロジェクトでは、ドライバ・アーキテクチャを使うことによっ"
 "て、特定の機能をカスタマイズすることができます。特定のインターフェースに適合"
 "するドライバを書き、環境定義によって組み込むことができます。例えば、簡単に "
-"nova に新しいスケジューラーを組み込むことができます。nova の既存のスケジュー"
+"Nova に新しいスケジューラーを組み込むことができます。Nova の既存のスケジュー"
 "ラーは、フル機能であり、<link href=\"http://docs.openstack.org/trunk/config-"
 "reference/content/section_compute-scheduler.html\">スケジューリング</link> "
 "(http://docs.openstack.org/trunk/config-reference/content/section_compute-"
@@ -8532,27 +8135,17 @@ msgstr "hosts_up"
 
 #: doc/openstack-ops/ch_ops_customize.xml:608(code)
 msgid "group_hosts"
-msgstr ""
+msgstr "group_hosts"
 
 #: doc/openstack-ops/ch_ops_customize.xml:612(para)
 msgid "* <code>schedule_run_instance</code>"
 msgstr "* <code>schedule_run_instance</code>"
 
 #: doc/openstack-ops/ch_ops_customize.xml:616(para)
-#, fuzzy
-#| msgid "* <code>schedule_run_instance</code>"
 msgid "* <code>select_destinations</code>"
-msgstr "* <code>schedule_run_instance</code>"
+msgstr "* <code>select_destinations</code>"
 
 #: doc/openstack-ops/ch_ops_customize.xml:620(para)
-#, fuzzy
-#| msgid ""
-#| "To demonstrate customizing OpenStack, we'll create an example of a nova "
-#| "scheduler that randomly places an instance on a subset of hosts depending "
-#| "on the originating IP address of the request and the prefix of the "
-#| "hostname. Such an example could be useful when you have a group of users "
-#| "on a subnet and you want all of their instances to start within some "
-#| "subset of your hosts."
 msgid ""
 "To demonstrate customizing OpenStack, we'll create an example of a Nova "
 "scheduler that randomly places an instance on a subset of hosts depending on "
@@ -8563,7 +8156,7 @@ msgid ""
 msgstr ""
 "OpenStack のカスタマイズをデモするために、リクエストの送信元IPアドレスとホス"
 "ト名のプレフィックスに基づいてインスタンスを一部のホストにランダムに配置する"
-"ようなNova のスケジューラーの例を作成します。この例は、１つのユーザのグループ"
+"ような Nova のスケジューラーの例を作成します。この例は、１つのユーザのグループ"
 "が１つのサブネットにおり、インスタンスをホスト群の中の一部のサブネットで起動"
 "したい場合に有用です。"
 
@@ -8584,44 +8177,29 @@ msgstr ""
 "join すると、多数の screen セッションが見えます。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:64(para)
-#, fuzzy
-#| msgid "Name: devstack"
 msgid "Name: devstack-havana"
-msgstr "名前: devstack"
+msgstr "名前: devstack-havana"
 
 #: doc/openstack-ops/ch_ops_customize.xml:646(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\"><code>g-*</code></emphasis>. The glance services."
 msgid ""
 "<emphasis role=\"bold\"><code>g-*</code></emphasis> The Glance services."
-msgstr "<emphasis role=\"bold\"><code>g-*</code></emphasis>. glance サービス。"
+msgstr "<emphasis role=\"bold\"><code>g-*</code></emphasis> Glance サービス。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:651(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\"><code>g-*</code></emphasis>. The glance services."
 msgid ""
 "<emphasis role=\"bold\"><code>c-*</code></emphasis> The Cinder services."
-msgstr "<emphasis role=\"bold\"><code>g-*</code></emphasis>. glance サービス。"
+msgstr "<emphasis role=\"bold\"><code>c-*</code></emphasis> Cinder サービス。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:656(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\"><code>n-*</code></emphasis>. The nova services."
 msgid "<emphasis role=\"bold\"><code>n-*</code></emphasis> The Nova services."
-msgstr "<emphasis role=\"bold\"><code>n-*</code></emphasis>. nova サービス。"
+msgstr "<emphasis role=\"bold\"><code>n-*</code></emphasis> Nova サービス。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:661(para)
-#, fuzzy
-#| msgid ""
-#| "<emphasis role=\"bold\"><code>n-sch</code></emphasis>. The nova scheduler "
-#| "service."
 msgid ""
 "<emphasis role=\"bold\"><code>n-sch</code></emphasis> The Nova scheduler "
 "service."
 msgstr ""
-"<emphasis role=\"bold\"><code>n-sch</code></emphasis>。nova スケジューラー"
+"<emphasis role=\"bold\"><code>n-sch</code></emphasis> Nova スケジューラー"
 "サービス。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:668(title)
@@ -8641,10 +8219,8 @@ msgstr ""
 "移動してあなたのスケジューラーモジュールを編集します。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:687(title)
-#, fuzzy
-#| msgid "Scheduler"
 msgid "ip_scheduler.py"
-msgstr "スケジューラー"
+msgstr "ip_scheduler.py"
 
 #: doc/openstack-ops/ch_ops_customize.xml:70(para)
 msgid "Memory Size: 4 GB RAM (you could probably get away with 2 GB)"
@@ -8655,18 +8231,13 @@ msgid "Disk Size: minimum 5 GB"
 msgstr "ディスクサイズ: 最低 5 GB"
 
 #: doc/openstack-ops/ch_ops_customize.xml:77(para)
-#, fuzzy
-#| msgid ""
-#| "If you are using the <code>nova</code> client, specify <code>--flavor 6</"
-#| "code> on the <code>nova boot</code> command to get adequate memory and "
-#| "disk sizes."
 msgid ""
 "If you are using the <code>nova</code> client, specify <code>--flavor 3</"
 "code> for the <code>nova boot</code> command to get adequate memory and disk "
 "sizes."
 msgstr ""
 "<code>nova</code> コマンドを使っているのであれば、適切なメモリ量とディスクサ"
-"イズを得るために <code>nova boot</code> コマンドに <code>--flavor 6</code> を"
+"イズを得るために <code>nova boot</code> コマンドに <code>--flavor 3</code> を"
 "指定してください。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:814(para)
@@ -8691,19 +8262,13 @@ msgstr ""
 "ます。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:83(para)
-#, fuzzy
-#| msgid "Now login as the stack user and set up DevStack."
 msgid "Login and set up DevStack."
-msgstr "stack ユーザとしてログインし、DevStack の設定を行います。"
+msgstr "ログインし、DevStack の設定を行います。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:833(para)
-#, fuzzy
-#| msgid ""
-#| "Find the <code>compute_scheduler_driver</code> config and change it like "
-#| "so."
 msgid "Find the <code>scheduler_driver</code> config and change it like so."
 msgstr ""
-"<code>compute_scheduler_driver</code> 設定を見つけ、このように変更してくださ"
+"<code>scheduler_driver</code> 設定を見つけ、このように変更してくださ"
 "い。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:838(para)
@@ -8715,19 +8280,11 @@ msgstr ""
 "動します。 <code>n-sch</code> screen セッションに切り替えてはじめてください。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:860(para)
-#, fuzzy
-#| msgid ""
-#| "Test your scheduler with the Nova CLI. Start by switching to the shell "
-#| "screen and finish by switching back to the <code>n-sch</code> screen to "
-#| "check the log output."
 msgid ""
 "Test your scheduler with the Nova CLI. Start by switching to the "
 "<code>shell</code> screen and finish by switching back to the <code>n-sch</"
 "code> screen to check the log output."
-msgstr ""
-"Nova の CLI でスケジューラーのテストをしてください。shell の screen セッショ"
-"ンに切り替えてテストを開始し、<code>n-sch</code>  screen セッションにもどって"
-"ログ出力をチェックして終了します。"
+msgstr "Nova の CLI でスケジューラーのテストをしてください。<code>shell</code> の screen セッションに切り替えてテストを開始し、<code>n-sch</code>  screen セッションにもどってログ出力をチェックして終了します。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:881(para)
 msgid "Start by switching back to the <code>n-sch</code> screen"
@@ -8738,15 +8295,6 @@ msgid "Among the log statements you'll see the line."
 msgstr "ログの中に以下の行があるでしょう。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:895(para)
-#, fuzzy
-#| msgid ""
-#| "A similar pattern can be followed in all other projects that use the "
-#| "driver architecture. Simply create a module and class that conform to the "
-#| "driver interface and plug it in through configuration. Your code runs "
-#| "when that feature is used and can call out to other services as "
-#| "necessary. No project core code is touched. Look for a \"driver\" value "
-#| "in the project's conf configuration files in <code>/etc/&lt;project&gt;</"
-#| "code> to identify projects that use a driver architecture."
 msgid ""
 "A similar pattern can be followed in other projects that use the driver "
 "architecture. Simply create a module and class that conform to the driver "
@@ -8756,7 +8304,7 @@ msgid ""
 "configuration files in <code>/etc/&lt;project&gt;</code> to identify "
 "projects that use a driver architecture."
 msgstr ""
-"ドライバ・アーキテクチャを使う他のすべてのプロジェクトで、類似のパターンに従"
+"ドライバ・アーキテクチャを使う他のプロジェクトで、類似のパターンに従"
 "うことができます。単純に、そのドライバ・インタフェースに従うモジュールとクラ"
 "スを作成し、環境定義によって組み込んでください。あなたのコードはその機能が使"
 "われた時に実行され、必要に応じて他のサービスを呼び出します。プロジェクトのコ"
@@ -8783,14 +8331,6 @@ msgstr ""
 "master/nova/scheduler) への追加を提案してもよいでしょう。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:915(para)
-#, fuzzy
-#| msgid ""
-#| "The Dashboard is based on the Python <link href=\"https://www."
-#| "djangoproject.com/\">Django</link> (https://www.djangoproject.com/) web "
-#| "application framework. The best guide to customizing it has already been "
-#| "written and can be found at <link href=\"http://docs.openstack.org/"
-#| "developer/horizon/topics/tutorial.html\">Build on Horizon</link> (http://"
-#| "docs.openstack.org/developer/horizon/topics/tutorial.html)."
 msgid ""
 "The Dashboard is based on the Python <link href=\"https://www.djangoproject."
 "com/\">Django</link> (https://www.djangoproject.com/) web application "
@@ -8803,7 +8343,7 @@ msgstr ""
 "\">Django</link> (https://www.djangoproject.com/) Webアプリケーションフレーム"
 "ワークに基づいています。カスタマイズのための最良のガイドは既に執筆されてお"
 "り、 <link href=\"http://docs.openstack.org/developer/horizon/topics/"
-"tutorial.html\">Build on Horizon</link> (http://docs.openstack.org/developer/"
+"tutorial.html\">Building on Horizon</link> (http://docs.openstack.org/developer/"
 "horizon/topics/tutorial.html) にあります。"
 
 #: doc/openstack-ops/ch_ops_customize.xml:927(para)
@@ -9073,26 +8613,13 @@ msgstr ""
 "stedolan.github.com/jq/)などのツールを組み合わせることです。"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:26(para)
-#, fuzzy
-#| msgid ""
-#| "We strongly suggest that you install the command-line clients from the "
-#| "<link href=\"https://pypi.python.org/\">Python Package Index</link>(PyPI) "
-#| "(https://pypi.python.org/) instead of from the Ubuntu or Fedora packages. "
-#| "The clients are under heavy development and it is very likely at any "
-#| "given time the version of the packages distributed by your operating "
-#| "system vendor are out of date."
 msgid ""
 "We strongly suggest that you install the command-line clients from the <link "
 "href=\"https://pypi.python.org/\">Python Package Index</link>(PyPI) (https://"
 "pypi.python.org/) instead of from the distribution packages. The clients are "
 "under heavy development and it is very likely at any given time the version "
 "of the packages distributed by your operating system vendor are out of date."
-msgstr ""
-"コマンドラインツールは、UbuntuやFedoraのパッケージからではなく、<link href="
-"\"https://pypi.python.org/\">Python Package Index</link>(PyPI) (https://pypi."
-"python.org/) から導入することを強くおすすめします。クライアントツールは開発が"
-"活発であり、OSベンダーが配布しているパッケージのバージョンが古くなりがちなた"
-"めです。"
+msgstr "コマンドラインツールは、ディストリビューションのパッケージからではなく、<link href=\"https://pypi.python.org/\">Python Package Index</link>(PyPI) (https://pypi.python.org/) から導入することを強くおすすめします。クライアントツールは開発が活発であり、OSベンダーが配布しているパッケージのバージョンが古くなりがちなためです。"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:260(para)
 msgid ""
@@ -9255,16 +8782,10 @@ msgstr ""
 "ます。"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:378(para)
-#, fuzzy
-#| msgid ""
-#| "The following commands require you to have your shell environment "
-#| "configured with the proper administrative variables."
 msgid ""
 "The following command requires you to have your shell environment configured "
 "with the proper administrative variables."
-msgstr ""
-"下記コマンドを実行するには、あなたのシェル環境で正しく管理系の変数が設定され"
-"ている必要があります。"
+msgstr "下記のコマンドを実行するには、あなたのシェル環境で正しく管理系の変数が設定されている必要があります。"
 
 #: doc/openstack-ops/ch_ops_lay_of_land.xml:403(para)
 msgid ""
@@ -9494,33 +9015,23 @@ msgstr "keystone-manage"
 
 #: doc/openstack-ops/ch_ops_log_monitor.xml:103(para)
 msgid "Console (boot up messages) for VM instances:"
-msgstr ""
+msgstr "VMインスタンスのコンソール (ブートメッセージ):"
 
 #: doc/openstack-ops/ch_ops_log_monitor.xml:105(code)
-#, fuzzy
-#| msgid ""
-#| "Console (boot up messages) for VM instances: <code>/var/lib/nova/"
-#| "instances/instance-&lt;instance id&gt;/console.log</code>"
 msgid "/var/lib/nova/instances/instance-&lt;instance id&gt;/console.log"
-msgstr ""
-"VMインスタンスのコンソール (ブートメッセージ):  <code>/var/lib/nova/"
-"instances/instance-&lt;instance id&gt;/console.log</code>"
+msgstr "/var/lib/nova/instances/instance-&lt;instance id&gt;/console.log"
 
 #: doc/openstack-ops/ch_ops_log_monitor.xml:110(para)
 msgid "Block Storage Nodes"
 msgstr "ブロックストレージ ノード"
 
 #: doc/openstack-ops/ch_ops_log_monitor.xml:111(para)
-#, fuzzy
-#| msgid "cinder-manage"
 msgid "cinder-volume"
-msgstr "cinder-manage"
+msgstr "cinder-volume"
 
 #: doc/openstack-ops/ch_ops_log_monitor.xml:113(code)
-#, fuzzy
-#| msgid "cinder: <code>/var/log/cinder/cinder-volume.log</code>"
 msgid "/var/log/cinder/cinder-volume.log"
-msgstr "cinder: <code>/var/log/cinder/cinder-volume.log</code>"
+msgstr "/var/log/cinder/cinder-volume.log"
 
 #: doc/openstack-ops/ch_ops_log_monitor.xml:120(title)
 msgid "How to Read the Logs"
@@ -16871,10 +16382,8 @@ msgstr ""
 "イプの再起動。"
 
 #: doc/openstack-ops/glossary-terms.xml:1265(para)
-#, fuzzy
-#| msgid "Project name for the seventh release of OpenStack."
 msgid "Project name for the eighth release of OpenStack."
-msgstr "OpenStack の 7 回目リリースのプロジェクト名。"
+msgstr "OpenStack の 8 回目リリースのプロジェクト名。"
 
 #: doc/openstack-ops/glossary-terms.xml:1270(glossterm)
 msgid "Heat"
@@ -16954,10 +16463,8 @@ msgid "I"
 msgstr "I"
 
 #: doc/openstack-ops/glossary-terms.xml:1332(para)
-#, fuzzy
-#| msgid "Project name for the seventh release of OpenStack."
 msgid "Project name for the ninth release of OpenStack."
-msgstr "OpenStack の 7 回目リリースのプロジェクト名。"
+msgstr "OpenStack の 9 回目リリースのプロジェクト名。"
 
 #: doc/openstack-ops/glossary-terms.xml:1336(glossterm)
 msgid "ID number"
@@ -17284,13 +16791,11 @@ msgstr "OpenStack 開発で自動的にジョブを実行するために使用�
 
 #: doc/openstack-ops/glossary-terms.xml:1566(glossterm)
 msgid "Juno"
-msgstr ""
+msgstr "Juno"
 
 #: doc/openstack-ops/glossary-terms.xml:1568(para)
-#, fuzzy
-#| msgid "Project name for the seventh release of OpenStack."
 msgid "Project name for the tenth release of OpenStack."
-msgstr "OpenStack の 7 回目リリースのプロジェクト名。"
+msgstr "OpenStack の 10 回目リリースのプロジェクト名。"
 
 #: doc/openstack-ops/glossary-terms.xml:1579(title)
 msgid "K"
